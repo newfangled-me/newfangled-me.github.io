@@ -1,0 +1,36 @@
+---
+author: AlexForey
+comments: true
+date: 2011-10-20 00:45:25+00:00
+layout: post
+slug: move
+title: After the Move
+wordpress_id: 156
+categories:
+- General and Stuff
+tags:
+- 000webhost
+- finished
+- free
+- hosting
+- moved
+- moving
+- org
+- web
+- wordpress
+- x10hosting
+---
+
+[caption id="attachment_157" align="alignright" width="250" caption="No as good as paid hosting after all."][![000webhost](http://newfangled.me/wp-content/uploads/2011/10/000webhost-free-reliable-web-hosting111.jpg)](http://newfangled.me/wp-content/uploads/2011/10/000webhost-free-reliable-web-hosting111.jpg)[/caption]To anybody who was following me before the switch to our own domain, I have had some problems but they are all cleared up now.
+
+I first registered the domain, and then spent ages navigating the stupid menus until I found the place to change the name-servers. Once I set those, it took around 3 hours to complete.
+
+I started off using 000Webhost, which went quite badly, because when I installed Wordpres it kept returning errors about operations timing out. I submitted a support ticket about the PHP errors, but they just told be to upgrade to Premium, which seems to be their answer to everything. I also tried different themes, but again I had problems with the server returning an empty result ([Chrome Error 324](http://www.google.co.uk/support/forum/p/Chrome/thread?tid=7d50c093bd4f8f6c&hl=en&fid=7d50c093bd4f8f6c0004ac782d9b44b2&hltp=2)).
+
+[caption id="attachment_158" align="alignright" width="300" caption="AWESOME (when it works)"][![](http://newfangled.me/wp-content/uploads/2011/10/wordpress-org-logo11-300x66.jpg)](http://newfangled.me/wp-content/uploads/2011/10/wordpress-org-logo111.jpg)[/caption]
+
+So I gave up and upped sticks for the far more reliable x10 Hosting option. It then took me another 4 hours to change the name-servers again, and for me to flush my DNS cache to make sure everything had worked as planned. Once I got that working, I installed WordPress 3.2.1 again and installed my favorite theme '[Mystique](http://digitalnature.eu/themes/mystique/)' 3.1 directly from that website. I also went about exporting all the content from the old site and importing it into the new one, and editing theme settings to my liking.
+
+So, move over, we can get back to doing what a blog is meant to do.
+
+Alex, Signing off.

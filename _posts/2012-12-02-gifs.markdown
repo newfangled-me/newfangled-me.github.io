@@ -1,0 +1,31 @@
+---
+author: AlexForey
+comments: true
+date: 2012-12-02 22:32:55+00:00
+layout: post
+slug: gifs
+title: GIFs
+wordpress_id: 606
+categories:
+- Web
+tags:
+- dropbox
+- gifs
+- ifttt
+---
+
+In a vague attempt to try to organise my growing GIF collection, I set up a large chain of actions to take a URL of a GIF and upload it to my new bukkit-style site, [gif.alexforey.com](http://gif.alexforey.com).
+
+I browse most of the GIFs in my life on Reddit, though Alienblue, and the easiest method of sharing the URL of the GIF is to email  it.
+
+So whenever I want to save a GIF, I email myemail+gifs@alexforey.com.
+
+The email's subject is the description I want to give my GIF, and the body is the URL.
+
+Then there's a filter in Gmail that takes any email sent to myemail+gifs@alexforey.com and gives it the label of 'gif', and archives it ("skipping the inbox").
+
+I then have an IFTTT recipe to take new emails with the label 'gif', and save them to Dropbox, with the file name being the description.
+
+Finally, I have Dropbox Automator upload any new files in that Dropbox folder via FTP to gif.alexforey.com.
+
+It's a bit hacky, but it works, and it's quite a neat system, until I can think of something better.

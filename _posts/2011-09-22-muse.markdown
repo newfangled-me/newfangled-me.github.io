@@ -1,0 +1,37 @@
+---
+author: AlexForey
+comments: true
+date: 2011-09-22 13:10:20+00:00
+layout: post
+slug: muse
+title: Musings about Muse
+wordpress_id: 57
+categories:
+- Stuff
+---
+
+[caption id="attachment_65" align="alignright" width="252" caption="Adobe Muse: The Future of the Web?"][![Adobe Muse Icon](http://newfangled.me/wp-content/uploads/2011/09/adobe-muse-icon-large1.jpeg)](http://muse.adobe.com)[/caption]
+
+So Adobe Muse has been hitting the "headlines" of blogs all over the world, but as far as I can see it has never once appeared in a real newspaper here in the UK. This is strange, as it could be the turning point on the retail of all Adobe products, used by millions of people worldwide.
+
+Adobe Muse, if you don't already know, is a WYSIWYG website editor, and has been dubbed "Photoshop for Websites". In reality is it more likely to be "InDesign for Websites", but that's more a matter of opinion. Basically, you design your website, set where the boundaries of the header and footer are, and it will generate the code that will work in any "modern" browser. I say it generated code, but it is really more powerful than that, for instance if you rotate an image in Muse, it will generate a rotated version of your image, framed in the transparent box of a PNG. So it also renders images, as well as code.
+
+It has been criticized by many web designers and coders alike, mainly because of the way it spews out <div> tags with no regard for code structure. For instance, here is some code from my [Duck House Website](http://www.duckhouseproductions.co.uk), made with Muse :
+
+[caption id="attachment_59" align="alignnone" width="839" caption="The horror that is spewed out from Muse"][![Too Many Divs](http://newfangled.me/wp-content/uploads/2011/09/too-many-divs.jpg)](http://newfangled.me/wp-content/uploads/2011/09/too-many-divs.jpg)[/caption]
+
+And it goes on and on for (believe it or not) 1076 lines. Just for that.
+
+[caption id="attachment_64" align="alignnone" width="645" caption="Duck House Productions Screenshot"][![Duck House Productions Screenshot](http://newfangled.me/wp-content/uploads/2011/09/capture.png)](http://newfangled.me/wp-content/uploads/2011/09/capture.png)[/caption]
+
+And also, there are also other bad web standards conventions, like making a new class for every single new style, which clutters your code with meaningless drivel.
+
+Some more personal problems I have with Muse is that every page has two of its own CSS files - on for "normal" browsers and one for "special and mentally diseased" browsers (ie IE, hey they're the same!). It is also infinitely difficult to update your master page, because when exporting the changes it has to change 2x the amount of pages in stylesheets and a master one. That means if you have 100 pages, and you make a tiny change to the master template, it will have to update 201 CSS documents. This kind of defeats the point of CSS which is that in order to make a site-wide change, you only have to change one file, But no - Muse has to make it more complicated than that.
+
+Muse, after the end of this year, will cease to be in beta. That means that it will no longer be a free testing service, and that means that you will have to pay. BUT Adobe has decided that instead of being able to pay for Muse outright once, you have to subscribe for $20 per month. I guess this is because Adobe feels that people will dump the program unless they offer updates every few days.
+
+And this is the reason for the hideous code. Because Adobe doesn't want you to spend $20, make your website, stop using Muse, and continue to edit the code to change your website for ever more. You have to keep using Muse to maintain your website.
+
+So in conclusion, Muse is great for InDesign experts (or anybody) who wants to make a static site quickly and put it up on the web quickly. But they don't want to ever change it again. Without paying a ridiculous monthly cost. The verdict: download Muse, put it on an offline computer, and ship the exported HTML files onto an online computer to upload the files.
+
+Alex, signing off.

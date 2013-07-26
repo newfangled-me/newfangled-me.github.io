@@ -1,0 +1,15 @@
+---
+author: AlexForey
+comments: true
+date: 2011-09-25 09:15:11+00:00
+layout: post
+slug: google
+title: What Happens when Google Goes Wrong
+wordpress_id: 91
+---
+
+Just a quick post - I thought this might amuse some -
+
+[caption id="attachment_92" align="aligncenter" width="382" caption="Umm....."][![Google gives directions to swim across the Pacific Ocean to get from China to Taiwan](http://newfangled.me/wp-content/uploads/2011/09/google.jpg)](http://newfangled.me/wp-content/uploads/2011/09/google.jpg)[/caption]
+
+This most likely was put in by someone at Google trying to see if anyone would notice, a bit like the hidden messages about Bill Gates in the spellchecker of Microsoft Word 2003.

@@ -1,0 +1,45 @@
+---
+author: AlexForey
+comments: true
+date: 2012-01-29 11:21:58+00:00
+layout: post
+slug: adsense
+title: Oh dear, AdSense.
+wordpress_id: 373
+categories:
+- Rants
+- Stuff
+tags:
+- google
+- rants
+---
+
+[caption id="attachment_379" align="alignright" width="279" caption="Well isn't that an original logo."][![](http://newfangled.me/wp-content/uploads/2012/01/google-adsense-logo111.gif)](http://newfangled.me/wp-content/uploads/2012/01/google-adsense-logo111.gif)[/caption]Well, I suppose it's about time for another blog post. This time I hope to give you a brief outline of my experience with Google Adsense. Which, by the way, is not a good one (as you can probably tell from the title).
+
+I will start at the beginning. I generally find this is a good idea. I make YouTube videos, as you know. One day, after making my tutorials about [Adobe Muse](http://filmandstuff.co.uk/57-muse), I received an email from Google, asking if I wanted to make money from my videos by sharing some of the revenue of the ads that YouTube place next to your videos with me. I, of course, jumped at the prospect, being the entrepreneur that I am.
+
+So I go through all these menu screens about signing up for a Google AdSense account, with (an estimated) 10,000,000 words of Terms and Conditions and Privacy Policies and Disclaimers. Why the capital letters? Why not. Eventually I reach a screen saying that the account that I'm about to create has to be in the name of someone over 18. Why? Legal reasons etc... but it does say that I can make it in the name of my parents and that's all fine.
+
+So eventually I start adding revenue sharing to all my YouTube videos, as well as some ads on my blog. You'll see why they've gone later. I was earning between 3p and £2 a day. It was very erratic, but it was effectively free money for me. One thing I did note was that I would only be paid when my money hit multiples of £60 (or somewhere around $100 in the US). I thought that that would be fine.
+
+Then, a few weeks later, there was red writing all over my AdSense admin page. I was slightly worried, but after actually reading what they had to say, it figured out it was not so bad. The text said that I would not be sent any money "Until my address had been confirmed". How were they going to do this? They would send me a physical piece of paper through the post with a code on it that I would then type back into the website to confirm I live in a real place. Which I did because I do.
+
+Over the course of about 4 months, I racked up a grand total of about £70. I was thrilled - every little step closer to a MacBook Air, and my first payment would be arriving soon. But then.
+
+The next day I log into Google AdSense to be greeted by a message saying that my account had been disabled for "Invalid Click Activity". I was shocked. And wondering what on earth "Invalid Click Activity" could possibly mean. So I had a look at what their definition was, and basically it means that they think I've been telling people to click on my ads.
+
+How did they come to this conclusion? Well - I have a theory. As you can probably guess, I go to a school. I usually tell people about my blog from this thing called a _school_. They usually visit my blog from this _school_. And therefore, a fairly large amount of my ad clicks come from this _school_. They see this as one fixed IP address making multiple ad clicks a day. It is therefore OK to for them to assume that I have some kind of spambot clicking on all my ads from somewhere.
+
+The truth is I don't.
+
+There is an "appeal" form, so I filled that in, outlining everything I have said above in under 400 characters. Why would you limit that? I have no idea. A couple of days later I received an email saying that "Google was sorry, but thought that re-instatement of my account would be impossible". WHY?
+
+*Rant Alert* (I try not to use capslock, as I believe that [this is true](http://bukk.it/caps.jpg), but in this case I have given an exception) Because SOMEONE AT GOOGLE IN IRELAND BECAUSE THEY CAN'T BE ARSED TO PAY FULL UK TAXES HAD NOT EVEN BOTHERED TO READ MY CLAIM FORM, WAS HAVING A BAD DAY OR GENERALLY WANTED TO PISS SOMEONE OFF. SO THEY DID.
+
+And now I am. I sent an angry email back in a fit of disgust. I assume they did not even read it.
+
+So bottom line: this has happened to multiple friends of mine at the same school. One of them had it happen to them twice. I cannot imagine any of them are happy bunnies either. There have also been some friends who have decided suddenly that they want to make money out of their (epic fail) YouTube videos. I have tried to explain why I don't think this is a good idea (or even very likely to happen) any more, and maybe this blog post will help explain.
+
+I now assume that just before every payment Google make to people they set an algorithm off to trawl through your click results to see if they find anything fishy. Upon doing so they terminate your account and don't read your appeal form.
+
+A very annoyed Alex, owed £70 by Google, singing off.

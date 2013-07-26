@@ -1,0 +1,47 @@
+---
+author: AlexForey
+comments: true
+date: 2011-09-26 20:24:17+00:00
+layout: post
+slug: mac
+title: Install OS X Snow Leopard on Windows 7 Using VMWare
+wordpress_id: 101
+---
+
+[caption id="attachment_102" align="alignright" width="360" caption="I've waited so long to do this :)"][![Windows Computer running OS X](http://newfangled.me/wp-content/uploads/2011/09/amd-pc-brand-running-mac-os-x1.jpg)](http://newfangled.me/wp-content/uploads/2011/09/amd-pc-brand-running-mac-os-x1.jpg)[/caption]
+
+WARNING: THIS POST IS NOT FOR NOOBS. IF YOU DON'T EVEN KNOW WHAT THAT MEANS THEN YOU SHOULDN'T BE ON THIS PAGE ANYWAY.
+
+OK. I have tried for weeks to get a Hackintosh working, using many methods, and because my computer has an AMD Phenom II processor it is even harder, because OS X was never designed to work with AMD. I eventually gave up trying to install this natively on my computer, so I turned to virtual
+
+Then I had the issue of enabling virtualization. I know for a fact that my processor supports this, and I also know that at least one of my two graphics cards supports this as well. So I think well that sounds fine, so I go into my BIOS > System Configuration and look for the option to turn it on. But OH NO, HP hates anyone who tries to do clever things with their computers, so not only did they disable Virtualization when it came out of the factory, they also REMOVED THE OPTION TO ENABLE IT. So I do what anybody would have done in this situation, and contact HP support. I will quote the email exactly.
+
+
+> Dear Alex
+
+Thank you for contacting HP Customer Care.
+
+I understand from your e-mail that you own a HP Pavilion dv6-3113sa Entertainment Notebook PC and wish to enable the virtualization feature in BIOS.
+
+Alex, The hardware virtualization feature is disabled in BIOS from factory. There is no option to tun this feature ON.
+
+For information on keeping your HP and Compaq products up and running, please visit our website at: http://www.hp.co.uk/diagnostics
+
+Sincerely,
+
+Joy
+
+HP Customer Care
+
+
+How useless is that? She even misspelt "turn". So I go turn to the online forums, where I finally find an answer! Someone says that I should 'restore the bios to defaults'. So I do this, and lo an behold, nothing happens. So I was about to give up when I decide to go back into bios and for the hell of it just enable everything. And guess what. It worked. ;)
+
+So now I tried the way of doing it in [this tutorial here](http://www.redmondpie.com/how-to-install-os-x-snow-leopard-in-vmware-windows-7-9140301/), and finally found that I could get it to install. But still, once it installed and rebooted, it would refuse to work. Although I managed to get this screenshot, which is pretty awesome.
+
+[![OS X Installing on VMware Workstation](http://newfangled.me/wp-content/uploads/2011/09/awesome.jpg)](http://newfangled.me/wp-content/uploads/2011/09/awesome.jpg)
+
+So now, after many days of downloading, I am following [this video tutorial](www.youtube.com/watch?v=IF1s94f2W1Q), which seems to be well structured and clear, in the hope that by tomorrow, I may have a working Mac OS X 10.6.8 installed in VMware Workstation 7, on Windows 7.
+
+I will report back soon.
+
+Alex, signing off.

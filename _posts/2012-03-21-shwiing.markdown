@@ -1,0 +1,43 @@
+---
+author: AlexForey
+comments: true
+date: 2012-03-21 21:22:16+00:00
+layout: post
+slug: shwiing
+title: Shwiing
+wordpress_id: 420
+---
+
+[![](http://newfangled.me/wp-content/uploads/2012/03/rocket-2.png)](http://shwiing.co)
+
+Hello. This is my latest venture. I have named it Shwiing.
+
+At this point you're probably like:
+
+
+
+Alright, I'll start at the beginning. I recently got into the whole Internet of Things and Arduino scene, decided that I would like the two to be one. So I started looking around for an easy way to collect standard data online, but found none. I assumed this was because everyone just set up their own server and database to deal with these things. So I set about doing the same for myself. But then I was like: hang on a minute. Being the web developer that I am, I just couldn't help turning this into a service for others, who are perhaps not as capable in the online world.
+
+And then I decided to challenge myself - I had never got the Twitter API working successfully - I'd always get an error saying I wasn't authorized or something. So I decided to make the whole registration process based off Twitter. This was also a good idea, because what if I wanted to be able to tweet every time my device collected some information? Well that was easily solved because I get to store people's access tokens for Twitter when they sign up, so I can (if the user asks for it) open up a new instance of the Twitter API, tweet, then close it all on one script of PHP, without callbacks or anything, because we've already been authorized. Awesome!
+
+So then came to the name. To be honest this is the only one of my ventures where the name came to me straight away. This was because there is no nice way to say "A service that collects data from the real world, tweets about it, and stores it in a database" shortly, without saying "ASTCDFTRWTAIASIIAD". Snappy. So I decided to come up with something completely unrelated - an amusing sound. Nobody ever questioned Spotify's name.
+
+I've just calculated that there's 1440 lines of code in total throughout the site, including my functions, but excluding the external libraries that I used, like twitteroauth and jpGraph (which by itself has over 5620 lines, not all of which are used in this project); although only around 100 are visible in the source code of any one page.
+
+It was a fairly hefty project - but I completed the preliminary stages (Twitter integration, user system, collecting data, tokens etc...) in around 5-6 hours of solid coding, while I was recovering from an illness. I added features like the whole Graph system yesterday in around 2 hours of experimentation, and reading the copious documentation that came with jpGraph.
+
+If you want a full explanation of how to use the site, and what it specifically does, you can read my guide, which took by itself around an hour to write, with updates as I added new features [here](http://shwiing.co/guide).
+
+I am working on a small sample project that is basically an internet-connected thermometer running an LM35DZ connected to an Arduino Uno R3 with an LCD attached, which then sends serial to a computer running Processing, that will update the temperature on Shwiing, which then draws a graph over time. All very nice isn't it.
+
+One feature which I haven't yet fully documented in the Guide is my API for reading data from a device. It's all very well sending data to a server, but what's more interesting is when you can have real objects reacting to other real objects that it has no physical connection with. And to that effect, provided you know your device's token, you can return a JSON array of either the device's information at http://shwiing.co/api/info?t=YOURTOKEN or the data that your device has collected over time at http://shwiing.co/data?t=YOURTOKEN. So this is all very fun.
+
+In the future I might add more functionality along these lines, so people do not have to write their own PHP scripts that, for instance, can display your device's most recent piece of data, which can then be downloaded onto another Arduino for use elsewhere, but for now they'll have to settle for the example that I'm about to write in the guide.
+
+I hope this post was comprehensive enough, and if not feel free to ask me anything in the comments below.
+
+(Actually it would be quite nice to have a real comment - after [The Great Move MkII](http://filmandstuff.co.uk/405-great-move-mkii) I forgot to turn on Akismet again, so over the past few days I've had spam comments pouring in along the lines of "Actually genuinely great weblog article which has received me considering. I by no means looked at this from the stage of look at." or "Nice piece of info that you’ve got in submit. Hope can get some a lot more of this stuff on your website. I’ll are available back.". Thank God I remembered that.)
+
+See you next time - BAI
+
+

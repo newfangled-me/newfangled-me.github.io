@@ -1,0 +1,74 @@
+---
+author: AlexForey
+comments: true
+date: 2012-03-18 11:18:18+00:00
+layout: post
+slug: remix
+title: Remix
+wordpress_id: 409
+categories:
+- Stuff
+---
+
+> _remix (**v**) - Produce a different version of (a musical recording) by altering the balance of the separate tracks_
+
+
+Another post today, this one technically for scholarly purposes, but I thought you might be interested as well.
+
+A  remix could be said to be (re)creativity. The idea of taking someone else's work, altering and manipulating it heavily, then producing it as your own. It has caused a lot of controversy in recent years, with the advent of digital media. (When I say recent, I don't mean two years, I mean 20 years or so. Unknown to most teenagers today, there was actually a world more than 20 years ago...)
+
+But the truth is, _everything_ is a remix. There is hardly _ever_ an idea that has not been influenced in some way by the ideas that have come before it, from other people.
+
+Biological evolution is a process of remix. Old species were taken, copied and changed to form the new species. The best of those remixes survived, the others died out. But this is not just the case with biological evolution. It's also the case with _social_ evolution. The culture and ideas that make our world what it is today are based off the whole idea of _memes_. I'm not talking about internet memes (like [this one](http://i2.kym-cdn.com/entries/icons/original/000/007/447/hello-yes-this-is-dog.png)), but _real world_ (yes that still exists) memes. These are things like ideas, skills, and just general behaviour. In this case, the internet does come heavily into it.
+
+If you haven't seen this already, you really should. It's a web series by Kirby Ferguson entitled _"Everything is a Remix"_, in four parts. Here's the first for you to watch, the rest you'll have to click [this link](http://bit.ly/FP0i1D) for.
+
+
+
+[Everything is a Remix Part 1](http://vimeo.com/14912890) from [Kirby Ferguson](http://vimeo.com/kirbyferguson) on [Vimeo](http://vimeo.com).
+
+The real world can be affected by the internet, you know. Ever heard people randomly say "LOL" or "then I took an arrow to the knee" in school, or worse, _work_? This is a meme: a behaviour that has copied and modified because it has been deemed "_cool_". The same is true for ideas: one person at school starts web development, loads of people  follow.
+
+I thought I'd just mention that that one person was actually _me_, and that one lunch break I saw someone copying heavy chunks of the source code from [my website](http://alexforey.com) and trying to understand it. I'm not against someone trying to _understand_ my hard work, but what I don't like is when people take snippets from my code, and just _copy_ them into their own design, without modifying it, crediting me, or even fully understanding it. That is not a remix, that is _theft_.
+
+The reason I'm in favour of the remix (the common term) is that, in my view, some of the best creativity is through a process of remix. And more often than not, the product is free. Let's take the evolution of one song from my dubstep collection: _Midnight City _by M83.
+
+It starts off as a regular music track. It sounds like this:
+
+
+
+Then it gets used in TV Shows and professional media, like "Made in Chelsea" on E4.
+
+Then it gets remixed. Many times. In fact, M83 themselves uploaded the remixes to their own SoundCloud account. This is a good thing, as it demonstrates artists acknowledging other people's work as party theirs and partly their own. Here's my favourite remix - by PatrickRezza.
+
+
+
+This is offered as a free download on his Facebook page, and on dubstep.net.  This is taken and then set to an amazing YouTube video, made in Seattle to promote the local stadium:
+
+
+
+And for once, nobody prosecuted anybody, and everything was fine. But that is not always the case. This is because our current system of law thinks of ideas as individual bubbles, owned by someone or something. This is known as intellectual property. And this, in itself was a meme. And it spread heavily, due to a human psychological phenomenon known as "Loss Aversion".
+
+That's the idea people put a much higher value on losses than on gains. Therefore, when we steal from someone else, it's OK. We justify it with something along the lines of "it won't make any difference to that massive company with its fat cat executives if I pirate one of their movies , just once." On the other hand, if you worked for _hours_ on that animation, sweating over making sure the plasticine models didn't fall over, we get angry. And understandably - "why should someone be allowed to steal from me, if I've done the hard work?!?".
+
+This is summarised well in Part 4 of that documentary I mentioned earlier:
+
+
+> _"Most of us have no problem with copying (as long as we're the ones doing it)"_
+
+
+And that's how we've got where we are today - that meme spread throughout the entire world, and so the law reacted by preventing the later, at the expense of the former. In this "_new age_", however, people don't like it very much any more. These laws, along with YouTube's auto-copyright-detection-thing-bot-o-matic, mean that it's now very hard for people to share remixes they have created from content originally created by large companies. I leave you with this, another chain in social evolution.
+
+Before:
+
+
+
+Middle:
+
+
+
+After:
+
+
+
+Goodnight.
