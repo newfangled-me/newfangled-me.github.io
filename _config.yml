@@ -1,3 +1,6 @@
 name: Newfangled Me
 markdown: redcarpet
 pygments: true
+sass:
+    syntax: scss        # scss|sass
+    style:  compact  # nested|expanded|compact|compressed
