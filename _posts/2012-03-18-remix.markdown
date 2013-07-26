@@ -23,7 +23,7 @@ Biological evolution is a process of remix. Old species were taken, copied and c
 
 If you haven't seen this already, you really should. It's a web series by Kirby Ferguson entitled _"Everything is a Remix"_, in four parts. Here's the first for you to watch, the rest you'll have to click [this link](http://bit.ly/FP0i1D) for.
 
-
+{% vimeo 14912890 %}
 
 [Everything is a Remix Part 1](http://vimeo.com/14912890) from [Kirby Ferguson](http://vimeo.com/kirbyferguson) on [Vimeo](http://vimeo.com).
 
@@ -35,17 +35,17 @@ The reason I'm in favour of the remix (the common term) is that, in my view, som
 
 It starts off as a regular music track. It sounds like this:
 
-
+{% soundcloud tracks 19087066 %}
 
 Then it gets used in TV Shows and professional media, like "Made in Chelsea" on E4.
 
 Then it gets remixed. Many times. In fact, M83 themselves uploaded the remixes to their own SoundCloud account. This is a good thing, as it demonstrates artists acknowledging other people's work as party theirs and partly their own. Here's my favourite remix - by PatrickRezza.
 
-
+{% soundcloud tracks 26022693 %}
 
 This is offered as a free download on his Facebook page, and on dubstep.net.  This is taken and then set to an amazing YouTube video, made in Seattle to promote the local stadium:
 
-
+{% youtube 98EvwIGFB7s %}
 
 And for once, nobody prosecuted anybody, and everything was fine. But that is not always the case. This is because our current system of law thinks of ideas as individual bubbles, owned by someone or something. This is known as intellectual property. And this, in itself was a meme. And it spread heavily, due to a human psychological phenomenon known as "Loss Aversion".
 
@@ -61,14 +61,14 @@ And that's how we've got where we are today - that meme spread throughout the en
 
 Before:
 
-
+{% youtube y2fl-sHUwrc %}
 
 Middle:
 
-
+{% youtube sfkDxF2kn1I %}
 
 After:
 
-
+{% youtube kBO5dh9qrIQ %}
 
 Goodnight.

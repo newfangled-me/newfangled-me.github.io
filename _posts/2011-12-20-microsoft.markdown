@@ -11,17 +11,15 @@ categories:
 - Stuff
 ---
 
-[caption id="attachment_297" align="alignright" width="350" caption="Why don't more people do this?"][![](http://larsumlaut.files.wordpress.com/2008/01/microsoft-sign.jpg)](http://larsumlaut.files.wordpress.com/2008/01/microsoft-sign.jpg)[/caption]It is cool to like Apple, and it is cool to hate Microsoft. But in this fairly lengthy article I intend to demonstrate why I hate Microsoft and their products so very, very much. And not for the obvious reasons, either.
+{% image microsoft-sign.jpg %}
 
-<!-- more -->
-
+It is cool to like Apple, and it is cool to hate Microsoft. But in this fairly lengthy article I intend to demonstrate why I hate Microsoft and their products so very, very much. And not for the obvious reasons, either.
 
 ## A Brief Personal History
 
-
 I will start by giving you s brief history of the computers in my household over the last 10 years. It all started a long time ago, when I was only 7. We had one of these computers. It was super-awesome and we had a dial-up modem, although the only problem with that is I could not get on the internet without my parents noticing because of all the noise that it made when connecting.
 
-[caption id="attachment_299" align="alignleft" width="375" caption="SO RETRO"][![](http://images04.olx.co.za/ui/3/48/53/57054553_1.jpg)](http://images04.olx.co.za/ui/3/48/53/57054553_1.jpg)[/caption]And that was awesome. But then we went round to my cousin's house over Christmas and they had (what looked like) the same computer as ours, but my cousin had this awesome game on it and that was _even more_ awesome (not that the word _awesome_was even around in those days). So eventually I bribed my parents to get it, and upon trying to install it, the computer crashed. Me, having practically no computer knowledge whatsoever, could not help. My Dad tried and tried but to no avail. Time to bring in IT support. They charged an extortionate rate then advised us to get a new computer. Our first computer lasted 2 years, and was only good for Excel Spreadsheets and Word 97. It had something like 128MB of RAM and a CRT display.
+And that was awesome. But then we went round to my cousin's house over Christmas and they had (what looked like) the same computer as ours, but my cousin had this awesome game on it and that was _even more_ awesome (not that the word _awesome_was even around in those days). So eventually I bribed my parents to get it, and upon trying to install it, the computer crashed. Me, having practically no computer knowledge whatsoever, could not help. My Dad tried and tried but to no avail. Time to bring in IT support. They charged an extortionate rate then advised us to get a new computer. Our first computer lasted 2 years, and was only good for Excel Spreadsheets and Word 97. It had something like 128MB of RAM and a CRT display.
 
 Then the second computer. _Yay_. It was some form of HP Pavillion or something and looked a bit like this, and was _shiny_!!. That was thrilling. You could play DVDs on it and stuff. Well, not for long. About 1 year later, whenever you put in a DVD or something similar, it throw up a copyright error or something. Given that it was "_Media Center_" PC, this was not good. On the upside, it had a relatively large HDD (128GB, which was amazing) and a _Flat Screen_. This was also thrilling. It lasted for a while longer. I put too many programs on it, uninstalled them but little did I know that this did not remove the registry values and in the end I think that was the thing that killed it. Bear in mind that I was not as tech-savvy as I am now, and looking back I could have probably fixed quite a lot of things relatively easily. The end came when it got so slow that it took 7 minutes to load iTunes, and even then normally did not recognise my iPod. It could also barely run Word etc... so from the point of view of my Dad this was completely useless. We didn't quite get rid of it yet, because in comes the Sony Vaio _Laptop_. A _Laptop_ you say? Yes, a _laptop_. That was OK and lasted for a while, but by today's standards was fat and clunky and _white_.
 
@@ -47,15 +45,11 @@ Finally, after making sure that I wasn't going to do anything that might involve
 
 During this whole process I was posting multiple Twitter updates and Instagram Photos. Here they are. (Skip them).
 
-[caption id="" align="alignnone" width="612" caption="The Re-install begins"][![](https://instagr.am/p/aE-iZ/media/?size=l)](https://instagr.am/p/aE-iZ/media/?size=l)[/caption]
+{% image microsoft-1.jpg %}
 
-[caption id="" align="alignnone" width="612" caption="Worryingly unmoving progress bar"][![](https://instagr.am/p/aFFjT/media/?size=l)](https://instagr.am/p/aFFjT/media/?size=l)[/caption]
+{% image microsoft-2.jpg %}
 
-[caption id="" align="alignnone" width="612" caption="I have a mouse. But nothing else."][![](https://instagr.am/p/aFNHa/media/?size=l)](https://instagr.am/p/aFNHa/media/?size=l)[/caption]
-
-[caption id="" align="alignnone" width="612" caption="Here we go."][![](https://instagr.am/p/aFORW/media/?size=l)](https://instagr.am/p/aFORW/media/?size=l)[/caption]
-
-
+{% image microsoft-3.jpg %}
 
 Then finally it finished. I had do go out _into the real world_ for a while to buy Christmas presents so progress stalled for a bit.
 
@@ -67,15 +61,15 @@ The first thing I did (oddly) was to go and find the driver for my fingerprint r
 
 Next problem - Wireless. But I thought hang on... there's this annoying thing popping up and down so I clicked on it and low and behold - there were 73 updates waiting for me - one of which was a Broadcom Driver. That was hopefully what I wanted.
 
-[caption id="" align="alignnone" width="612" caption="73 Updates. Fun."][![](https://instagr.am/p/aGZf5/media/?size=l)](https://instagr.am/p/aGZf5/media/?size=l)[/caption]
+{% image microsoft-4.jpg %}
 
 And then there was one last thing to do to fix stuff - restart. So I restart and this happened....
 
-[caption id="" align="alignnone" width="612" caption="OH GOD OH GOD OH GOD OH GOD"][![](https://instagr.am/p/aGxD9/media/?size=l)](https://instagr.am/p/aGxD9/media/?size=l)[/caption]
+{% image microsoft-5.jpg %}
 
 Namely, it automatically started up in Safe Mode and crashed when it finished loading the Windows files. So again I hard reset and it decides to work again, but starting in Normal Mode this time. And then another problem happened... this.
 
-[caption id="" align="alignnone" width="612" caption="Why, I hate you too, laptop."][![](https://instagr.am/p/aG5c6/media/?size=l)](https://instagr.am/p/aG5c6/media/?size=l)[/caption]
+{% image microsoft-6.jpg %}
 
 One of the updates had been for my graphics card (which by the way had also been labelled as Generic, which it most certainly isn't) and had convinced itself that my screen was 600px x 600px. Not a smart move. So again, I restarted the computer in the hope that it would fix itself. Which, luckily, it did.
 
@@ -83,25 +77,17 @@ AND THEN, *sigh* I had to go about re-installing my programs. Of which there are
 
 One final thing I did was to partition my hard-drive into two pieces - an OS partition (C:) and a data partition (D:), so that if this ever happened again I wouldn't have to worry about shipping 150GB of data around via USB2. Which is not fun.
 
-
 ## Microsoft vs Apple
-
 
 I go back to the idea of the Christmas presents given by Microsoft and Apple. One a 16.5 hour re-install, that would have petrified the average Joe and sent him running for a useless Microsoft tech support; the other some free stuff (that I will probably actually want) from their online store of music, movies, apps and TV shows. Which one would you prefer?
 
 In the past, things were different. Around the time that we got our first computer, this was the general opinion.
 
-
-
 But nowadays I feel that the general opinion has completely changed. This reflects more the origins of the two companies. Both Microsoft and Apple started out as "two guys in a garage", but (as far as I can tell) Microsoft was always supposed to be a _big_ business, whereas Apple was just making computer for Steve Jobs' and Steve Wozniak's friends. There's another video coming up in a moment (which you really should have already seen), made by the BBC about Steve Jobs' life. And one thing that struck me was the fact that Bill Gates was working with Steve Jobs for a while, and just before the release of the Apple II (the first computer to use icons), he went off and released his own one a few weeks before the release of the Apple II. And I don't think Steve Jobs ever forgave him for that (judging by his character I find this hardly surprising).
 
 Anyway - here it is.
 
-
-
-
 ## The Bottom Line
-
 
 Well I think that this is it - I would never, _ever_ expect a new MacBook Pro, Air or iMac to have to re-install OS X because Apple disabled it. Apple seems to take the view (with practically all their software) that because you have it, you must have bought it. There is no serial number system on Snow Leopard or Lion, or Final Cut Pro X or Aperture. Apple trusts you. _Sure_, there will be people who download it illegally, but Apple is willing to let them be. It doesn't cost them anything.
 
@@ -115,8 +101,6 @@ Merry Christmas.
 
 See you soon (-ish, and that's only if I'm not swamped in Christmas Homework), Alex.
 
-(follow me on Twitter -[ @alex_forey](http://twitter.com/alex_forey))
-
 **UPDATE: **A few weeks after I reinstalled Windows 7, I got a message saying I needed to "Activate Windows". I was apprehensive, but it said all I needed to do was call them. So I did. Here was the screen I got -
 
-[![](http://newfangled.me/wp-content/uploads/2011/12/update11.png)](http://newfangled.me/wp-content/uploads/2011/12/update11.png) In total I had to type in 54 numbers into my phone, then it sent another 54 numbers back by text which I then had to type into little text boxes. I can't imagine Apple doing this to me. They know that people hate long fiddly numbers. But after that everything worked again. And hopefully it will be until I go over to Mac Laptops.
+In total I had to type in 54 numbers into my phone, then it sent another 54 numbers back by text which I then had to type into little text boxes. I can't imagine Apple doing this to me. They know that people hate long fiddly numbers. But after that everything worked again. And hopefully it will be until I go over to Mac Laptops.

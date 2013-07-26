@@ -25,11 +25,11 @@ I roughly re-assembled it, with IDE cables going to 2x DVD Drives and the HDD, a
 
 Hesitantly, I connected the power supply. A message appeared on the screen saying the CPU Fan had failed, and it promptly shut itself down. I spent five or so minutes borrowing looking for the connector for the fan, and eventually found it. I reconnected the PSU and the monitor lit up - it (kinda) worked! It used to be an old Windows XP Box - this is what it looked like at this point:
 
-[caption id="attachment_479" align="aligncenter" width="717" caption="The computer, with no case, and a desk fan to keep it cool."][![](http://newfangled.me/wp-content/uploads/2012/05/IMG_0903-1024x764.jpg)](http://newfangled.me/wp-content/uploads/2012/05/IMG_0903.jpg)[/caption]
+{% image diy-server-1.jpg %}
 
 I also got out the original casing, ripped out the bits I didn't need, and roughly assembled the guts back into the frame. Then it looked roughly like this (and please don't yell at me about cable management...)
 
-[caption id="attachment_480" align="aligncenter" width="764" caption="In the Box"][![](http://newfangled.me/wp-content/uploads/2012/05/IMG_0911-764x1024.jpg)](http://newfangled.me/wp-content/uploads/2012/05/IMG_0911.jpg)[/caption]
+{% image diy-server-2.jpg %}
 
 So I went over to the iMac, burned a disk of Ubuntu 12.04 (not the server version, because I like GUIs and it's not like the server's going to have its work cut out), and slammed it into one of the DVD drives. I connected my old crappy PS2 Keyboard and mouse (the ones that don't need drivers), and moved that drive to first in the boot list in the BIOS.
 
@@ -48,19 +48,16 @@ The final thing I did, to preparation for installing my server in the basement w
 The only problem is that BT does not offer Static IP Addresses. To get round that, I used [DNSDynamic](http://dnsdynamic.org). They provide an easy to use API for updating the IP address that your subdomain points to. And to that effect, I set up a Cron Job (with `crontab -e` to trigger a PHP script that sends the server's most recent IP address to DNSDynamic, every day at midnight. The code that goes in that section looks like this: `* * * * * /usr/bin/wget -O /dev/null http://localhost/path/to/php.php`.
 
 Here's the code for that PHP file to update the dynamic servers:
-
     
-    <code> <?php<br>
+	<?php
           $ip = file_get_contents("http://myip.dnsdynamic.org");<br>
           $username = "YOUR_USERNAME";<br>
           $password = "YOUR_PASSWORD";<br>
           $website = "YOUR_DOMAIN";<br>
-      <br>
+      
           $request = file_get_contents("https://".$username.":".$password.<br>
              "@www.dnsdynamic.org/api/?hostname=".$website."&myip=".$ip);<br>
-     ?> </code>
-
-
+     ?>
 
 Oh, and one last thing. I installed the OpenSSH Server, to allow me to perform command line operations from other computers. This is done simply by running `sudo apt-get install openssh-server openssh-client`, and you're ready to go.
 
@@ -68,6 +65,6 @@ The only things left to do were to install it in the basement, providing Interne
 
 The final thing looks like this -
 
-[caption id="attachment_483" align="aligncenter" width="717" caption="The Completed Server, with 100MBps Uplink and Downlink"][![](http://newfangled.me/wp-content/uploads/2012/05/IMG_0913-1024x764.jpg)](http://newfangled.me/wp-content/uploads/2012/05/IMG_0913.jpg)[/caption]
+{% image diy-server-3.jpg %}
 
 I'm not entirely sure what I'll end up doing with this machine, but I'm sure it will be awesome.

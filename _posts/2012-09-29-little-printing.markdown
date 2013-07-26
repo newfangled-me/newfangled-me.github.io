@@ -15,7 +15,7 @@ tags:
 
 On Wednesday, I went to the first of [BERG](http://berglondon.com)'s Little Printer [After School](http://bergcloud.com/2012/09/27/school-report/) Clubs, or as Alice put it:
 
-https://twitter.com/alicebartlett/status/251003461125165056
+{% tweet https://twitter.com/alicebartlett/status/251003461125165056 %}
 
 It was great fun, and I got to meet some interesting people in person, like [Alex Muller](https://twitter.com/alexmuller), [Devin Hunt](http://www.hailpixel.com/),  and a few others. In short, I talked to lots of people, wrote lots of code, and ate too much pizza. I could get used to that.
 
@@ -39,17 +39,15 @@ The first of which is for [Markpond](http://markpond.com), my bookmarking websit
 
 Here's what that one looks like on screen (@ 100% zoom):
 
-
-[![](http://newfangled.me/wp-content/uploads/2012/09/markpond-screen.png)](http://newfangled.me/wp-content/uploads/2012/09/markpond-screen.png)
-
+{% image little-markpond-1.png %}
 
 And now in reality:
 
-[caption id="" align="aligncenter" width="500"][![](http://25.media.tumblr.com/tumblr_mayza3VWxb1r3akzno1_500.jpg)](http://25.media.tumblr.com/tumblr_mayza3VWxb1r3akzno1_500.jpg) Markpond in Print[/caption]
+{% image little-markpond-2.jpg %}
 
 You'll notice the QR codes. People seem to have collected this hatred of them - but I still quite like them. I don't like it when they're using in stupid ways by advertising agencies, but I do like the idea of being able to encode a digital link into a real life object, and being able to convert it back to digital whenever I want to. It saves you the time and effort of having to type the URL back into your tiny smartphone.
 
-One of the things that struck me was just how _little _the Little Printer prints. That sounds obvious, but when you view the same publication on a screen it is at least twice the width and height of its real-life counterpart.  And hence your font-sizing is all wrong, the spacing is uneven, and it just looks a bit off.
+One of the things that struck me was just how _little _the Little Printer prints. That sounds obvious, but when you view the same publication on a screen it is at least twice the width and height of its real-life counterpart. And hence your font-sizing is all wrong, the spacing is uneven, and it just looks a bit off.
 
 And that's the point of these Little Printer After School Clubs - to be able to see your publication in real life before anyone else does. The most accurate you can get online is by using BERG's [Rapid Prototyper](http://remote.bergcloud.com/developers/tools/), but even then the fonts aren't quite right.
 

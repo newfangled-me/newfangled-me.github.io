@@ -8,13 +8,13 @@ title: Shwiing
 wordpress_id: 420
 ---
 
-[![](http://newfangled.me/wp-content/uploads/2012/03/rocket-2.png)](http://shwiing.co)
+{% image shwiing.png %}
 
 Hello. This is my latest venture. I have named it Shwiing.
 
 At this point you're probably like:
 
-
+{% youtube kf0yQbrY9Pw %}
 
 Alright, I'll start at the beginning. I recently got into the whole Internet of Things and Arduino scene, decided that I would like the two to be one. So I started looking around for an easy way to collect standard data online, but found none. I assumed this was because everyone just set up their own server and database to deal with these things. So I set about doing the same for myself. But then I was like: hang on a minute. Being the web developer that I am, I just couldn't help turning this into a service for others, who are perhaps not as capable in the online world.
 

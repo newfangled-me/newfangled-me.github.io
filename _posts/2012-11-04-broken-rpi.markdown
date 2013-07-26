@@ -27,21 +27,20 @@ And much of the help online is speculation - "I've never had this problem but if
 
 But it's more than just my personal problems with this - everyone is going to have problems like these sooner or later. The Guardian [reported](http://www.guardian.co.uk/technology/2012/nov/04/raspberry-pi-programming-jam-cern?CMP=twt_gu) that:
 
+> People are enthusiatic about it mostly because they hope its price, size, software and sturdiness (you can shove it in your pocket without damaging it, supposedly) will make it appeal to kids, and thus lead children into computer programming.
 
-> [People are enthusiatic about it] mostly because they hope its price, size, software and sturdiness (you can shove it in your pocket without damaging it, supposedly) will make it appeal to kids, and thus lead children into computer programming.
 
-
-But it's simply **not **robust enough for schools yet. If half a millimetre of broken plastic can render an entire unit worthless, how is it going to fare in the hands of over-enthusiastic 8-year-olds, or under-enthusiastic teenagers?
+But it's simply **not** robust enough for schools yet. If half a millimetre of broken plastic can render an entire unit worthless, how is it going to fare in the hands of over-enthusiastic 8-year-olds, or under-enthusiastic teenagers?
 
 And another thing that people (adults, in particular) don't seem to understand:
 
-https://twitter.com/alex_forey/status/265052314665107456
+{% tweet https://twitter.com/alexforey/status/265052314665107456 %}
 
 And so, you can't simply "lead children into computer programming", like you can't force someone to do a sport they don't like. They'll build up resentment that they have to do it, and because it doesn't appeal to them, they won't give it a chance and they'll hate it.
 
 And one more intrinsic problem with the Raspberry Pi - it's moving faster than Apple products. And by that I mean every week or so there's a new OS update, and every few months a new piece of hardware comes out.
 
-https://twitter.com/antimega/status/247978032625750016
+{% tweet https://twitter.com/antimega/status/247978032625750016 %}
 
 There _is no documentation, there is no standard _because updates come out faster than people can keep up with them, faster than people can write documentation for them.
 

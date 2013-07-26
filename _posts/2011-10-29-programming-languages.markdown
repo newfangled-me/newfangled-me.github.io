@@ -19,7 +19,7 @@ tags:
 - programming
 ---
 
-![](http://www.w3.org/html/logo/downloads/HTML5_Logo_512.png)A slightly off-topic post - this blog is meant to be about Film after all...
+A slightly off-topic post - this blog is meant to be about Film after all...
 
 There are many, many different programming languages out there, and they all have different uses. I will cover some of the main ones, because I can't be bothered to do all of them.
 

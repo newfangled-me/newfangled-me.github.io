@@ -16,11 +16,6 @@ So there have been many, many browsers over the years, but for those people unsu
 
 But a lot has changed since then - even though that was not very long ago. As they don't actually explain in the video, a browser is a program installed on your computer that allows you to view the web - it is not a search engine, it is not a website, it is a program. There are several main browsers out there, some that come with your computer and some that don't (all versions newest) :
 
-[![](http://mozillalinks.org/wp-content/uploads/2009/06/firefox-256.png)](http://mozillalinks.org/wp-content/uploads/2009/06/firefox-256.png)
-[![Chrome Icon](http://pureinfotech.com/wp-content/uploads/2011/03/google-chrome-flatten-logo.png)](http://pureinfotech.com/wp-content/uploads/2011/03/google-chrome-flatten-logo.png)
-
-
-
 	
   * Microsoft Internet Explorer 9
 
@@ -40,21 +35,9 @@ But a lot has changed since then - even though that was not very long ago. As th
   * Numerous mobile browsers
 
 
-
-
 Internet Explorer is the default that comes with Windows, and Safari comes with Macs. Here is a graph of world usage of browsers in August 2011 (pretty recent then):
 
-
-
-
-
-
-[caption id="" align="alignnone" width="403" caption="Which is your favourite?"][![Graph of Most Popular Browsers](http://upload.wikimedia.org/wikipedia/commons/f/f2/Web_browser_usage_share_v2.svg)](http://upload.wikimedia.org/wikipedia/commons/f/f2/Web_browser_usage_share_v2.svg)[/caption]
-
-
-
-
-
+{% image browser-graph.svg %}
 
 There have been many arguments over the years as to which browser is the best, and my verdict is Google Chrome. This is simply because it is a lighter program - meaning that it takes up less CPU (processing power) on your computer, meaning it can launch faster and use less battery power on a laptop. It also has sync, which allows you to synchronize all your bookmarks, themes, extensions and even auto-fill and password data. This is all encrypted before being stored on the "cloud" so that no-one except you can reach it.
 
@@ -64,36 +47,15 @@ There have been many arguments over the years as to which browser is the best, a
 There are also other reasons why some browsers are better than others. This is usually because of the way that they display web pages. Internet Explorer uses its own "render engine" to take something that looks like this:
 
 
-
-
-
-
-<div id="example-id" class="example-class"><i><b>Hello</b> world!</i> Having a great <strong>day</strong>?</div>
-
-
-
-
-
-
-
+	<div id="example"><i><b>Hello</b> world!</i> Having a great <strong>day</strong>?</div>
 
 And makes it look like this:
 
-
-
-
-
-
 _**Hello** world!_ Having a great **day**?
-
-
-
-
-
 
 Different "render engines" make pages look different if they use some code that has not been covered by that "render engine". There is a handy tool called [BrowserLab](http://browserlab.adobe.com), that allows you to see what your website will look like on different browsers without having to have them all installed on your computer. For instance, here is my URL shortener, [DropURL](http://drop.x10.bz) as viewed in Internet Explorer 6 vs Chrome 13:
 
-[![](http://newfangled.me/wp-content/uploads/2011/09/browserlab11-1024x510.jpg)](http://newfangled.me/wp-content/uploads/2011/09/browserlab111.jpg)
+{% image browserlab.jpg %}
 
 Clearly I have to do some cross-browser compatibility improvement. IE6 has become the nemesis of many web designers because of firstly how bad it's "render engine" is and secondly how many people are still using it, despite the fact that it is over 10 years old. There is an interesting article on why they are [here](http://css-tricks.com/820-why-people-still-use-ie-6/). It's "render engine" is bad because it does not support [CSS](http://webdesign.about.com/od/beginningcss/a/aa021607.htm), a way of making websites look awesome, or [JavaScript](http://javascript.about.com/od/reference/p/javascript.htm), which allows web pages to be interactive and do clever things. In fact, I like that so much I'm gonna make it into a quotation so other people can quote me on it.
 
@@ -107,11 +69,7 @@ Clearly I have to do some cross-browser compatibility improvement. IE6 has bec
 
 And I haven't even touched on Mobile Browsers, which in themselves deserve a whole other post, but I can't be bothered to do that, so here is a mini version:
 
-People have been trying to optimize their websites for mobile device browsers a lot recently. In the past,
-
-
-[![](http://images.apple.com/iphone/features/images/safari-hero-20101116.png)](http://images.apple.com/iphone/features/images/safari-hero-20101116.png)[/caption]
-the webpage would just detect (using JavaScript) if you were using a mobile device and redirect you to another website with the same content, just a different way of displaying it, more suited to smaller screens. An example - [Youtube ](http://youtube.com)vs [m.Yotube](http://m.youtube.com). The problem with this is that every time you want to make a new page, you have to do it twice, once on the normal site and once on the mobile site. Now, however, everything has changed. People are now making intelligent websites, that will change fluently as you resize your browser window to emulate a mobile device. Take a look [here](http://mediaquiri.es), click on a website, and see what happens when you make the windows bigger and smaller. There are also other ways of making a website more mobile-friendly, like making images few and far-between, to make download speeds on pages faster.
+People have been trying to optimize their websites for mobile device browsers a lot recently. In the past, the webpage would just detect (using JavaScript) if you were using a mobile device and redirect you to another website with the same content, just a different way of displaying it, more suited to smaller screens. An example - [Youtube ](http://youtube.com)vs [m.Yotube](http://m.youtube.com). The problem with this is that every time you want to make a new page, you have to do it twice, once on the normal site and once on the mobile site. Now, however, everything has changed. People are now making intelligent websites, that will change fluently as you resize your browser window to emulate a mobile device. Take a look [here](http://mediaquiri.es), click on a website, and see what happens when you make the windows bigger and smaller. There are also other ways of making a website more mobile-friendly, like making images few and far-between, to make download speeds on pages faster.
 
 I think I have sufficiently covered this topic. If you feel not, feel free to comment below.
 

@@ -17,91 +17,31 @@ And so, over the course of around 8 hours I build this awesome 'coaster. It's ma
 And once I had build this, I made some basic traffic lights out of a breadboard and some LEDs, and made a gate to prevent cars from moving onto the chain lift before the other had gotten off, by taping some red rods to a servo. I then programmed this in a basic loop. Here's some pseudo code that follow along the lines of :
 
     
-    <code> setup { </code>
-
-
-
-    
-    <code> start servo assign LED pins, etc.. </code>
-
-
-
-    
-    <code> State open and closed angles for servo</code>
-
-
-
-    
-    <code> Set the servo to be closed </code>
-
-
-
-    
-    <code>} </code>
-
-
-
+    setup {
+        Start servo assign LED pins, etc..
+        State open and closed angles for servo
+        Set the servo to be closed
+    }
     
     loop {
-
-
-
-    
-            Do the open the gate routine
-
-
-
-    
-            Wait a while
-
-
-
-    
+        Do the open the gate routine
+        Wait a while
     }
 
-
-
-    
     Gate routine {
-
-
-
-    
-            Turn on the traffic lights in order
-
-
-
-    
-            Open the servo, then close it quickly (only one roller on the car goes through)
-
-
-
-    
-            Wait not very much
-
-
-
-    
-            Open the servo again
-
-
-
-    
-            Turn off the traffic lights.
-
-
-
-    
+        Turn on the traffic lights in order
+        Open the servo, then close it quickly (only one roller on the car goes through)
+        Wait not very much
+        Open the servo again
+        Turn off the traffic lights.    
     }
 
 
-Around this time I bought a Jessops flashgun (for a much discounted price, which I'm very pleased about), and I was experimenting with the whole idea of external flash, getting the exposure right, angles, shadows, etc. I even (at one point) used three flashes for the same shot at different times: the onboard one triggered by the camera, my old 300EZ triggering my new Jessops one via a master/slave protocol. Here's a Flickr Gallery of the results:
-
-[fsg_gallery id="1"]
+Around this time I bought a Jessops flashgun (for a much discounted price, which I'm very pleased about), and I was experimenting with the whole idea of external flash, getting the exposure right, angles, shadows, etc. I even (at one point) used three flashes for the same shot at different times: the onboard one triggered by the camera, my old 300EZ triggering my new Jessops one via a master/slave protocol. [Here's a Flickr Gallery of the results](http://www.flickr.com/photos/alexforey/sets/72157629703199571/).
 
 And then, as I usually do, I decided to make a video about it. I used my 600D, 50mm f/1.4 and some "arty" music. Some people have described it as "veh GCSE art." And so here it is:
 
-[vimeo clip_id="39497272" title="1" byline="0" portrait="1" width="700px"]
+{% vimeo 39497272 %}
 
 And now on to my next project. But you'll have to wait to see what it is (although that might take a while, as it involves heavy uses of other people's APIs, most of which use oAuth. And I hate oAuth.)
 

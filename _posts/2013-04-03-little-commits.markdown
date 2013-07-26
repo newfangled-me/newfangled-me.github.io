@@ -20,8 +20,6 @@ Once I had got this working locally, I pushed it up to Heroku and set it up as a
 
 And so, every time I finish a little bit of the new Markpond, I get a printout and put it up on my roadmap.
 
-[![IMG_0011](http://newfangled.me/wp-content/uploads/2013/04/IMG_0011-1024x682.jpg)](http://newfangled.me/wp-content/uploads/2013/04/IMG_0011.jpg)
-
-
+{% image little-commits.jpg %}
 
 You can view the source of [little-commits](https://github.com/alfo/little-commits) on GitHub. It's really simple, but I think it's quite useful.

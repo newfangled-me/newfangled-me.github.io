@@ -11,7 +11,7 @@ categories:
 - Stuff
 ---
 
-[caption id="attachment_116" align="alignright" width="300" caption="Steve Jobs was the great driving force behind Apple"][![Steve Jobs holding an iPhone 4](http://newfangled.me/wp-content/uploads/2011/10/steve_jobs_headshot_2010-crop1.jpg?w=300)](http://newfangled.me/wp-content/uploads/2011/10/steve_jobs_headshot_2010-crop1.jpg)[/caption]
+{% image steve-jobs.jpg %}
 
 I think it would be fair to say that the world was shaken today by the death of Apple's founder, Steve Jobs. This was entirely unexpected - people knew he was ill, seriously ill, but the general idea was that he was in a stable condition.
 
@@ -21,7 +21,7 @@ In 1986, after being effectively kicked out of Apple, Steve Jobs buys PIXAR, t
 
 Here is an interesting video, made by ABC News, remembering Steve Jobs.
 
-[youtube=http://www.youtube.com/watch?v=Ft3oPgsCFbA&feature=related]
+{% youtube Ft3oPgsCFbA %}
 
 On a final note, Apple has just published [a page on their website ](http://http://www.apple.com/uk/stevejobs/) to demonstrate how much he meant to all the people at Apple, and if you want to pay your respects, you can send Apple an email at [rememberingsteve@apple.com](mailto:rememberingsteve@apple.com).
 

@@ -23,7 +23,7 @@ tags:
 - tripod
 ---
 
-[caption id="" align="alignright" width="229" caption="The Tardis - Large inside, small outside"][![Lowepro Flipside 300](http://www.jessops.com/ce-images/PRODUCT/PRODUCT_ENLARGED/ALOWEBC105127047.jpg)](http://www.amazon.co.uk/Lowepro-Flipside-300-Photo-Backpack/dp/B000YA33DC/ref=sr_1_2?ie=UTF8&qid=1319046253&sr=8-2)[/caption]
+{% image flipside-1.jpg %}
 
 So, after recently buying [a second lens](http://filmandstuff.co.uk/2011/10/lens-review/) to go with my AWESOME  second-hand Canon EOS 300, I felt that I needed a proper camera bag to go with it. As some of you might know, I do commercial work for my school, and each time I do I usually get paid enough to buy a new piece of gear, which is how I managed to fork out for this definitely not inexpensive camera bag. But it also got me thinking.
 
@@ -41,12 +41,9 @@ As I said before, Lowepro is known for it's reliability and durability, and this
 
 The Flipside is unique among bags as it opens from the side that faces your back. This has three main advantages - firstly it is far more secure in crowded places as it is impossible for anything to be surreptitiously lifted from your bag, a real plus if you're carrying gear worth four figures. The second advantage is that with most camera bags, in order to extract your gear you have to put the bag on the ground with the side that usually touches your back on the ground, meaning that when you put it back on again, any dirt that was on the ground goes straight onto your clothes. Thirdly, with the waist strap, it is now possible to get to your gear without actually taking the bag off. All you have to do is take off the arm straps and swivel the bag round to your front, so you can use your bag a little like a table. This may be hard to imagine this - so here is a photo.
 
-[caption id="" align="aligncenter" width="400" caption="Flipside Table"][![Flipside used as a Table](http://www.dkamera.de/media/bilder/news/2007/071121_flipside_2_k.jpg)](http://www.dkamera.de/media/bilder/news/2007/071121_flipside_2_k.jpg)[/caption]
+{% image flipside-2.jpg %}
 
 This bag is a bit like a [Tardis](http://en.wikipedia.org/wiki/TARDIS), in that despite being very compact and slim on the outside, it has a vast, cavernous space inside. There should be plenty of space for my current and future camera gear, including two bodies:
-
-
-
 	
   * Canon EOS 300 Film SLR
 
@@ -66,34 +63,17 @@ This bag is a bit like a [Tardis](http://en.wikipedia.org/wiki/TARDIS), in that 
   * (<del>Future</del>) Canon EOS 600D
 
 	
-  * (<del>Future</del>) Canon EF 50mm f/1.8 (otherwise known as the _fantastic plastic)_
-
+  * (<del>Future</del>) Canon EF 50mm f/1.8 (otherwise known as the _fantastic plastic_)
 	
-  * (<del>Future</del>) R[Ø](http://www.google.co.uk/url?sa=t&source=web&cd=1&ved=0CDcQFjAA&url=http%3A%2F%2Fwww.rodemic.com%2F&ei=eQ-fTsbXGsOQ4gTd8qSYCQ&usg=AFQjCNGYmD9vWSEMPUNoPcE2y2AJi1czJA&sig2=rlw-lt07SopBIem9Tp5PeQ)DE Videomic
-
-
-
+  * (<del>Future</del>) [RØDE Videomic](http://www.google.co.uk/url?sa=t&source=web&cd=1&ved=0CDcQFjAA&url=http%3A%2F%2Fwww.rodemic.com%2F&ei=eQ-fTsbXGsOQ4gTd8qSYCQ&usg=AFQjCNGYmD9vWSEMPUNoPcE2y2AJi1czJA&sig2=rlw-lt07SopBIem9Tp5PeQ)
 
 Here's a picture (from DigitalCameraReview) of the interior with gear pretty similar to my own:
 
-
-
-
-
-
-[caption id="" align="aligncenter" width="350" caption="Inside the Flipside"][![Inside the Flipside](http://www.digitalcamerareview.com/assets/14887.jpg)](http://www.digitalcamerareview.com/assets/14887.jpg)[/caption]
+{% image flipside-3.jpg %}
 
 As you can see, there's plenty of room for around five lenses, let alone three. You can also see that there is a massive pouch at the top for random accessories like a Lenspen or some filters, which can be removed if you wish, allowing for a super-long lens to be attached to the camera.
 
-
-
-
-
-
 On a final note, there are some little pockets on the outside for storing items such as memory cards and perhaps the odd instruction manual or two.
-
-
-
 
 All in all, a very trusty bag. I would highly recommend it. You may be paying a lot, but I strongly advise you to not take the cheap way out and buy a crappy own-brand from a shop. Lowepro FTW.
 

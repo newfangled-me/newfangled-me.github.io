@@ -8,7 +8,6 @@ title: Mobile Catch-up Streaming and Stuff
 wordpress_id: 271
 ---
 
-[![](http://newfangled.me/wp-content/uploads/2011/12/iplayer_small111.png)](http://newfangled.me/wp-content/uploads/2011/12/iplayer_small111.png)
 I lie. I actually do have time today.
 
 Anyway - the BBC (if you don't know who they are you can go die in a hole) FINALLY announced their iPlayer app for the iPhone. There has been an iPad app since February, and Android, but for some reason they had decided that an iPhone one wasn't necessary. Or maybe they ran into technical difficulties. Either way, only now have the BBC got their act together. Here's a [very long article](http://t.co/gfs4pzl) by the BBC talking about stuff.

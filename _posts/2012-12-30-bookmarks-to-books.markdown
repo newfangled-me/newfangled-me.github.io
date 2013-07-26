@@ -95,7 +95,7 @@ In the terminal window, run:
     rackup
 
 
-Then go to `[http://localhost:9292](http://localhost:9292)` and click on the years to see what will be printed. Take note of the first year listed.
+Then go to `http://localhost:9292` and click on the years to see what will be printed. Take note of the first year listed.
 
 
 ## Customise it
@@ -141,6 +141,6 @@ I only started collecting bookmarks in August 2012, so my book is only 203 pages
 
 This, on balance, seems extremely reasonable, especially with a savvy use of coupon codes.
 
-[caption id="" align="aligncenter" width="614"][![](http://farm9.staticflickr.com/8073/8361731208_24f60fb5a0_b.jpg)](http://farm9.staticflickr.com/8073/8361731208_24f60fb5a0_b.jpg) Finished Book[/caption]
+{% image markpond-book.jpg %}
 
 So there you go. Hopefully a guide that even the programming-illiterate can follow. As always, if you have any questions feel free to post them in the comments.

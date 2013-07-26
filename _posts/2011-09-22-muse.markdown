@@ -10,19 +10,17 @@ categories:
 - Stuff
 ---
 
-[caption id="attachment_65" align="alignright" width="252" caption="Adobe Muse: The Future of the Web?"][![Adobe Muse Icon](http://newfangled.me/wp-content/uploads/2011/09/adobe-muse-icon-large1.jpeg)](http://muse.adobe.com)[/caption]
-
 So Adobe Muse has been hitting the "headlines" of blogs all over the world, but as far as I can see it has never once appeared in a real newspaper here in the UK. This is strange, as it could be the turning point on the retail of all Adobe products, used by millions of people worldwide.
 
 Adobe Muse, if you don't already know, is a WYSIWYG website editor, and has been dubbed "Photoshop for Websites". In reality is it more likely to be "InDesign for Websites", but that's more a matter of opinion. Basically, you design your website, set where the boundaries of the header and footer are, and it will generate the code that will work in any "modern" browser. I say it generated code, but it is really more powerful than that, for instance if you rotate an image in Muse, it will generate a rotated version of your image, framed in the transparent box of a PNG. So it also renders images, as well as code.
 
 It has been criticized by many web designers and coders alike, mainly because of the way it spews out <div> tags with no regard for code structure. For instance, here is some code from my [Duck House Website](http://www.duckhouseproductions.co.uk), made with Muse :
 
-[caption id="attachment_59" align="alignnone" width="839" caption="The horror that is spewed out from Muse"][![Too Many Divs](http://newfangled.me/wp-content/uploads/2011/09/too-many-divs.jpg)](http://newfangled.me/wp-content/uploads/2011/09/too-many-divs.jpg)[/caption]
+{% image muse-div.jpg %}
 
 And it goes on and on for (believe it or not) 1076 lines. Just for that.
 
-[caption id="attachment_64" align="alignnone" width="645" caption="Duck House Productions Screenshot"][![Duck House Productions Screenshot](http://newfangled.me/wp-content/uploads/2011/09/capture.png)](http://newfangled.me/wp-content/uploads/2011/09/capture.png)[/caption]
+{% image dhp.png %}
 
 And also, there are also other bad web standards conventions, like making a new class for every single new style, which clutters your code with meaningless drivel.
 

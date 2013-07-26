@@ -36,9 +36,7 @@ After I'd got the script completed, I asked my good friend [Henry Dyer](http://d
 
 First of all, we emailed the local cinemas to see whether or not they'd consider allowing us to shoot in their lobby for free. I'd deliberately left out any scenes inside the cinema screen itself, as it would be much harder to get access and very unlikely without having to pay anything. Initially, we contacted [Cineworld Hammersmith](http://www.cineworld.co.uk/cinemas/30) because it was the cinema that looked the most like what I had in my head:
 
-
-[![cineworld](http://newfangled.me/wp-content/uploads/2013/01/cineworld.jpeg)](http://newfangled.me/wp-content/uploads/2013/01/cineworld.jpeg)
-
+{% image cineworld.jpg %}
 
 But they didn't respond in the ~6 weeks we had before we needed to be actually needed to be shooting. Around a week or so after we asked them, we also contacted the good people at the [Electric Cinema](http://www.electriccinema.co.uk/), who were willing to let us borrow their lobby for around two hours for free. Unfortunately, when Henry went round there to see how we could film, it became apparent that it would be impossible for us to shoot the shots we had planned and that were critical to the plot. Also, around half an hour after Henry left, [it caught fire](http://www.telegraph.co.uk/culture/film/9321859/200-evacuated-after-blaze-at-historic-Notting-Hill-cinema.html). So that was a no-go.
 
@@ -58,13 +56,13 @@ Then, for sound, we looked to the school's Drama department. They have a RØDE N
 
 Casting was difficult. In Year 9, it's hard to find people who take you seriously when you say you're making a film. But I also have a great friend, Amos Jackson, who agreed to act, who knew Ella, who also agreed.  Hugo was an old friend, and agreed to help me out, and Henry knew and persuaded Hilton to play the lead.
 
-Scheduling is _hard__. _So hard in fact, that we didn't know which roles anyone other than Hilton and Ella would be playing until 4 days before we started shooting. Nobody could be in the right place at the right time or stay long enough. Somehow though, we managed. And that's one of the main difficulties about making a _truly _independent film - you haven't got a governing body, like a film school or film course or something to take care of scheduling for you and so you have to do all of that yourself.
+Scheduling is _hard_. So hard in fact, that we didn't know which roles anyone other than Hilton and Ella would be playing until 4 days before we started shooting. Nobody could be in the right place at the right time or stay long enough. Somehow though, we managed. And that's one of the main difficulties about making a _truly _independent film - you haven't got a governing body, like a film school or film course or something to take care of scheduling for you and so you have to do all of that yourself.
 
 So then the first day of shooting arrived. It was near the end of the summer term, and the holidays were just around the corner. It was the 15th June, and we shot the walking scene of Ella and Hilton, as well as the first half of the fight scene. I was intending to finish it that night, but that was going to be impossible as it was 9:30pm Hilton had to leave early and everyone had to get home, so I had to organize the second part of the scene to be shot later.
 
 I used a cold hair light, with a diffused orange backlight and key. That gave us some nice areas of shadow, that I could use to my advantage with the thugs.
 
-[![IMG_8417](http://newfangled.me/wp-content/uploads/2013/01/IMG_8417-682x1024.jpg)](http://newfangled.me/wp-content/uploads/2013/01/IMG_8417.jpg)
+{% image perception-1.jpg %}
 
 The next shoot was the school scenes, and we did those on Tuesday 26th. The first bit was shot in our sports center, and I would have loved to do one of my long introductions with music and text, but I forgot to shoot a static locked-down shot and didn't have time to come back later.
 
@@ -79,7 +77,7 @@ The actual Facebook conversation on the screen wasn't filmed until this month, b
 
 The last day of shooting was the day after school ended, the 1st of July. We had scheduled to film in and outside the Curzon in Richmond from about 10 in the morning. We arrived early so we could shoot the scene outside the cinema first. This scene was going to have to look like night, so we used a reflector to cancel out as many of the shadows as we could, so that I could colour grade later to make it look like night.
 
-[![IMG_1291](http://newfangled.me/wp-content/uploads/2013/01/IMG_1291-1024x575.jpg)](http://newfangled.me/wp-content/uploads/2013/01/IMG_1291.jpg)
+{% image perception-2.jpg %}
 
 Unfortunately, nobody was there to open the cinema when the time came for us to shoot, so we waited. Then [Iesh Thapar](http://www.ieshthapar.com/), one of the employees of the Curzon, who also makes short films, arrived, and it turned out that he also thought the cinema was going to open at around 10, but in reality it wasn't going to happen until the first screening at around 11:30.
 
@@ -91,7 +89,7 @@ Even more luckily for us, the screening was of a four-hour opera with an interva
 
 For the most part, Nathan was standing on one of the tables to get the audio we needed, unless that would have been in frame, and in that case he went under the counter of the bar.
 
-[![soundman](http://newfangled.me/wp-content/uploads/2013/01/soundman-1024x576.jpg)](http://newfangled.me/wp-content/uploads/2013/01/soundman.jpg)
+{% image perception-3.jpg %}
 
 I have to thank Iesh for the help he gave us, and without him the mirror shot at the beginning of the interior scene would never have happened. He also helped as a clapper loader, which really helped to speed up proceedings.
 
@@ -99,7 +97,7 @@ I had scheduled the scenes that we didn't finish on the 15th for that evening, s
 
 That evening, at around 6pm, we started setting up the fight scene outside my house to look as much like the previous shoot as possible. But, to my dismay, the bulb of one of the three lights that we were going to use for the outside scenes blew, leaving us with only a two-light setup, which causes awkward shadows and overexposed areas. Luckily, I had two LED Par cans that were roughly half as bright as one of the ARRIs each, so I could get a match to what I had had previously.
 
-[caption id="attachment_672" align="aligncenter" width="625"][![The middle one stopped working](http://newfangled.me/wp-content/uploads/2013/01/IMG_8443-682x1024.jpg)](http://newfangled.me/wp-content/uploads/2013/01/IMG_8443.jpg) The middle one stopped working[/caption]
+{% image perception-4.jpg %}
 
 At around 7pm, we were all ready to shoot except for one person - Simran, who plays the lead, had had a minor family emergency and didn't arrive until 8pm, having lost an hour of shooting time. It would have been fair to say I was fairly stressed at this point.
 
@@ -113,7 +111,7 @@ And that was the end of principal photography. "A wrap". A relief.
 
 And then, on to editing. Here's a brief screenlapse (I just made that term up but I quite like it) of the first stages of editing.
 
-
+{% vimeo 56952303 %}
 
 [Editing Perception](http://vimeo.com/56952303) from [Alex Forey](http://vimeo.com/alexforey) on [Vimeo](http://vimeo.com).
 
@@ -123,7 +121,7 @@ I used Magic Bullet Looks for colour correction and grading, and it's the best p
 
 I also recorded some foley sound effects to supplement the live sound. Here is my setup:
 
-[![IMG_0475](http://newfangled.me/wp-content/uploads/2013/01/IMG_0475-e1357658404677-764x1024.jpeg)](http://newfangled.me/wp-content/uploads/2013/01/IMG_0475.jpeg)
+{% image perception-5.jpg %}
 
 It's not ideal, and I don't have a dedicated audio recorder so I record the sound into the camera, but it works. It's on its side so that I can get the microphone close to the keyboard and so I can see the monitor through the camera, making it easier to sync up later.
 
@@ -133,11 +131,11 @@ Between starting editing and finishing, I created a rough cut for the cast, crew
 
 Here's what the finished timeline looked like:
 
-[![timeline](http://newfangled.me/wp-content/uploads/2013/01/timeline.png)](http://newfangled.me/wp-content/uploads/2013/01/timeline.png)
+{% image perception-timeline.png %}
 
 Another perk of the post production job is that I got to make the fake Facebook accounts. We had initially created some when we shot the scene in the computer gallery, but had forgotten the passwords, so when it came round to shooting the chat windows, I had to make some more. Here is my desk with Jason's Facebook on the left, mine in the middle, and Abbey's on the right.
 
-[![IMG_0474](http://newfangled.me/wp-content/uploads/2013/01/IMG_0474-1024x764.jpeg)](http://newfangled.me/wp-content/uploads/2013/01/IMG_0474.jpeg)
+{% image perception-6.jpg %}
 
 Both of them were friends with the cast and crew in real life, to make them more realistic. I roped in my sister to type on the other end of the chat while I filmed Jason's side. I used an old HP monitor, which isn't pictured above, because it was the closest I could find to the monitors we used at school.
 

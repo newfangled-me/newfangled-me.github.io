@@ -14,12 +14,12 @@ Way back in May (does't that feel like a long time ago(!)) I filmed the series o
 
 Here they are, in order:
 
+{% vimeo 49791007 %}
 
+{% vimeo 49852474 %}
 
+{% vimeo 49852475 %}
 
-
-
-
-
+{% vimeo 49852476 %}
 
 If there's one thing that I wasn't satisfied by it was the sound, and I managed to fix this issue when I filmed the next set ([London #13](http://www.thishappened.org/events/london-13)) with the use of [David Smith](http://preoccupations.org)'s amazing radio microphone. I've just finished editing those talks, and I'll post them here when they go online.

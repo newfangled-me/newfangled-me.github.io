@@ -10,17 +10,11 @@ categories:
 - Reviews
 ---
 
-[![](http://1.bp.blogspot.com/-RN_LnjaEhX4/TejHpmLIl6I/AAAAAAAAAFk/ndarXmrGg2U/s320/windows_8_unofficial_icon-5179303.png)](http://1.bp.blogspot.com/-RN_LnjaEhX4/TejHpmLIl6I/AAAAAAAAAFk/ndarXmrGg2U/s320/windows_8_unofficial_icon-5179303.png)First of all, I will start with my general opinion of where Windows, and Microsoft, seem to be going. Unfortunately, they seem to be deliberately moving away from Apple and OS X... trying to be different in their own 'special' kind of way. I think this was a fundamental mistake. It's not that I do not like Microsoft products, I think that Windows 7 was one of the best operating systems in the world in terms of performance - not necessarily looks - but definitely performance. But I was (not very) recently, after installing [OS X Lion](http://filmandstuff.co.uk/33-lion), struck by how well it just worked. And it does look better than Windows.
+First of all, I will start with my general opinion of where Windows, and Microsoft, seem to be going. Unfortunately, they seem to be deliberately moving away from Apple and OS X... trying to be different in their own 'special' kind of way. I think this was a fundamental mistake. It's not that I do not like Microsoft products, I think that Windows 7 was one of the best operating systems in the world in terms of performance - not necessarily looks - but definitely performance. But I was (not very) recently, after installing [OS X Lion](http://filmandstuff.co.uk/33-lion), struck by how well it just worked. And it does look better than Windows.
 
 After a quick look at the Windows 8 Start Page (pictured below) one thing struck me. Windows Phone. Why would you do that to a desktop operating system? To me it makes no sense whatsoever. If you don't believe me, take a look at the photo below it.
 
-[caption id="" align="aligncenter" width="683" caption="Courtesy of windowsfordevices.com"][![](http://www.windowsfordevices.com/images/stories/windows8_startpage.jpg)](http://www.windowsfordevices.com/images/stories/windows8_startpage.jpg)[/caption]
-
-
-
-[caption id="" align="aligncenter" width="400" caption="What the hell is this? Image courtesy of Samsung"][![](http://www.samsung.com/us/system/consumer/product/sg/hi/91/sghi917zkaatt/ATT_i917-Cetus_front1_400x400.jpg)](http://www.samsung.com/us/system/consumer/product/sg/hi/91/sghi917zkaatt/ATT_i917-Cetus_front1_400x400.jpg)[/caption]
-
-
+{% image windows-phone.jpg %}
 
 After much deliberation on the reason for this bad idea, I have concluded that Windows 8 is intended to be run heavily on tablets. But, as with everything Microsoft makes, there are several problems with this.
 

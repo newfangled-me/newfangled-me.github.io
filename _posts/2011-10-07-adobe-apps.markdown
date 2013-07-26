@@ -11,7 +11,7 @@ categories:
 - Stuff
 ---
 
-[caption id="" align="alignleft" width="468" caption="Wow. Colourful."][![](http://filmandstuff.files.wordpress.com/2011/10/adobe-touch-apps11.jpg)](http://filmandstuff.files.wordpress.com/2011/10/adobe-touch-apps11.jpg)[/caption]
+{% image adobe-touch.jpg %}
 
 So finally Adobe has started developing for mobile devices. Previously, their best attempt was Photoshop Lite or somesuch, but now things have changed.
 

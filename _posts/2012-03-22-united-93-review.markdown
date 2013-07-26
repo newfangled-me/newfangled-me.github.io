@@ -8,7 +8,9 @@ title: United 93 Review
 wordpress_id: 415
 ---
 
-[![](http://newfangled.me/wp-content/uploads/2012/03/united93.jpg)](http://newfangled.me/wp-content/uploads/2012/03/united93.jpg)(A brief note to the readers of this post who aren't my English teacher: We watched United 93 over the course of three English lessons, with a substantial gap in between. This might affect my overall view of the film in some way, but I'll try to minimise that. When we finished watching it, my English teacher asked me to write a review on it, and so here it is.)
+{% image united-93.jpg %}
+
+(A brief note to the readers of this post who aren't my English teacher: We watched United 93 over the course of three English lessons, with a substantial gap in between. This might affect my overall view of the film in some way, but I'll try to minimise that. When we finished watching it, my English teacher asked me to write a review on it, and so here it is.)
 
 I decided to write this as a blog post for two main reasons: the first being it was set as a homework so I have to do it, but second realised that when I started this blog it was intended to mainly film reviews. I'm not entirely sure why I haven't posted many reviews, although my guess is that I usually see films at the cinema at the weekend, and so by the time I've got round to writing them school starts again for a whole week and I don't get the time.
 

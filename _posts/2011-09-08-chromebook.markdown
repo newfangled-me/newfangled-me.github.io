@@ -10,8 +10,6 @@ categories:
 - Stuff
 ---
 
-[caption id="attachment_95" align="alignright" width="250" caption="But where's the close button? Oh wait Chrome is the only program..."][![Chromebook Picture](http://newfangled.me/wp-content/uploads/2011/09/google-chromebook1.jpg)](http://newfangled.me/wp-content/uploads/2011/09/google-chromebook1.jpg)[/caption]
-
 Hello All,
 
 So Google brought out a new operating system, but this time it's for computers, not phones. The Idea behind the Chromebook is that all your documents, photos, videos, preferences and the like are stored on the web, meaning that the actual Chromebook that you own does not contain any of your data.

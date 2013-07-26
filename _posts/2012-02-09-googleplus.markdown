@@ -18,8 +18,6 @@ Perhaps Google's being particularly crafty - their previous "social networks" fa
 
 Hmm... clever. Google Plus being an extension of the Google search engine, rather than just another failed social network. Good thinking.
 
-[caption id="attachment_387" align="aligncenter" width="608" caption="I present to you - Source 1"][![](http://newfangled.me/wp-content/uploads/2012/02/googleplus11.jpg)](http://newfangled.me/wp-content/uploads/2012/02/googleplus11.jpg)[/caption]
-
 That's what people used to think of Google as being - their eyes set on sights that were fundamentally beyond what the company was created to do. But think of this scenario - my friend showed me this link a while ago. He can't remember it, I can't remember it. He remembered that he searched for it, though. So that's OK. So all I have to do is make sure that I communicate with him fairly frequently on Google Plus. That way I can use more vague search terms (or less precise, depending on what floats your boat), and still find what I'm looking for. This is a good idea, as long as you trust an internet Giant like Google with your [browser history](http://arstechnica.com/gadgets/news/2012/02/google-paying-users-to-track-100-of-their-web-usage-via-little-black-box.ars). Which I don't.
 
 Think about that. Just a little theory of mine.
