@@ -1,7 +1,9 @@
 name: Newfangled Me
 markdown: redcarpet
 pygments: true
-permalink: /:year/:month/:day/:title
+permalink: /:title
+exclude: [Gemfile, Gemfile.lock]
+include: [images]
 sass:
     syntax: scss        # scss|sass
     style:  compact  # nested|expanded|compact|compressed
