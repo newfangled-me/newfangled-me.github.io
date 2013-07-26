@@ -1,0 +1,210 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Quite enough Raspberry Pi for One Day &#8211; Newfangled Me</title>
+<meta name="description" content="The incoherent musings of Alex Forey">
+<meta name="keywords" content="">
+<!-- Twitter Card and Open Graph tags -->
+<meta name="twitter:title" content="Quite enough Raspberry Pi for One Day &#8211; Newfangled Me">
+<meta name="twitter:description" content="The incoherent musings of Alex Forey">
+<meta name="twitter:creator" content="@alexforey">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image:src" content="/images/site-logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Quite enough Raspberry Pi for One Day &#8211; Newfangled Me">
+<meta property="og:description" content="The incoherent musings of Alex Forey">
+<meta property="og:url" content="/broken-rpi">
+<meta property="og:site_name" content="Newfangled Me">
+
+<!-- Webmaster Tools verfication -->
+
+
+
+
+<link rel="canonical" href="/broken-rpi">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Newfangled Me Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<!-- Animations -->
+<link rel="stylesheet" href="/assets/css/animate.css">
+<!-- Webfonts -->
+<script src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body id="post" itemscope itemtype="http://schema.org/WebPage">
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<div class="navigation-wrapper">
+	<nav role="navigation" id="site-nav" class="animated fadeInDown" itemscope itemtype="http://schema.org/SiteNavigationElement">
+	    <ul>
+	        
+	        <li><a href="/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a>
+	    </ul>
+	</nav>
+</div><!-- /.navigation-wrapper -->
+
+<header class="masthead">
+	<div class="wrap">
+		<a href="" class="site-logo" rel="home" title="Newfangled Me"><img src="/images/site-logo.png" width="200" height="200" class="animated fadeInUp"></a>
+		<h1 class="site-title animated fadeIn"><a href="">Newfangled Me</a></h1>
+		<h2 class="site-description animated fadeIn">The incoherent musings of Alex Forey</h2>
+	</div>
+</header><!-- /.masthead -->
+
+<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+  <article class="hentry" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogpost">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags"></span>
+        <h1 class="entry-title" itemprop="headline">Quite enough Raspberry Pi for One Day</h1>
+      </header>
+      <footer class="entry-meta">
+        <img src="http://gravatar.com/avatar/c757293cea100034c52c39bf7603918a?s=150" alt="Alex Forey photo" class="author-photo">
+        <span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">By <span itemprop="name" class="fn"><a href="/about" title="About Alex Forey" itemprop="url">Alex Forey</a></span></span>
+        <span class="entry-date date published"><time datetime="2012-11-04T13:14:21+00:00" itemprop="datePublished"><i class="icon-calendar-empty"></i> November 04, 2012</time></span>
+        
+        <span class="entry-comments"><i class="icon-comment-alt"></i> <a href="#disqus_thread">Comment</a></span>
+        <span><a href="/broken-rpi" rel="bookmark" title="Quite enough Raspberry Pi for One Day"><i class="icon-link"></i> Permalink</a></span>
+      </footer>
+      <div class="entry-content">
+        <p>As you may know I started a website that runs from two Raspberry Pis. Today, it is my sad duty to tell you that it now only runs from one Raspberry Pi.</p>
+
+<p>Why? Because while shifting around some ethernet cables under my desk, I accidentally pulled one that was attached to Hercule, my main Raspberry Pi with the entirety of Markpond on it. It hit against the inside of my Lego case, and snapped the SD card slot and splintered my SD card. Both of these, it is fair to say, pissed me off a great deal.</p>
+
+<p>In an effort to keep Markpond up and running, I quickly took the slightly broken SD card and taped it into Sherlock, which luckily could boot from it successfully. I then (very) carefully put it in an iMac and made a <code>dd</code> backup of it, which took 4 hours, because it was a 16GB card. Finally I put it back into Sherlock, booted it, and changed the DCHP reservations on my router so that what was Sherlock is now Hercule.</p>
+
+<p>So now I have one functioning Raspberry Pi and one broken one.</p>
+
+<p>I&#39;ve tried basically everything to try to get the (now) Sherlock to boot (superglue, tape, the lot), but all I get is that one red light. But the other problem is that I do remember that this one used to have problems booting even when it did have a fully functioning SD card reader.</p>
+
+<p>And that&#39;s a problem with the Raspberry Pi itself. There <em>is no standard</em>, or there wasn&#39;t any when I bought them. So I don&#39;t know if it&#39;s the power supply that isn&#39;t supplying the needed 5v and 700mA, or that the card is physically broken, or the SD reader that&#39;s physically broken, or the OS on the card that it can&#39;t boot from.</p>
+
+<p>And much of the help online is speculation - &quot;I&#39;ve never had this problem but if I did this is what I&#39;d try&quot;. It&#39;s all very well giving advice, but not very helpful if you have that problem. Stackexchange launched a <a href="http://raspberrypi.stackexchange.com/">Raspberry Pi</a> site to try and combat this problem, but questions such as <a href="http://raspberrypi.stackexchange.com/questions/3476/how-to-return-a-faulty-device">these</a> come along far too often.</p>
+
+<p>But it&#39;s more than just my personal problems with this - everyone is going to have problems like these sooner or later. The Guardian <a href="http://www.guardian.co.uk/technology/2012/nov/04/raspberry-pi-programming-jam-cern?CMP=twt_gu">reported</a> that:</p>
+
+<blockquote>
+<p>People are enthusiatic about it mostly because they hope its price, size, software and sturdiness (you can shove it in your pocket without damaging it, supposedly) will make it appeal to kids, and thus lead children into computer programming.</p>
+</blockquote>
+
+<p>But it&#39;s simply <strong>not</strong> robust enough for schools yet. If half a millimetre of broken plastic can render an entire unit worthless, how is it going to fare in the hands of over-enthusiastic 8-year-olds, or under-enthusiastic teenagers?</p>
+
+<p>And another thing that people (adults, in particular) don&#39;t seem to understand:</p>
+
+<div class='embed tweet'><blockquote class="twitter-tweet"><p>Why does no-one understand that you can’t teach kids to code? If they’re interested, they’re interested, but if they’re not there’s no point</p>&mdash; Alex Forey (@alexforey) <a href="https://twitter.com/alexforey/statuses/265052314665107456">November 4, 2012</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+<p>And so, you can&#39;t simply &quot;lead children into computer programming&quot;, like you can&#39;t force someone to do a sport they don&#39;t like. They&#39;ll build up resentment that they have to do it, and because it doesn&#39;t appeal to them, they won&#39;t give it a chance and they&#39;ll hate it.</p>
+
+<p>And one more intrinsic problem with the Raspberry Pi - it&#39;s moving faster than Apple products. And by that I mean every week or so there&#39;s a new OS update, and every few months a new piece of hardware comes out.</p>
+
+<div class='embed tweet'><blockquote class="twitter-tweet"><p>With new boards and new OS versions, it&#39;s a job to keep up with how to do things with a Raspberry Pi. + most net answers are just reckoning.</p>&mdash; Chris Heathcote (@antimega) <a href="https://twitter.com/antimega/statuses/247978032625750016">September 18, 2012</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+<p>There <em>is no documentation, there is no standard </em>because updates come out faster than people can keep up with them, faster than people can write documentation for them.</p>
+
+<p>Please, stop <a href="http://www.raspberrypi.org/archives/2180">adding more RAM</a>, and, if you must make a new version of the board, design it better. Have you ever tried to hold something square with sharp corners and wires sticking out of all four sides of it, let alone put it on a desk without having cables pulling it off the desk? Yes, it would add to the expense, but why can&#39;t you just move all the cables <em>to one side?</em> Why can&#39;t to design it so the SD card doesn&#39;t stick out the back of it, waiting to be dropped on or broken?</p>
+
+<p>And, I guess the last thing is, the GUI sucks. More than sucks, it&#39;s uninviting, slow, buggy and just generally awful. And that&#39;s why I only run my Raspberry Pis as servers. Because, if you can get them to boot, they&#39;re robust and awesome as being servers.</p>
+
+<p>But, in being good as servers, and bad at GUI, you&#39;ve defeated the point of the Raspberry Pi as being a good tool for education and a good computer to learn to code on, because you either can&#39;t afford or don&#39;t want to spend the money on a laptop/desktop.</p>
+
+<p>Because, in order to use the Raspberry Pi as a server, you have to have <em>clients</em>. Clients to do the code writing on, clients to connect to the web server, clients to connect to the media server. As you may or may not know, I wrote the code for Markpond on my laptop, and then used SFTP to shuttle it onto the Raspberry Pis, where it could be executed.</p>
+
+<p>You couldn&#39;t do that if you didn&#39;t have a laptop/desktop/other computer which you had access to. And that other computer, no matter how old or broken, will still be a better coding experience than coding on a Raspberry Pi.</p>
+
+<p>In conclusion, I would much, much rather pay £10 extra for a well-designed and robust board, with a metal SD slot and nicely aligned ports, than have a tiny piece of fragile plastic that renders the entire unit useless if broken.</p>
+
+<p>What do I want? A standard. Because there is so much untested. That&#39;s not to say that the Raspberry Pi doesn&#39;t have a great community surrounding it, it does - but it has an inexperienced community. It&#39;s almost impossible to be an expert in the Raspberry Pi. I want a definitive list of SD cards that <em>do </em>work, a definitive list of power supplies that <em>do </em>work, a well-built board and well-designed board, but most of all, a board with up-to-date, easy to understand for people less experienced than me, and well-written documentation. Something, that at the moment, the Raspberry Pi is sadly lacking.</p>
+
+        <div id="disqus_thread"></div><!-- /#disqus_thread -->
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="/this-happened-1" class="btn" title="This Happened #12 Videos Online">Previous article</a>
+      
+      
+        <a href="/gifs" class="btn" title="GIFs">Next article</a>
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2013 Alex Forey. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/">So Simple Theme</a>.</span>
+<div class="social-icons">
+	<a href="http://twitter.com/alexforey" title="Alex Forey on Twitter" target="_blank"><i class="icon-twitter icon-2x"></i></a>
+	
+	
+	
+	<a href="http://http://stackexchange.com/users/932591/alfo?tab=accounts" title="Alex Forey on StackExchange" target="_blank"><i class="icon-stackexchange icon-2x"></i></a>
+	<a href="http://instagram.com/alexforey" title="Alex Forey on Instagram" target="_blank"><i class="icon-instagram icon-2x"></i></a>
+	<a href="http://www.flickr.com/photos/alexforey" title="Alex Forey on Flickr" target="_blank"><i class="icon-flickr icon-2x"></i></a>
+	<a href="http://github.com/alfo" title="Alex Forey on Github" target="_blank"><i class="icon-github icon-2x"></i></a>
+	
+</div><!-- /.social-icons -->
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/main.min.js"></script>
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'newfangledme'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>	        
+
+</body>
+</html>

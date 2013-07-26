@@ -1,0 +1,254 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Making Books from Pinboard or Markpond Bookmarks &#8211; Newfangled Me</title>
+<meta name="description" content="The incoherent musings of Alex Forey">
+<meta name="keywords" content="">
+<!-- Twitter Card and Open Graph tags -->
+<meta name="twitter:title" content="Making Books from Pinboard or Markpond Bookmarks &#8211; Newfangled Me">
+<meta name="twitter:description" content="The incoherent musings of Alex Forey">
+<meta name="twitter:creator" content="@alexforey">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image:src" content="/images/site-logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Making Books from Pinboard or Markpond Bookmarks &#8211; Newfangled Me">
+<meta property="og:description" content="The incoherent musings of Alex Forey">
+<meta property="og:url" content="/bookmarks-to-books">
+<meta property="og:site_name" content="Newfangled Me">
+
+<!-- Webmaster Tools verfication -->
+
+
+
+
+<link rel="canonical" href="/bookmarks-to-books">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Newfangled Me Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<!-- Animations -->
+<link rel="stylesheet" href="/assets/css/animate.css">
+<!-- Webfonts -->
+<script src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body id="post" itemscope itemtype="http://schema.org/WebPage">
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<div class="navigation-wrapper">
+	<nav role="navigation" id="site-nav" class="animated fadeInDown" itemscope itemtype="http://schema.org/SiteNavigationElement">
+	    <ul>
+	        
+	        <li><a href="/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a>
+	    </ul>
+	</nav>
+</div><!-- /.navigation-wrapper -->
+
+<header class="masthead">
+	<div class="wrap">
+		<a href="" class="site-logo" rel="home" title="Newfangled Me"><img src="/images/site-logo.png" width="200" height="200" class="animated fadeInUp"></a>
+		<h1 class="site-title animated fadeIn"><a href="">Newfangled Me</a></h1>
+		<h2 class="site-description animated fadeIn">The incoherent musings of Alex Forey</h2>
+	</div>
+</header><!-- /.masthead -->
+
+<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+  <article class="hentry" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogpost">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags"></span>
+        <h1 class="entry-title" itemprop="headline">Making Books from Pinboard or Markpond Bookmarks</h1>
+      </header>
+      <footer class="entry-meta">
+        <img src="http://gravatar.com/avatar/c757293cea100034c52c39bf7603918a?s=150" alt="Alex Forey photo" class="author-photo">
+        <span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">By <span itemprop="name" class="fn"><a href="/about" title="About Alex Forey" itemprop="url">Alex Forey</a></span></span>
+        <span class="entry-date date published"><time datetime="2012-12-30T01:08:09+00:00" itemprop="datePublished"><i class="icon-calendar-empty"></i> December 30, 2012</time></span>
+        
+        <span class="entry-comments"><i class="icon-comment-alt"></i> <a href="#disqus_thread">Comment</a></span>
+        <span><a href="/bookmarks-to-books" rel="bookmark" title="Making Books from Pinboard or Markpond Bookmarks"><i class="icon-link"></i> Permalink</a></span>
+      </footer>
+      <div class="entry-content">
+        <p>After learning Ruby, I recently re-discovered Tom Armitage&#39;s <a href="http://github.com/infovore/pinboard-bookmachine">pinboard-bookmachine</a>. This is a how-to on making books from your bookmarks, separated by year. I&#39;ve always liked physical things - I used to love and still do my LEGO and K&#39;NEX collections, and there&#39;s nothing better than being able to touch a thing and say &quot;I made that&quot;.</p>
+
+<p>And one of the problems of only reading online content is that you can&#39;t look at a physical bookshelf and say &quot;look at all the things I&#39;ve read&quot;. Well, until around 10 months ago you couldn&#39;t.</p>
+
+<p>However, 10 months ago when I found out about this, I hadn&#39;t the faintest idea how I would get this working. I&#39;d never even installed Ruby before. So I&#39;m trying to write the guide that I needed 10 months ago - here it is.</p>
+
+<p>I&#39;m going to assume you&#39;ve already got Ruby up and running, and if not, follow a decent guide for <a href="http://ruby.about.com/od/beginningruby/ss/Installing-A-Ruby-Development-Environment-On-Windows.htm">Windows</a>, <a href="http://ruby.about.com/od/rubyversionmanager/ss/Installing-Ruby-On-Snow-Leopard-With-Rvm.htm">OS X</a>, or <a href="http://ruby.about.com/od/rubyversionmanager/ss/installrvmlinux.htm">Linux</a> and you should be set.</p>
+
+<h2>Download</h2>
+
+<p>You&#39;re going to need to download the code from the GitHub Repo somehow - whether you just download a ZIP of the repo, or you fork and clone it is up to you.</p>
+
+<p>Either use the original <a href="https://github.com/infovore/pinboard-bookmachine">pinboard-bookmachine</a> by Tom, or <a href="https://github.com/alfo/markpond-bookmachine">markpond-bookmachine</a> by me. My version will still work with Pinboard, but it includes some <a href="https://github.com/alfo/markpond-bookmachine/commit/59cdb99718bafb64a798c6ffd8546e87106b6651">Markpond-specific changes</a>, like <a href="https://github.com/alfo/markpond-bookmachine/blob/59cdb99718bafb64a798c6ffd8546e87106b6651/models.rb#L40-44">changing QR codes</a> to be the archived URL instead of the normal URL if the bookmark has been archived, and <a href="https://github.com/alfo/markpond-bookmachine/blob/master/lib/tasks/bookmachine.rake#L-34">processing</a> and <a href="https://github.com/alfo/markpond-bookmachine/blob/master/views/year.haml#L-49">displaying</a> the via field on Markpond bookmarks. There&#39;s also <a href="https://github.com/alfo/markpond-bookmachine/commit/ea8df0e15d1d63a45a26413667e2bcd563916601">one crucial fix</a> that decodes HTML entities properly after they are encoded for the XML export, which stops you from getting random &rsquo; strings everywhere.</p>
+
+<p>Choose the one that applies the most to you. Chances are it&#39;s pinboard-bookmachine.</p>
+
+<h2>Install Dependencies</h2>
+
+<p>If you don&#39;t have bundler, then go ahead and <a href="http://gembundler.com/">install it</a>. If you&#39;re not sure if you do or not, chances are you don&#39;t, so install it anyway.</p>
+
+<p>Open up a terminal window, and navigate to the root of your project. For me, it is <code>~/Code/pinboard-bookmachine</code>.</p>
+
+<p>Then, run:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">bundle install
+</code></pre></div>
+<p>If you have any errors, Google them, but everything should go fine.</p>
+
+<h2>Create Database</h2>
+
+<p>Using the same terminal window, run</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">rake db:migrate
+</code></pre></div>
+<p>And you should notice that a file called development.db appears in your folder.</p>
+
+<h2>Fill Database</h2>
+
+<p>Now you need to go and get your bookmarks. If you&#39;re using Markpond, log in and go to</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">https://markpond.com/core/actions/export?format=pinboard
+</code></pre></div>
+<p>And if you&#39;re using Pinboard, go to</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">https://api.pinboard.in/v1/posts/all
+</code></pre></div>
+<p>And copy the contents. If you&#39;re doing this in a browser, you&#39;re going to want to right-click and view source to make sure you get only the XML. Copy all of it to your clipboard.</p>
+
+<p>Then, make a folder called <code>data</code>, and in that, make a file called <code>pinboard_all.xml</code>. Paste your bookmarks into that file.</p>
+
+<p>In the same terminal window that you used earlier, simply run</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">rake
+</code></pre></div>
+<p>And you&#39;ll see a load of text flying by as your bookmarks are imported into the database.</p>
+
+<h2>Preview your book</h2>
+
+<p>In the terminal window, run:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">rackup
+</code></pre></div>
+<p>Then go to <code>http://localhost:9292</code> and click on the years to see what will be printed. Take note of the first year listed.</p>
+
+<h2>Customise it</h2>
+
+<p>You&#39;ll have noticed that the names and details are still Tom Armitage&#39;s, so you&#39;ll want to change them. To do so, go into <code>views/year.haml</code> and edit the details.</p>
+
+<p>To change the volumes number to be correct, go into <code>models.rb</code> and change 2004 on line 5 to the first year of your bookmarks.</p>
+
+<h2>Make the PDFs</h2>
+
+<p>If you&#39;re satisfied with everything, go back into terminal and run</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">rake publish:all
+</code></pre></div>
+<p>to publish all of the years, or</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">rake publish:year YEAR=1999
+</code></pre></div>
+<p>to publish just your bookmarks from 1999 (for example).</p>
+
+<h2>Make the Book</h2>
+
+<p>I&#39;m using Lulu, like Tom did, because I can&#39;t find anywhere else online that has an interface that I understand. You&#39;ll have to do the next bit for each book, because I can&#39;t find a way to batch-create them. All you need to do is make an account, then go <a href="http://www.lulu.com/publish/books/?cid=nav_bks">here</a> and click &#39;Start Publishing&#39;.</p>
+
+<p>From there, you&#39;ll want to select &#39;Make a Paperback Book&#39;, give it a working title, and select &#39;Standard&#39; paper and &#39;U.S. Trade&#39; size (6&quot; x 9&quot;).</p>
+
+<p>Then upload the first PDF that you made (note the progress bar doesn&#39;t work - don&#39;t worry, your book is being uploaded. The page will refresh a couple of times, and click next until you get to the cover design page.</p>
+
+<p>You can either use their wizard, but I&#39;d prefer to make my own. If you do as well, click the &#39;Advanced One-Piece Cover&#39; above the Flash widget. Then, if you have Photoshop, <a href="http://newfangled.me/wp-content/uploads/2012/12/cover.psd">download this template</a> and edit it according to the dimensions they tell you, and change the text, otherwise you can make your own.</p>
+
+<p>Save that Photoshop document out as a <code>.png</code> and upload it.</p>
+
+<p>I only started collecting bookmarks in August 2012, so my book is only 203 pages long. In the format I&#39;ve mentioned above, this edition will cost me £4.60 + shipping.</p>
+
+<p>This, on balance, seems extremely reasonable, especially with a savvy use of coupon codes.</p>
+
+<p><img src="/images/markpond-book.jpg "></p>
+
+<p>So there you go. Hopefully a guide that even the programming-illiterate can follow. As always, if you have any questions feel free to post them in the comments.</p>
+
+        <div id="disqus_thread"></div><!-- /#disqus_thread -->
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="/installing-mamp-and-rails-on-a-mac" class="btn" title="Installing MAMP and Rails on a Mac">Previous article</a>
+      
+      
+        <a href="/perception" class="btn" title="Perception - Short Film">Next article</a>
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2013 Alex Forey. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/">So Simple Theme</a>.</span>
+<div class="social-icons">
+	<a href="http://twitter.com/alexforey" title="Alex Forey on Twitter" target="_blank"><i class="icon-twitter icon-2x"></i></a>
+	
+	
+	
+	<a href="http://http://stackexchange.com/users/932591/alfo?tab=accounts" title="Alex Forey on StackExchange" target="_blank"><i class="icon-stackexchange icon-2x"></i></a>
+	<a href="http://instagram.com/alexforey" title="Alex Forey on Instagram" target="_blank"><i class="icon-instagram icon-2x"></i></a>
+	<a href="http://www.flickr.com/photos/alexforey" title="Alex Forey on Flickr" target="_blank"><i class="icon-flickr icon-2x"></i></a>
+	<a href="http://github.com/alfo" title="Alex Forey on Github" target="_blank"><i class="icon-github icon-2x"></i></a>
+	
+</div><!-- /.social-icons -->
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/main.min.js"></script>
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'newfangledme'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>	        
+
+</body>
+</html>

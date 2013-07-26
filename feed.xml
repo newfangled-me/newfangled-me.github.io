@@ -1,21 +1,514 @@
----
-layout: none
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>{{ site.name }}</title>
-		<description>{{ site.description }}</description>
-		<link>{{ site.url }}</link>
-		<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-		{% for post in site.posts limit:10 %}
+		<title>Newfangled Me</title>
+		<description>The incoherent musings of Alex Forey</description>
+		<link></link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		
 			<item>
-				<title>{{ post.title }}</title>
-				<description>{{ post.content | xml_escape }}</description>
-				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-				<link>{{ site.url }}{{ post.url }}</link>
-				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+				<title>This Happened October 2012 Talks</title>
+				<description>&lt;p&gt;Here are the talks that I filmed for &lt;a href=&quot;http://www.thishappened.org&quot;&gt;This Happened&lt;/a&gt; in &lt;a href=&quot;http://www.thishappened.org/events/london-13&quot;&gt;October&lt;/a&gt;. Posting late as they&amp;#39;ve only just been published. All of them are of course well worth a watch.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://player.vimeo.com/video/51904714 &quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://vimeo.com/51904714&quot;&gt;James Weiner - Ferment&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/thlondon&quot;&gt;This Happened - London&lt;/a&gt; on &lt;a href=&quot;http://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://player.vimeo.com/video/51905612 &quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://vimeo.com/51905612&quot;&gt;Rachel Coldicutt - Happenstance&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/thlondon&quot;&gt;This Happened - London&lt;/a&gt; on &lt;a href=&quot;http://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://player.vimeo.com/video/51906302 &quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://vimeo.com/51906302&quot;&gt;Memo Akten - Quadrocopter Show&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/thlondon&quot;&gt;This Happened - London&lt;/a&gt; on &lt;a href=&quot;http://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<pubDate>Tue, 04 Jun 2013 17:18:25 +0100</pubDate>
+				<link>/this-happened-october-12</link>
+				<guid isPermaLink="true">/this-happened-october-12</guid>
 			</item>
-		{% endfor %}
+		
+			<item>
+				<title>The First Music Video from Space</title>
+				<description>&lt;p&gt;If I were David Bowie, I&amp;#39;d be pretty amazed.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/KaOC9danxNo?color=white&amp;theme=light&quot; frameborder=&quot;0&quot;allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+				<pubDate>Mon, 13 May 2013 17:07:44 +0100</pubDate>
+				<link>/space-music-video</link>
+				<guid isPermaLink="true">/space-music-video</guid>
+			</item>
+		
+			<item>
+				<title>Markpond: Why</title>
+				<description>&lt;p&gt;As some of you may know, I made &lt;a href=&quot;https://markpond.com&quot;&gt;Markpond&lt;/a&gt;, a bookmarking website. I&amp;#39;m not going to lie, it&amp;#39;s similar to Pinboard. But I made Markpond as a challenge for myself.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m 15. I&amp;#39;ve &amp;quot;got my whole life ahead of me&amp;quot;. So I figured why not make something that I use on a daily basis. That way, if something irritates me, I&amp;#39;ll be motivated to fix it. And if it fails, it doesn&amp;#39;t matter.&lt;/p&gt;
+
+&lt;p&gt;Markpond is not a startup. I&amp;#39;m not intending to make &lt;em&gt;that much &lt;/em&gt;money from it. I made it in the spirit of hacking - because I was motivated to make something that worked, and be able to point to it and say &amp;quot;I made that&amp;quot;.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s not a free service because I spent &lt;em&gt;a lot of &lt;/em&gt;time on it. The basic account if £5/year, and the archival account is £10/year. That&amp;#39;s not &lt;em&gt;that much&lt;/em&gt;. It&amp;#39;s actually quite cheap. And best of all - you get a three-day free trial (in that you&amp;#39;re only charged on the third day of use), and so if you want to cancel your account before then, you can do so without incurring any loss.&lt;/p&gt;
+
+&lt;p&gt;Well, you&amp;#39;re probably going to ask what Markpond does differently from all the services out there at the moment. Well, the answer is - not &lt;em&gt;that &lt;/em&gt;much. But it might do in the future. Right now, the only major difference is the &lt;a href=&quot;http://remote.bergcloud.com/publications/11&quot;&gt;Little Printer publication&lt;/a&gt;, which is quite cool.&lt;/p&gt;
+
+&lt;p&gt;Despite being a hacker, and a geek, I do like looking at pretty things. And if I&amp;#39;m going to use a site every single day, I&amp;#39;d like it to look nice. And I think I&amp;#39;ve done that without having an impact of the speed and overall responsiveness of the site. The front page of Markpond gets 89% from Google PageSpeed, compared to 84% for Pinboard and 70% for Kippt.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m not saying that PageSpeed is the only measure of how fast a site is, but Markpond&amp;#39;s good score is also a direct result of gzip compression coupled with Rails&amp;#39;s asset pipeline and using SVGs instead of normal images.&lt;/p&gt;
+
+&lt;p&gt;The speed of Markpond isn&amp;#39;t just limited to the front-end though. The average server response time for a full profile page is around about 100ms, which is pretty damn good considering Markpond is run from a single Mac Mini.&lt;/p&gt;
+
+&lt;p&gt;So - what am I saying here? Well, mostly that I don&amp;#39;t see why you can&amp;#39;t have a site that looks good while simultaneously being on average only 30ms slower than the current status quo. Some people will like the fact that Pinboard has a geeky interface with no images and the default font. But personally, I don&amp;#39;t - not for a site that I visit every day.&lt;/p&gt;
+
+&lt;p&gt;As so that, coupled with the project being a personal challenge, inspired me to create Markpond. I&amp;#39;m not looking for huge success - Markpond isn&amp;#39;t my full-time job - I&amp;#39;m still in school doing my GCSEs. But if there are similarly-minded people out there, I can&amp;#39;t see any harm in providing a service for them. So I have.&lt;/p&gt;
+</description>
+				<pubDate>Wed, 24 Apr 2013 22:16:46 +0100</pubDate>
+				<link>/markpond-why</link>
+				<guid isPermaLink="true">/markpond-why</guid>
+			</item>
+		
+			<item>
+				<title>little-commits</title>
+				<description>&lt;p&gt;While rewriting Markpond, I thought it would be pretty cool if there was some way to track my progress through my roadmap of post-it notes. And so I took inspiration from one of the projects at the &lt;a href=&quot;http://bergcloud.com/2013/03/05/berg-cloud-hack-day-number-two/&quot;&gt;Little Printer Hack Day 2&lt;/a&gt;, &lt;a href=&quot;http://www.flickr.com/photos/alicebartlett/8528501770/in/pool-littleprinter&quot;&gt;GitHub Yesterday&lt;/a&gt; by &lt;a href=&quot;https://github.com/mloughran&quot;&gt;Martyn Loughran&lt;/a&gt; and I looked into how I could make something using the Little Printer&amp;#39;s direct print API.&lt;/p&gt;
+
+&lt;p&gt;And I found out that GitHub has a thing called &lt;a href=&quot;https://help.github.com/articles/post-receive-hooks&quot;&gt;WebHook URLs&lt;/a&gt;, which posts a dump of data every time someone pushes to a repository. So I made a little Sinatra app, reusing a bunch of code from &lt;a href=&quot;https://github.com/alfo/littledropper&quot;&gt;something I did&lt;/a&gt; on the hack day.&lt;/p&gt;
+
+&lt;p&gt;In short, it receives a bunch of info from GitHub, formats it nicely, and then sends off another post request to BERGCloud to get it printed.&lt;/p&gt;
+
+&lt;p&gt;Once I had got this working locally, I pushed it up to Heroku and set it up as a service so that anybody can use it. You can find instructions &lt;a href=&quot;http://little-commits.herokuapp.com&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And so, every time I finish a little bit of the new Markpond, I get a printout and put it up on my roadmap.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/little-commits.jpg &quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;You can view the source of &lt;a href=&quot;https://github.com/alfo/little-commits&quot;&gt;little-commits&lt;/a&gt; on GitHub. It&amp;#39;s really simple, but I think it&amp;#39;s quite useful.&lt;/p&gt;
+</description>
+				<pubDate>Wed, 03 Apr 2013 23:02:37 +0100</pubDate>
+				<link>/little-commits</link>
+				<guid isPermaLink="true">/little-commits</guid>
+			</item>
+		
+			<item>
+				<title>PayPal isn't doing itself any favours here</title>
+				<description>&lt;p&gt;Right. Let&amp;#39;s start out by going to their homepage.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/paypal-1.png &quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Looking nice enough. Finally, maybe they&amp;#39;ve fixed the awful site design from 2003 they had before. Oh wait. Let&amp;#39;s try logging in.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/paypal-2.png &quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Nope, I was wrong. It may look nice on the outside, but on the inside it&amp;#39;s exactly the same as before.&lt;/p&gt;
+
+&lt;p&gt;How about the developer site?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/paypal-3.png &quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Ooh look. Isn&amp;#39;t that shiny. It says beta on it so it must be better. Let&amp;#39;s try signing in.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/paypal-4.png &quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Well that worked well enough. I even managed to create some Sandbox accounts after several bad request 401 failed attempts. Let&amp;#39;s click on the Sandbox site link.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/paypal-5.png &quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;NOPE! It&amp;#39;s gone. Completely. The UK one sometimes redirects to https://www.sandbox.paypal.co.uk, a domain that doesn&amp;#39;t exist on any DNS tables. Other times, it&amp;#39;s just 404ing. I even tried using a US proxy, and trying again to see if the US one was broken as well. Guess what? It was broken as well.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m at the point of redesigning Markpond where I&amp;#39;m choosing a payment platform. If I possibly could, I would be running in the opposite direction right now. PayPal, a huge multinational company, has broken its developer site completely. And it looks like it&amp;#39;s been like that for the past few days. No service announcement, no public apology, just silently broken.&lt;/p&gt;
+
+&lt;p&gt;If I could, I would use &lt;a href=&quot;https://stripe.com&quot;&gt;Stripe&lt;/a&gt;, which looks amazing. But, it&amp;#39;s US and Canada only for the foreseeable future. There&amp;#39;s also &lt;a href=&quot;https://braintreepayments.com&quot;&gt;Braintree&lt;/a&gt;, which has a nice functioning sandbox, but as far as I can tell requires a social security number to get your payment processing online, which of course I don&amp;#39;t have because I&amp;#39;m not a US citizen.&lt;/p&gt;
+
+&lt;p&gt;So it&amp;#39;s back to PayPal again. And for now, all the code I&amp;#39;m writing can&amp;#39;t be tested until I either put it in production and hope there aren&amp;#39;t any errors, or until I set up a second actual PayPal account, send some money over to it, and then try buying something back with it through the site. Great.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 10 Mar 2013 15:50:59 +0000</pubDate>
+				<link>/paypal-isnt-doing-itself-any-favours-here</link>
+				<guid isPermaLink="true">/paypal-isnt-doing-itself-any-favours-here</guid>
+			</item>
+		
+			<item>
+				<title>Perception - Short Film</title>
+				<description>&lt;p&gt;I have finally, finally, got round to finishing an old project that started way back in May 2012. It&amp;#39;s my latest short film and I hope you enjoy it.&lt;/p&gt;
+
+&lt;p&gt;This is going to be quite a long post, and before I show you the film (provided you haven&amp;#39;t already seen it), I thought it would be worth explaining a few things. There are also some things that I&amp;#39;m going to tell you &lt;em&gt;after&lt;/em&gt; you&amp;#39;ve seen the film, to avoid spoiling things.&lt;/p&gt;
+
+&lt;p&gt;So way back in May I&amp;#39;d just finished helping some older friends from my school (around 18, at the time I think). It was a one-day, 15-16-hour shoot all over west and slightly further west London, using a Sony FS100 and professional audio equipment owned by the school. I was 14 at the time and had not had that much fun making a film in ages.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, they were about to leave our secondary school, St. Paul&amp;#39;s, to go off to college or wherever, and I was in my first year. There is nearly nobody in the 3 years in between us who is interested in filmmaking, and nobody actively doing anything about it.&lt;/p&gt;
+
+&lt;p&gt;So, it looked like that was going to be the most of filmmaking fun I would have for quite a while, until I was in the top years and was trusted with the best camera out of the school grounds.&lt;/p&gt;
+
+&lt;p&gt;And so I set about rectifying the situation. Because I was the only one of my friends who was actively interested in making a film, it looked like I was going to have to write, direct and shoot it, and cast some of my friends appropriately and get some on the crew.&lt;/p&gt;
+
+&lt;p&gt;I finished the first draft of Perception on the 2nd May. Over the next two weeks, I asked friends and family to look over it, do iron out the details and get it polished. I&amp;#39;m not going to pretend that I&amp;#39;m &lt;em&gt;great &lt;/em&gt;at writing scripts, especially under time pressure as I knew we would have to have shot the whole film by the end of June. And what&amp;#39;s more - the film would have a £0 budget.&lt;/p&gt;
+
+&lt;p&gt;So what came out of it was not a great script, but something to keep us going. Perhaps at this stage of my career, the goal is not to make a great film, but to learn a lot along the way and make mistakes that you&amp;#39;ll know not to make again.&lt;/p&gt;
+
+&lt;p&gt;And maybe, along with the fun that we had, that was what happened with this production. It&amp;#39;s not as good as I would have liked it to be, but we have to live realistically, and so I think it best to stop trying to improve this project more that is really possible, and to move onto the next, with fresh ideas and new perspectives.&lt;/p&gt;
+
+&lt;p&gt;And so, without further a-do, &lt;a href=&quot;http://vimeo.com/cinematicmob/perception&quot;&gt;here is the completed short&lt;/a&gt;. Please go and watch in Vimeo, and if you want to support me and my friends in our future work, consider &amp;#39;tipping&amp;#39; this film with the amount you think appropriate. The money will go towards new gear to help us improve and learn and make more awesome things.&lt;/p&gt;
+
+&lt;p&gt;Now that you&amp;#39;ve seen it, you might want to know a little more about how this was made.&lt;/p&gt;
+
+&lt;p&gt;After I&amp;#39;d got the script completed, I asked my good friend &lt;a href=&quot;http://direthoughts.com&quot;&gt;Henry Dyer&lt;/a&gt; to help me produce the film. We set about creating a locations list: we were going to need to shoot in school, in a cinema, and on the street both during the day and after dark. However, the catch was that we&amp;#39;d have to have access to electricity in the place we&amp;#39;d shoot the final fight scene.&lt;/p&gt;
+
+&lt;p&gt;First of all, we emailed the local cinemas to see whether or not they&amp;#39;d consider allowing us to shoot in their lobby for free. I&amp;#39;d deliberately left out any scenes inside the cinema screen itself, as it would be much harder to get access and very unlikely without having to pay anything. Initially, we contacted &lt;a href=&quot;http://www.cineworld.co.uk/cinemas/30&quot;&gt;Cineworld Hammersmith&lt;/a&gt; because it was the cinema that looked the most like what I had in my head:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/cineworld.jpg &quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;But they didn&amp;#39;t respond in the ~6 weeks we had before we needed to be actually needed to be shooting. Around a week or so after we asked them, we also contacted the good people at the &lt;a href=&quot;http://www.electriccinema.co.uk/&quot;&gt;Electric Cinema&lt;/a&gt;, who were willing to let us borrow their lobby for around two hours for free. Unfortunately, when Henry went round there to see how we could film, it became apparent that it would be impossible for us to shoot the shots we had planned and that were critical to the plot. Also, around half an hour after Henry left, &lt;a href=&quot;http://www.telegraph.co.uk/culture/film/9321859/200-evacuated-after-blaze-at-historic-Notting-Hill-cinema.html&quot;&gt;it caught fire&lt;/a&gt;. So that was a no-go.&lt;/p&gt;
+
+&lt;p&gt;Henry had one last cinema up his sleeve, and that was the &lt;a href=&quot;http://www.curzoncinemas.com/cinemas/richmond/&quot;&gt;Curzon Cinema&lt;/a&gt; in Richmond. They were great and said that we could have the lobby for as long as we wanted as long as it was during opening hours and that we weren&amp;#39;t disturbing any performances. So we arranged to shoot there on the morning of Sunday 1st July.&lt;/p&gt;
+
+&lt;p&gt;We decided to do the shooting of the fight scene outside my house, as it would mean that we could get access to food, drink and most importantly power for the lights without buying a generator and catering services, and the other &amp;quot;walking scenes&amp;quot; as we referred to them, could be shot on the high street near my house.&lt;/p&gt;
+
+&lt;p&gt;Getting permission to film in school is always difficult, mainly because of excessive health and safety regulations, however it was made possible and a lot easier thanks to &lt;a href=&quot;http://preoccupations.org&quot;&gt;David Smith&lt;/a&gt; and Oliver Rokison, who helped us out a lot and got things organised, and supervised us after school.&lt;/p&gt;
+
+&lt;p&gt;Then we had to decide what gear to use. Initially, we had thought that we might be able to shoot using the school&amp;#39;s FS100, but we would need to be supervised at all times to do that, and it turned out to be impractical. So we shot it on my 600D.&lt;/p&gt;
+
+&lt;p&gt;I had always been interested in Steadicam, especially having been the operator on the previous film I mentioned above, and I decided it would be the best way to film the walking scenes. Luckily, our school&amp;#39;s Art department had a Steadicam Merlin that we could borrow and use out of school, so we went for that. We borrowed a &lt;a href=&quot;http://www.manfrotto.co.uk/video-kit-with-501hdv-head-525mvb-tripod-520ball-and-bag&quot;&gt;heavy duty tripod&lt;/a&gt; for the static shots, as it was by far the best tripod we had access to, and although it was quite heavy, it has a great fluid head. And finally, we were lucky enough to borrow some a set of three &lt;a href=&quot;http://www.arri.com/lighting/lighting_emea/tungsten_lampheads/arrilite/arrilite_600.html&quot;&gt;ARRI 600&amp;#39;s&lt;/a&gt; with barn doors, gels and stands. All of the lights in one bag with their paraphernalia were definitely the heaviest equipment we used - I estimate 12-15kgs, although we never bothered to weigh it. Many sore shoulders were had after carrying that monstrosity around. But it allowed us to shoot well into the night and have a decent light source with good colour, which is always a huge plus. Many thanks to Alan Newton from SPS Art for lending us the equipment and getting it all signed off for.&lt;/p&gt;
+
+&lt;p&gt;In terms of lenses, we used my Canon 50mm f/1.4 for most of the tripod shots, and my Sigma 20-40mm f/2.8 @20mm for all of the fight scene shots, and the other tripod shots. I used my 18-55m f/4-5.6 kit lens for the Steadicam shots, because it weighs next to nothing and has image stabilisation built in, which helped to get rid some of the jitters caused when flying the Merlin without the arm and vest.&lt;/p&gt;
+
+&lt;p&gt;Then, for sound, we looked to the school&amp;#39;s Drama department. They have a RØDE NTG-2 with a &lt;a href=&quot;http://www.google.co.uk/products/catalog?hl=en&amp;amp;q=Marantz+PMD661&amp;amp;bpcl=40096503&amp;amp;ion=1&amp;amp;biw=1446&amp;amp;bih=932&amp;amp;bav=on.2,or.r_gc.r_pw.r_cp.r_qf.&amp;amp;um=1&amp;amp;ie=UTF-8&amp;amp;cid=15825431444690287798&amp;amp;sa=X&amp;amp;ei=QgPqULSdJ6ur0AX60oDIAw&amp;amp;ved=0CEcQ8wIwAA&quot;&gt;Marantz PMD661&lt;/a&gt; and a boom pole, and we got Nathan, who regularly does technical theatre (backstage, lighting, etc.) with me and Henry in the Drama department, to record the audio for us. Again thanks to Edward Williams, head of Drama at SPS, for authorising us to borrow equipment, and to &lt;a href=&quot;http://twitter.com/theonlygolux&quot;&gt;Dan Staniforth&lt;/a&gt; for putting up with our unreasonable requests and unlocking the cupboards and getting us the forms to sign.&lt;/p&gt;
+
+&lt;p&gt;Casting was difficult. In Year 9, it&amp;#39;s hard to find people who take you seriously when you say you&amp;#39;re making a film. But I also have a great friend, Amos Jackson, who agreed to act, who knew Ella, who also agreed.  Hugo was an old friend, and agreed to help me out, and Henry knew and persuaded Hilton to play the lead.&lt;/p&gt;
+
+&lt;p&gt;Scheduling is &lt;em&gt;hard&lt;/em&gt;. So hard in fact, that we didn&amp;#39;t know which roles anyone other than Hilton and Ella would be playing until 4 days before we started shooting. Nobody could be in the right place at the right time or stay long enough. Somehow though, we managed. And that&amp;#39;s one of the main difficulties about making a &lt;em&gt;truly &lt;/em&gt;independent film - you haven&amp;#39;t got a governing body, like a film school or film course or something to take care of scheduling for you and so you have to do all of that yourself.&lt;/p&gt;
+
+&lt;p&gt;So then the first day of shooting arrived. It was near the end of the summer term, and the holidays were just around the corner. It was the 15th June, and we shot the walking scene of Ella and Hilton, as well as the first half of the fight scene. I was intending to finish it that night, but that was going to be impossible as it was 9:30pm Hilton had to leave early and everyone had to get home, so I had to organize the second part of the scene to be shot later.&lt;/p&gt;
+
+&lt;p&gt;I used a cold hair light, with a diffused orange backlight and key. That gave us some nice areas of shadow, that I could use to my advantage with the thugs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/perception-1.jpg &quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;The next shoot was the school scenes, and we did those on Tuesday 26th. The first bit was shot in our sports center, and I would have loved to do one of my long introductions with music and text, but I forgot to shoot a static locked-down shot and didn&amp;#39;t have time to come back later.&lt;/p&gt;
+
+&lt;p&gt;I didn&amp;#39;t have any proper storyboards, none that weren&amp;#39;t in my head, so I told the actors to perform the sequence of the turning corner and the mini-discussion with the friend and I filmed it from several angles to see which one looked best, and I&amp;#39;m quite happy with what came out of it. We put two of the 600W ARRIs at one end of the passage, bouncing off the ceiling, to fill out the shadows a bit.&lt;/p&gt;
+
+&lt;p&gt;Then we moved up to the computer gallery. The challenging part with this room was that the whole wall on the right was reflective, meaning that anything we had behind the camera would also be in front of the camera if we weren&amp;#39;t careful. The tracking shot to the right as Hilton walks to his computer unfortunately included the reflections of Hugo holding a clapperboard, Nathan holding the boom pole, and one of the lights on its stand. It was too good to cut however, so I marked it down as needing some serious work in post.&lt;a href=&quot;http://newfangled.me/wp-content/uploads/2013/01/Screen-Shot-2013-01-07-at-11.55.47.png&quot;&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[gallery type=&amp;quot;slideshow&amp;quot; link=&amp;quot;file&amp;quot; ids=&amp;quot;667,666,665&amp;quot;]&lt;/p&gt;
+
+&lt;p&gt;The actual Facebook conversation on the screen wasn&amp;#39;t filmed until this month, basically down to a lack of time because of other projects I&amp;#39;d been working on, and Christmas.&lt;/p&gt;
+
+&lt;p&gt;The last day of shooting was the day after school ended, the 1st of July. We had scheduled to film in and outside the Curzon in Richmond from about 10 in the morning. We arrived early so we could shoot the scene outside the cinema first. This scene was going to have to look like night, so we used a reflector to cancel out as many of the shadows as we could, so that I could colour grade later to make it look like night.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/perception-2.jpg &quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, nobody was there to open the cinema when the time came for us to shoot, so we waited. Then &lt;a href=&quot;http://www.ieshthapar.com/&quot;&gt;Iesh Thapar&lt;/a&gt;, one of the employees of the Curzon, who also makes short films, arrived, and it turned out that he also thought the cinema was going to open at around 10, but in reality it wasn&amp;#39;t going to happen until the first screening at around 11:30.&lt;/p&gt;
+
+&lt;p&gt;So Nathan and Theo went round the corner to see if Tesco was open, but it was shut until 11. Eventually they found that Sainsbury&amp;#39;s in Richmond Station was open, and picked up as much as they could carry.&lt;/p&gt;
+
+&lt;p&gt;I was quite worried at this point because the window for us to get our shots inside the cinema was closing, but luckily when Steve Forman, the manager arrived, he apologised and said we could shoot during one of the screenings.&lt;/p&gt;
+
+&lt;p&gt;Even more luckily for us, the screening was of a four-hour opera with an interval, so we had two hours to get in, set up, shoot and pack up before we started interrupting the paying audience. And with the help of Iesh, we managed with 20 minutes to spare.&lt;/p&gt;
+
+&lt;p&gt;For the most part, Nathan was standing on one of the tables to get the audio we needed, unless that would have been in frame, and in that case he went under the counter of the bar.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/perception-3.jpg &quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;I have to thank Iesh for the help he gave us, and without him the mirror shot at the beginning of the interior scene would never have happened. He also helped as a clapper loader, which really helped to speed up proceedings.&lt;/p&gt;
+
+&lt;p&gt;I had scheduled the scenes that we didn&amp;#39;t finish on the 15th for that evening, so many some of the cast and crew came home with me to spend the day, and others went off and returned later.&lt;/p&gt;
+
+&lt;p&gt;That evening, at around 6pm, we started setting up the fight scene outside my house to look as much like the previous shoot as possible. But, to my dismay, the bulb of one of the three lights that we were going to use for the outside scenes blew, leaving us with only a two-light setup, which causes awkward shadows and overexposed areas. Luckily, I had two LED Par cans that were roughly half as bright as one of the ARRIs each, so I could get a match to what I had had previously.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/perception-4.jpg &quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;At around 7pm, we were all ready to shoot except for one person - Simran, who plays the lead, had had a minor family emergency and didn&amp;#39;t arrive until 8pm, having lost an hour of shooting time. It would have been fair to say I was fairly stressed at this point.&lt;/p&gt;
+
+&lt;p&gt;When Simran finally did arrive, we managed to get the remainder of the fight scene choreographed (yes that&amp;#39;s right - we hadn&amp;#39;t even had time to choreograph it properly yet) and shot it fairly quickly. Here&amp;#39;s an interesting fact - the noise Amos (Slide) makes when being punched in the stomach was not a sound effect, it was a real live recording of him falling to the ground.&lt;/p&gt;
+
+&lt;p&gt;The light was fading fast, and most of the cast headed off home, except for the three thugs, because we still had to shoot their walking scene. It was around 10pm and people still had to get home, but we managed to get six takes of it. We must have been quite a sight - three thugs walking forwards with me walking backwards with a Steadicam and Nathan walking backwards holding a 3 meter boom pole trying not to get in the shot. And, right in front of us all, Henry, who walked into the road to make sure we weren&amp;#39;t going to get run over while crossing the road and not looking. Unfortunately we didn&amp;#39;t get a picture of that - we were all to concerned with getting the footage.&lt;/p&gt;
+
+&lt;p&gt;In the end, I&amp;#39;m very happy with the footage we got from that, and although the audio was not excellent, it was the best we could to with the equipment we had in the time we had. Maybe that&amp;#39;s the most anyone can ever do in situations like that.&lt;/p&gt;
+
+&lt;p&gt;And that was the end of principal photography. &amp;quot;A wrap&amp;quot;. A relief.&lt;/p&gt;
+
+&lt;p&gt;And then, on to editing. Here&amp;#39;s a brief screenlapse (I just made that term up but I quite like it) of the first stages of editing.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://player.vimeo.com/video/56952303 &quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://vimeo.com/56952303&quot;&gt;Editing Perception&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/alexforey&quot;&gt;Alex Forey&lt;/a&gt; on &lt;a href=&quot;http://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I edit my films in Adobe Premiere Pro and do VFX in After Effects, by right-clicking a clip in the timeline and choosing &amp;quot;Replace with After Effects Composition&amp;quot;. This allows me to edit things in AE and have them automatically update in my timeline, so when I export that timeline, the whole movie is exported in one go.&lt;/p&gt;
+
+&lt;p&gt;I used Magic Bullet Looks for colour correction and grading, and it&amp;#39;s the best piece of software I&amp;#39;ve come across for grading in the timeline. It&amp;#39;s fairly lightweight, but can occasionally go completely buggy on you, so you have to restart Premiere to fix it.&lt;/p&gt;
+
+&lt;p&gt;I also recorded some foley sound effects to supplement the live sound. Here is my setup:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/perception-5.jpg &quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s not ideal, and I don&amp;#39;t have a dedicated audio recorder so I record the sound into the camera, but it works. It&amp;#39;s on its side so that I can get the microphone close to the keyboard and so I can see the monitor through the camera, making it easier to sync up later.&lt;/p&gt;
+
+&lt;p&gt;The timeline itself was in 1920x1080, but I put a 2.35:1 (the aspect ratio that most films use) letterbox over the top as a guide to how to position things, as I would later export in that aspect ratio.&lt;/p&gt;
+
+&lt;p&gt;Between starting editing and finishing, I created a rough cut for the cast, crew and original composers of our score (who sadly got bogged down with work and were unable to complete it), and a second cut more recently for Henry so he could see how things were going.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;#39;s what the finished timeline looked like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/perception-timeline.png &quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Another perk of the post production job is that I got to make the fake Facebook accounts. We had initially created some when we shot the scene in the computer gallery, but had forgotten the passwords, so when it came round to shooting the chat windows, I had to make some more. Here is my desk with Jason&amp;#39;s Facebook on the left, mine in the middle, and Abbey&amp;#39;s on the right.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/perception-6.jpg &quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Both of them were friends with the cast and crew in real life, to make them more realistic. I roped in my sister to type on the other end of the chat while I filmed Jason&amp;#39;s side. I used an old HP monitor, which isn&amp;#39;t pictured above, because it was the closest I could find to the monitors we used at school.&lt;/p&gt;
+
+&lt;p&gt;Once I&amp;#39;d done that, I dropped it into the timeline and we were about ready to go. I did a final audio pass, in which I went through and corrected some wonky levels (Premiere lets you do it while playing back the timeline, without pausing) and I deemed it ready to &amp;quot;ship&amp;quot;. I put the Cinematic Mob intro on the beginning and the ident on the end, and exported it in 1920x816, which is roughly 2.35:1.&lt;/p&gt;
+
+&lt;p&gt;My specific settings were: H.264, 15mpbs, Level 5.1, 23.976fps, VBR 2-pass encoding with AAC 320kbps audio. The film, at 7 minutes and 37 seconds took 1 hour and 36 minutes to render on a 2010 iMac with quad-core i3 and 16GB of RAM, which isn&amp;#39;t too bad considering all the grading and stabilisation I used.&lt;/p&gt;
+
+&lt;p&gt;One really cool thing that the whole Premiere Pro / Media Encoder suite can do for you is automatically upload your finished file over FTP, and it can even send the local file to the trash if you want it to. I used this to upload them to my home server, so that I could share it with Henry and a few others for review.&lt;/p&gt;
+
+&lt;p&gt;Playing back the final product I realised that I&amp;#39;d entered someone&amp;#39;s name twice for the same thing in the credits, so I edited the Photoshop file, hit &amp;#39;reload footage&amp;#39; in After Effects, and then rendered Premiere sequence out again using the same settings as before in Media Encoder, this time overnight.&lt;/p&gt;
+
+&lt;p&gt;And, after uploading to Vimeo, that was that.&lt;/p&gt;
+
+&lt;p&gt;Before I go I&amp;#39;d just like to say a huge thank you to everyone involved, including the cast, crew, everyone at the Curzon and at St Paul&amp;#39;s for making this possible, and especially to my long-suffering parents, who had noisy children making a loud film outside their house until 10pm on two separate nights.&lt;/p&gt;
+
+&lt;p&gt;As I said before, it&amp;#39;s not perfect, far from it, but it was a great experience - I had a lot of fun, learnt a lot of things, and made some new good friends. Now, what&amp;#39;s next?&lt;/p&gt;
+</description>
+				<pubDate>Thu, 10 Jan 2013 20:18:35 +0000</pubDate>
+				<link>/perception</link>
+				<guid isPermaLink="true">/perception</guid>
+			</item>
+		
+			<item>
+				<title>Making Books from Pinboard or Markpond Bookmarks</title>
+				<description>&lt;p&gt;After learning Ruby, I recently re-discovered Tom Armitage&amp;#39;s &lt;a href=&quot;http://github.com/infovore/pinboard-bookmachine&quot;&gt;pinboard-bookmachine&lt;/a&gt;. This is a how-to on making books from your bookmarks, separated by year. I&amp;#39;ve always liked physical things - I used to love and still do my LEGO and K&amp;#39;NEX collections, and there&amp;#39;s nothing better than being able to touch a thing and say &amp;quot;I made that&amp;quot;.&lt;/p&gt;
+
+&lt;p&gt;And one of the problems of only reading online content is that you can&amp;#39;t look at a physical bookshelf and say &amp;quot;look at all the things I&amp;#39;ve read&amp;quot;. Well, until around 10 months ago you couldn&amp;#39;t.&lt;/p&gt;
+
+&lt;p&gt;However, 10 months ago when I found out about this, I hadn&amp;#39;t the faintest idea how I would get this working. I&amp;#39;d never even installed Ruby before. So I&amp;#39;m trying to write the guide that I needed 10 months ago - here it is.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m going to assume you&amp;#39;ve already got Ruby up and running, and if not, follow a decent guide for &lt;a href=&quot;http://ruby.about.com/od/beginningruby/ss/Installing-A-Ruby-Development-Environment-On-Windows.htm&quot;&gt;Windows&lt;/a&gt;, &lt;a href=&quot;http://ruby.about.com/od/rubyversionmanager/ss/Installing-Ruby-On-Snow-Leopard-With-Rvm.htm&quot;&gt;OS X&lt;/a&gt;, or &lt;a href=&quot;http://ruby.about.com/od/rubyversionmanager/ss/installrvmlinux.htm&quot;&gt;Linux&lt;/a&gt; and you should be set.&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;p&gt;You&amp;#39;re going to need to download the code from the GitHub Repo somehow - whether you just download a ZIP of the repo, or you fork and clone it is up to you.&lt;/p&gt;
+
+&lt;p&gt;Either use the original &lt;a href=&quot;https://github.com/infovore/pinboard-bookmachine&quot;&gt;pinboard-bookmachine&lt;/a&gt; by Tom, or &lt;a href=&quot;https://github.com/alfo/markpond-bookmachine&quot;&gt;markpond-bookmachine&lt;/a&gt; by me. My version will still work with Pinboard, but it includes some &lt;a href=&quot;https://github.com/alfo/markpond-bookmachine/commit/59cdb99718bafb64a798c6ffd8546e87106b6651&quot;&gt;Markpond-specific changes&lt;/a&gt;, like &lt;a href=&quot;https://github.com/alfo/markpond-bookmachine/blob/59cdb99718bafb64a798c6ffd8546e87106b6651/models.rb#L40-44&quot;&gt;changing QR codes&lt;/a&gt; to be the archived URL instead of the normal URL if the bookmark has been archived, and &lt;a href=&quot;https://github.com/alfo/markpond-bookmachine/blob/master/lib/tasks/bookmachine.rake#L-34&quot;&gt;processing&lt;/a&gt; and &lt;a href=&quot;https://github.com/alfo/markpond-bookmachine/blob/master/views/year.haml#L-49&quot;&gt;displaying&lt;/a&gt; the via field on Markpond bookmarks. There&amp;#39;s also &lt;a href=&quot;https://github.com/alfo/markpond-bookmachine/commit/ea8df0e15d1d63a45a26413667e2bcd563916601&quot;&gt;one crucial fix&lt;/a&gt; that decodes HTML entities properly after they are encoded for the XML export, which stops you from getting random &amp;rsquo; strings everywhere.&lt;/p&gt;
+
+&lt;p&gt;Choose the one that applies the most to you. Chances are it&amp;#39;s pinboard-bookmachine.&lt;/p&gt;
+
+&lt;h2&gt;Install Dependencies&lt;/h2&gt;
+
+&lt;p&gt;If you don&amp;#39;t have bundler, then go ahead and &lt;a href=&quot;http://gembundler.com/&quot;&gt;install it&lt;/a&gt;. If you&amp;#39;re not sure if you do or not, chances are you don&amp;#39;t, so install it anyway.&lt;/p&gt;
+
+&lt;p&gt;Open up a terminal window, and navigate to the root of your project. For me, it is &lt;code&gt;~/Code/pinboard-bookmachine&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Then, run:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;bundle install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If you have any errors, Google them, but everything should go fine.&lt;/p&gt;
+
+&lt;h2&gt;Create Database&lt;/h2&gt;
+
+&lt;p&gt;Using the same terminal window, run&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;rake db:migrate
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And you should notice that a file called development.db appears in your folder.&lt;/p&gt;
+
+&lt;h2&gt;Fill Database&lt;/h2&gt;
+
+&lt;p&gt;Now you need to go and get your bookmarks. If you&amp;#39;re using Markpond, log in and go to&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;https://markpond.com/core/actions/export?format=pinboard
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And if you&amp;#39;re using Pinboard, go to&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;https://api.pinboard.in/v1/posts/all
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And copy the contents. If you&amp;#39;re doing this in a browser, you&amp;#39;re going to want to right-click and view source to make sure you get only the XML. Copy all of it to your clipboard.&lt;/p&gt;
+
+&lt;p&gt;Then, make a folder called &lt;code&gt;data&lt;/code&gt;, and in that, make a file called &lt;code&gt;pinboard_all.xml&lt;/code&gt;. Paste your bookmarks into that file.&lt;/p&gt;
+
+&lt;p&gt;In the same terminal window that you used earlier, simply run&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;rake
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And you&amp;#39;ll see a load of text flying by as your bookmarks are imported into the database.&lt;/p&gt;
+
+&lt;h2&gt;Preview your book&lt;/h2&gt;
+
+&lt;p&gt;In the terminal window, run:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;rackup
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Then go to &lt;code&gt;http://localhost:9292&lt;/code&gt; and click on the years to see what will be printed. Take note of the first year listed.&lt;/p&gt;
+
+&lt;h2&gt;Customise it&lt;/h2&gt;
+
+&lt;p&gt;You&amp;#39;ll have noticed that the names and details are still Tom Armitage&amp;#39;s, so you&amp;#39;ll want to change them. To do so, go into &lt;code&gt;views/year.haml&lt;/code&gt; and edit the details.&lt;/p&gt;
+
+&lt;p&gt;To change the volumes number to be correct, go into &lt;code&gt;models.rb&lt;/code&gt; and change 2004 on line 5 to the first year of your bookmarks.&lt;/p&gt;
+
+&lt;h2&gt;Make the PDFs&lt;/h2&gt;
+
+&lt;p&gt;If you&amp;#39;re satisfied with everything, go back into terminal and run&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;rake publish:all
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;to publish all of the years, or&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;rake publish:year YEAR=1999
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;to publish just your bookmarks from 1999 (for example).&lt;/p&gt;
+
+&lt;h2&gt;Make the Book&lt;/h2&gt;
+
+&lt;p&gt;I&amp;#39;m using Lulu, like Tom did, because I can&amp;#39;t find anywhere else online that has an interface that I understand. You&amp;#39;ll have to do the next bit for each book, because I can&amp;#39;t find a way to batch-create them. All you need to do is make an account, then go &lt;a href=&quot;http://www.lulu.com/publish/books/?cid=nav_bks&quot;&gt;here&lt;/a&gt; and click &amp;#39;Start Publishing&amp;#39;.&lt;/p&gt;
+
+&lt;p&gt;From there, you&amp;#39;ll want to select &amp;#39;Make a Paperback Book&amp;#39;, give it a working title, and select &amp;#39;Standard&amp;#39; paper and &amp;#39;U.S. Trade&amp;#39; size (6&amp;quot; x 9&amp;quot;).&lt;/p&gt;
+
+&lt;p&gt;Then upload the first PDF that you made (note the progress bar doesn&amp;#39;t work - don&amp;#39;t worry, your book is being uploaded. The page will refresh a couple of times, and click next until you get to the cover design page.&lt;/p&gt;
+
+&lt;p&gt;You can either use their wizard, but I&amp;#39;d prefer to make my own. If you do as well, click the &amp;#39;Advanced One-Piece Cover&amp;#39; above the Flash widget. Then, if you have Photoshop, &lt;a href=&quot;http://newfangled.me/wp-content/uploads/2012/12/cover.psd&quot;&gt;download this template&lt;/a&gt; and edit it according to the dimensions they tell you, and change the text, otherwise you can make your own.&lt;/p&gt;
+
+&lt;p&gt;Save that Photoshop document out as a &lt;code&gt;.png&lt;/code&gt; and upload it.&lt;/p&gt;
+
+&lt;p&gt;I only started collecting bookmarks in August 2012, so my book is only 203 pages long. In the format I&amp;#39;ve mentioned above, this edition will cost me £4.60 + shipping.&lt;/p&gt;
+
+&lt;p&gt;This, on balance, seems extremely reasonable, especially with a savvy use of coupon codes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/markpond-book.jpg &quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;So there you go. Hopefully a guide that even the programming-illiterate can follow. As always, if you have any questions feel free to post them in the comments.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 30 Dec 2012 01:08:09 +0000</pubDate>
+				<link>/bookmarks-to-books</link>
+				<guid isPermaLink="true">/bookmarks-to-books</guid>
+			</item>
+		
+			<item>
+				<title>Installing MAMP and Rails on a Mac</title>
+				<description>&lt;p&gt;Now that I have a Mac laptop, I thought that I&amp;#39;d go about setting everything up that I&amp;#39;d need to code in my favourite programming languages - PHP and Rails.&lt;/p&gt;
+
+&lt;p&gt;This post is not for the faint of heart, so continue at your own risk.&lt;/p&gt;
+
+&lt;h2&gt;1. Install MAMP&lt;/h2&gt;
+
+&lt;p&gt;This is the easy part. Download MAMP from &lt;a href=&quot;http://www.mamp.info/en/downloads/index.html&quot;&gt;here&lt;/a&gt; and install it like you would with any other application. Simple.&lt;/p&gt;
+
+&lt;p&gt;This will install Apache, MySQL and PHP. If you went for MAMP Pro, like I did, it&amp;#39;s really simple to add new projects. Just go into the control panel, click on the hosts tab, and add a new one with a document root of wherever.&lt;/p&gt;
+
+&lt;h2&gt;2. Install XCode&lt;/h2&gt;
+
+&lt;p&gt;In order to continue, you&amp;#39;re going to need to install XCode. You can get it for free from the Mac App Store.&lt;/p&gt;
+
+&lt;p&gt;Once you&amp;#39;ve got the program installed, you&amp;#39;re also going to need to install XCode command line tools. Do that by going opening XCode, then going to Preferences.&lt;/p&gt;
+
+&lt;p&gt;Then go to the Downloads tab, and within that the Components tab. Find the &amp;quot;Command Line Tools&amp;quot; entry, and click install.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;#39;s what it should look like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/xcode-install.png &quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;2.5. Install Homebrew&lt;/h2&gt;
+
+&lt;p&gt;If you don&amp;#39;t have &lt;a href=&quot;http://mxcl.github.com/homebrew/&quot;&gt;Homebrew&lt;/a&gt; already installed, you really should do. That&amp;#39;s why I&amp;#39;m not putting it as a full step. It&amp;#39;s a simple package manager for OS X, like aptitude for Linux.&lt;/p&gt;
+
+&lt;p&gt;Just run:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;ruby -e &amp;quot;$(curl -fsSkL raw.github.com/mxcl/homebrew/go)&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And you&amp;#39;re done.&lt;/p&gt;
+
+&lt;h2&gt;3. Install Ruby&lt;/h2&gt;
+
+&lt;p&gt;Although OS X already comes with Ruby, it&amp;#39;s usually not up-to-date. To fix this, we&amp;#39;re going to use &lt;a href=&quot;https://rvm.io/&quot;&gt;RVM&lt;/a&gt; to install a new version over the old one. This will mean that we will not upset any of the core functionality of OS X (or something).&lt;/p&gt;
+
+&lt;p&gt;So go into Terminal and run:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;\curl -L https://get.rvm.io | bash -s stable --ruby
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This will install RVM and the latest version of Ruby (in my case 1.9.3).&lt;/p&gt;
+
+&lt;h2&gt;4. Update gem&lt;/h2&gt;
+
+&lt;p&gt;To make sure everything from now on goes smoothly, you&amp;#39;ll want to update the gem package manager. To do this, paste this into the terminal:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;sudo gem update --system
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;5. Install Rails&lt;/h2&gt;
+
+&lt;p&gt;Because Rails is only a gem, installing it is extremely simple. Just run:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;sudo gem install rails
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This will also install a bunch of other gems that are dependencies of Rails.&lt;/p&gt;
+
+&lt;h2&gt;6. Install MySQL&lt;/h2&gt;
+
+&lt;p&gt;You&amp;#39;re probably wondering why I&amp;#39;m installing MySQL, even though we installed it earlier with MAMP. The reason is that the mysql2 gem that is needed for Rails to talk to MySQL will not install without this version present.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;brew install mysql
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Should get you up and running.&lt;/p&gt;
+
+&lt;h2&gt;7. Install mysql2 gem&lt;/h2&gt;
+
+&lt;p&gt;Now that you have a &amp;quot;proper&amp;quot; installation of MySQL, you can go ahead and install the mysql2 gem.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;sudo gem install mysql2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Note: don&amp;#39;t install the &lt;code&gt;mysql&lt;/code&gt; gem, as it is outdated.&lt;/p&gt;
+
+&lt;h2&gt;8. Switch back to the old MySQL install&lt;/h2&gt;
+
+&lt;p&gt;Now that you&amp;#39;ve got the gem installed it&amp;#39;s safe to switch your console back to using the MAMP MySQL server. Simply&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;sudo nano /etc/paths
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And add this line to the top of the document&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;/Applications/MAMP/Library/bin
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And restart the terminal. Now, running the &lt;code&gt;mysql&lt;/code&gt; command will point to the MAMP installation, which is the one you want to use.&lt;/p&gt;
+
+&lt;p&gt;And you&amp;#39;re done!&lt;/p&gt;
+
+&lt;h2&gt;Creating a Rails App&lt;/h2&gt;
+
+&lt;p&gt;When you want to create a new Rails app, &lt;code&gt;cd&lt;/code&gt; to the place where you want to put your projects. In my case it was &lt;code&gt;~/Sites&lt;/code&gt;. Then run&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;rails new app_name -d mysql
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And the last thing you&amp;#39;ll want to do is go into &lt;code&gt;config/database.yml&lt;/code&gt; and change the file by replacing the sockets with&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;/Applications/MAMP/tmp/mysql/mysql.sock
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Finally, create the databases needed by your app manually, because Rails won&amp;#39;t do it for you. You can use the phpMyAdmin build into MAMP to do this, but I prefer &lt;a href=&quot;http://www.sequelpro.com/&quot;&gt;Sequel Pro&lt;/a&gt;, which is free and awesome, and a native Mac App.&lt;/p&gt;
+
+&lt;p&gt;Test out your new Rails app by &lt;code&gt;cd&lt;/code&gt;ing to your app&amp;#39;s root, then running&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;rails s
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And (hopefully) all should be well. If it isn&amp;#39;t, feel free to leave your problems in the comments and I&amp;#39;ll see if I can help.&lt;/p&gt;
+</description>
+				<pubDate>Fri, 28 Dec 2012 11:40:05 +0000</pubDate>
+				<link>/installing-mamp-and-rails-on-a-mac</link>
+				<guid isPermaLink="true">/installing-mamp-and-rails-on-a-mac</guid>
+			</item>
+		
+			<item>
+				<title>PHP Little Printer Framework</title>
+				<description>&lt;p&gt;It&amp;#39;s what it says on the tin, really - a framework to make making Little Printer publications faster and easier in PHP.&lt;/p&gt;
+
+&lt;p&gt;It includes ETag support, as well as automatically generating the meta.json and validate_config endpoints based on the fields you define in config.php.&lt;/p&gt;
+
+&lt;p&gt;Get it on &lt;a href=&quot;https://github.com/alfo/PHP-LittlePrinter&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<pubDate>Fri, 28 Dec 2012 00:56:36 +0000</pubDate>
+				<link>/php-little-printer-framework</link>
+				<guid isPermaLink="true">/php-little-printer-framework</guid>
+			</item>
+		
+			<item>
+				<title>GIFs</title>
+				<description>&lt;p&gt;In a vague attempt to try to organise my growing GIF collection, I set up a large chain of actions to take a URL of a GIF and upload it to my new bukkit-style site, &lt;a href=&quot;http://gif.alexforey.com&quot;&gt;gif.alexforey.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I browse most of the GIFs in my life on Reddit, though Alienblue, and the easiest method of sharing the URL of the GIF is to email  it.&lt;/p&gt;
+
+&lt;p&gt;So whenever I want to save a GIF, I email myemail+gifs@alexforey.com.&lt;/p&gt;
+
+&lt;p&gt;The email&amp;#39;s subject is the description I want to give my GIF, and the body is the URL.&lt;/p&gt;
+
+&lt;p&gt;Then there&amp;#39;s a filter in Gmail that takes any email sent to myemail+gifs@alexforey.com and gives it the label of &amp;#39;gif&amp;#39;, and archives it (&amp;quot;skipping the inbox&amp;quot;).&lt;/p&gt;
+
+&lt;p&gt;I then have an IFTTT recipe to take new emails with the label &amp;#39;gif&amp;#39;, and save them to Dropbox, with the file name being the description.&lt;/p&gt;
+
+&lt;p&gt;Finally, I have Dropbox Automator upload any new files in that Dropbox folder via FTP to gif.alexforey.com.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s a bit hacky, but it works, and it&amp;#39;s quite a neat system, until I can think of something better.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 02 Dec 2012 22:32:55 +0000</pubDate>
+				<link>/gifs</link>
+				<guid isPermaLink="true">/gifs</guid>
+			</item>
+		
 	</channel>
 </rss>

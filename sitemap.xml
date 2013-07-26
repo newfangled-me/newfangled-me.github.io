@@ -1,15 +1,260 @@
----
-layout: nil
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>{{ site.url }}</loc>
+        <loc></loc>
     </url>
     
-    {% for post in site.posts %}
+    
     <url>
-        <loc>{{ site.url }}{{ post.url }}</loc>
+        <loc>/this-happened-october-12</loc>
     </url>
-    {% endfor %}
+    
+    <url>
+        <loc>/space-music-video</loc>
+    </url>
+    
+    <url>
+        <loc>/markpond-why</loc>
+    </url>
+    
+    <url>
+        <loc>/little-commits</loc>
+    </url>
+    
+    <url>
+        <loc>/paypal-isnt-doing-itself-any-favours-here</loc>
+    </url>
+    
+    <url>
+        <loc>/perception</loc>
+    </url>
+    
+    <url>
+        <loc>/bookmarks-to-books</loc>
+    </url>
+    
+    <url>
+        <loc>/installing-mamp-and-rails-on-a-mac</loc>
+    </url>
+    
+    <url>
+        <loc>/php-little-printer-framework</loc>
+    </url>
+    
+    <url>
+        <loc>/gifs</loc>
+    </url>
+    
+    <url>
+        <loc>/broken-rpi</loc>
+    </url>
+    
+    <url>
+        <loc>/this-happened-1</loc>
+    </url>
+    
+    <url>
+        <loc>/the-tools-of-markpond</loc>
+    </url>
+    
+    <url>
+        <loc>/little-printing</loc>
+    </url>
+    
+    <url>
+        <loc>/well-this-was-unexpected</loc>
+    </url>
+    
+    <url>
+        <loc>/a-new-design-and-more</loc>
+    </url>
+    
+    <url>
+        <loc>/markpond</loc>
+    </url>
+    
+    <url>
+        <loc>/raspberry-pi</loc>
+    </url>
+    
+    <url>
+        <loc>/diy-home-server</loc>
+    </url>
+    
+    <url>
+        <loc>/tfl</loc>
+    </url>
+    
+    <url>
+        <loc>/the-fortrus</loc>
+    </url>
+    
+    <url>
+        <loc>/i-have-a-bad-feeling</loc>
+    </url>
+    
+    <url>
+        <loc>/knex-roller-coaster</loc>
+    </url>
+    
+    <url>
+        <loc>/united-93-review</loc>
+    </url>
+    
+    <url>
+        <loc>/shwiing</loc>
+    </url>
+    
+    <url>
+        <loc>/remix</loc>
+    </url>
+    
+    <url>
+        <loc>/great-move-mkii</loc>
+    </url>
+    
+    <url>
+        <loc>/redesign</loc>
+    </url>
+    
+    <url>
+        <loc>/mountain-lion</loc>
+    </url>
+    
+    <url>
+        <loc>/googleplus</loc>
+    </url>
+    
+    <url>
+        <loc>/adsense</loc>
+    </url>
+    
+    <url>
+        <loc>/kodak</loc>
+    </url>
+    
+    <url>
+        <loc>/diy-dslr-cage-matte-box-rail-system</loc>
+    </url>
+    
+    <url>
+        <loc>/christmas-and-stuff</loc>
+    </url>
+    
+    <url>
+        <loc>/microsoft</loc>
+    </url>
+    
+    <url>
+        <loc>/mobile-streaming</loc>
+    </url>
+    
+    <url>
+        <loc>/quick-update</loc>
+    </url>
+    
+    <url>
+        <loc>/itunes-fix</loc>
+    </url>
+    
+    <url>
+        <loc>/deprecated-html-tags</loc>
+    </url>
+    
+    <url>
+        <loc>/canon-c300-red-scarlet</loc>
+    </url>
+    
+    <url>
+        <loc>/pace-of-change</loc>
+    </url>
+    
+    <url>
+        <loc>/windows8</loc>
+    </url>
+    
+    <url>
+        <loc>/internet</loc>
+    </url>
+    
+    <url>
+        <loc>/programming-languages</loc>
+    </url>
+    
+    <url>
+        <loc>/indy-mogul-fig-rig</loc>
+    </url>
+    
+    <url>
+        <loc>/move</loc>
+    </url>
+    
+    <url>
+        <loc>/lowepro-flipside-300-review</loc>
+    </url>
+    
+    <url>
+        <loc>/os</loc>
+    </url>
+    
+    <url>
+        <loc>/lens-review</loc>
+    </url>
+    
+    <url>
+        <loc>/adobe-apps</loc>
+    </url>
+    
+    <url>
+        <loc>/giveaway</loc>
+    </url>
+    
+    <url>
+        <loc>/steve-jobs</loc>
+    </url>
+    
+    <url>
+        <loc>/offline-docs</loc>
+    </url>
+    
+    <url>
+        <loc>/reporting-back-osx</loc>
+    </url>
+    
+    <url>
+        <loc>/mac</loc>
+    </url>
+    
+    <url>
+        <loc>/google</loc>
+    </url>
+    
+    <url>
+        <loc>/browsers</loc>
+    </url>
+    
+    <url>
+        <loc>/muse</loc>
+    </url>
+    
+    <url>
+        <loc>/editing-programs</loc>
+    </url>
+    
+    <url>
+        <loc>/lion</loc>
+    </url>
+    
+    <url>
+        <loc>/chromebook</loc>
+    </url>
+    
+    <url>
+        <loc>/mystuff</loc>
+    </url>
+    
+    <url>
+        <loc>/welcome</loc>
+    </url>
+    
 </urlset>

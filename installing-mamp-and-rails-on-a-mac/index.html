@@ -1,0 +1,253 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Installing MAMP and Rails on a Mac &#8211; Newfangled Me</title>
+<meta name="description" content="The incoherent musings of Alex Forey">
+<meta name="keywords" content="">
+<!-- Twitter Card and Open Graph tags -->
+<meta name="twitter:title" content="Installing MAMP and Rails on a Mac &#8211; Newfangled Me">
+<meta name="twitter:description" content="The incoherent musings of Alex Forey">
+<meta name="twitter:creator" content="@alexforey">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image:src" content="/images/site-logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Installing MAMP and Rails on a Mac &#8211; Newfangled Me">
+<meta property="og:description" content="The incoherent musings of Alex Forey">
+<meta property="og:url" content="/installing-mamp-and-rails-on-a-mac">
+<meta property="og:site_name" content="Newfangled Me">
+
+<!-- Webmaster Tools verfication -->
+
+
+
+
+<link rel="canonical" href="/installing-mamp-and-rails-on-a-mac">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Newfangled Me Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<!-- Animations -->
+<link rel="stylesheet" href="/assets/css/animate.css">
+<!-- Webfonts -->
+<script src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body id="post" itemscope itemtype="http://schema.org/WebPage">
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<div class="navigation-wrapper">
+	<nav role="navigation" id="site-nav" class="animated fadeInDown" itemscope itemtype="http://schema.org/SiteNavigationElement">
+	    <ul>
+	        
+	        <li><a href="/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a>
+	    </ul>
+	</nav>
+</div><!-- /.navigation-wrapper -->
+
+<header class="masthead">
+	<div class="wrap">
+		<a href="" class="site-logo" rel="home" title="Newfangled Me"><img src="/images/site-logo.png" width="200" height="200" class="animated fadeInUp"></a>
+		<h1 class="site-title animated fadeIn"><a href="">Newfangled Me</a></h1>
+		<h2 class="site-description animated fadeIn">The incoherent musings of Alex Forey</h2>
+	</div>
+</header><!-- /.masthead -->
+
+<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+  <article class="hentry" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogpost">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags"></span>
+        <h1 class="entry-title" itemprop="headline">Installing MAMP and Rails on a Mac</h1>
+      </header>
+      <footer class="entry-meta">
+        <img src="http://gravatar.com/avatar/c757293cea100034c52c39bf7603918a?s=150" alt="Alex Forey photo" class="author-photo">
+        <span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">By <span itemprop="name" class="fn"><a href="/about" title="About Alex Forey" itemprop="url">Alex Forey</a></span></span>
+        <span class="entry-date date published"><time datetime="2012-12-28T11:40:05+00:00" itemprop="datePublished"><i class="icon-calendar-empty"></i> December 28, 2012</time></span>
+        
+        <span class="entry-comments"><i class="icon-comment-alt"></i> <a href="#disqus_thread">Comment</a></span>
+        <span><a href="/installing-mamp-and-rails-on-a-mac" rel="bookmark" title="Installing MAMP and Rails on a Mac"><i class="icon-link"></i> Permalink</a></span>
+      </footer>
+      <div class="entry-content">
+        <p>Now that I have a Mac laptop, I thought that I&#39;d go about setting everything up that I&#39;d need to code in my favourite programming languages - PHP and Rails.</p>
+
+<p>This post is not for the faint of heart, so continue at your own risk.</p>
+
+<h2>1. Install MAMP</h2>
+
+<p>This is the easy part. Download MAMP from <a href="http://www.mamp.info/en/downloads/index.html">here</a> and install it like you would with any other application. Simple.</p>
+
+<p>This will install Apache, MySQL and PHP. If you went for MAMP Pro, like I did, it&#39;s really simple to add new projects. Just go into the control panel, click on the hosts tab, and add a new one with a document root of wherever.</p>
+
+<h2>2. Install XCode</h2>
+
+<p>In order to continue, you&#39;re going to need to install XCode. You can get it for free from the Mac App Store.</p>
+
+<p>Once you&#39;ve got the program installed, you&#39;re also going to need to install XCode command line tools. Do that by going opening XCode, then going to Preferences.</p>
+
+<p>Then go to the Downloads tab, and within that the Components tab. Find the &quot;Command Line Tools&quot; entry, and click install.</p>
+
+<p>Here&#39;s what it should look like:</p>
+
+<p><img src="/images/xcode-install.png "></p>
+
+<h2>2.5. Install Homebrew</h2>
+
+<p>If you don&#39;t have <a href="http://mxcl.github.com/homebrew/">Homebrew</a> already installed, you really should do. That&#39;s why I&#39;m not putting it as a full step. It&#39;s a simple package manager for OS X, like aptitude for Linux.</p>
+
+<p>Just run:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">ruby -e &quot;$(curl -fsSkL raw.github.com/mxcl/homebrew/go)&quot;
+</code></pre></div>
+<p>And you&#39;re done.</p>
+
+<h2>3. Install Ruby</h2>
+
+<p>Although OS X already comes with Ruby, it&#39;s usually not up-to-date. To fix this, we&#39;re going to use <a href="https://rvm.io/">RVM</a> to install a new version over the old one. This will mean that we will not upset any of the core functionality of OS X (or something).</p>
+
+<p>So go into Terminal and run:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">\curl -L https://get.rvm.io | bash -s stable --ruby
+</code></pre></div>
+<p>This will install RVM and the latest version of Ruby (in my case 1.9.3).</p>
+
+<h2>4. Update gem</h2>
+
+<p>To make sure everything from now on goes smoothly, you&#39;ll want to update the gem package manager. To do this, paste this into the terminal:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">sudo gem update --system
+</code></pre></div>
+<h2>5. Install Rails</h2>
+
+<p>Because Rails is only a gem, installing it is extremely simple. Just run:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">sudo gem install rails
+</code></pre></div>
+<p>This will also install a bunch of other gems that are dependencies of Rails.</p>
+
+<h2>6. Install MySQL</h2>
+
+<p>You&#39;re probably wondering why I&#39;m installing MySQL, even though we installed it earlier with MAMP. The reason is that the mysql2 gem that is needed for Rails to talk to MySQL will not install without this version present.</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">brew install mysql
+</code></pre></div>
+<p>Should get you up and running.</p>
+
+<h2>7. Install mysql2 gem</h2>
+
+<p>Now that you have a &quot;proper&quot; installation of MySQL, you can go ahead and install the mysql2 gem.</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">sudo gem install mysql2
+</code></pre></div>
+<p>Note: don&#39;t install the <code>mysql</code> gem, as it is outdated.</p>
+
+<h2>8. Switch back to the old MySQL install</h2>
+
+<p>Now that you&#39;ve got the gem installed it&#39;s safe to switch your console back to using the MAMP MySQL server. Simply</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">sudo nano /etc/paths
+</code></pre></div>
+<p>And add this line to the top of the document</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">/Applications/MAMP/Library/bin
+</code></pre></div>
+<p>And restart the terminal. Now, running the <code>mysql</code> command will point to the MAMP installation, which is the one you want to use.</p>
+
+<p>And you&#39;re done!</p>
+
+<h2>Creating a Rails App</h2>
+
+<p>When you want to create a new Rails app, <code>cd</code> to the place where you want to put your projects. In my case it was <code>~/Sites</code>. Then run</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">rails new app_name -d mysql
+</code></pre></div>
+<p>And the last thing you&#39;ll want to do is go into <code>config/database.yml</code> and change the file by replacing the sockets with</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">/Applications/MAMP/tmp/mysql/mysql.sock
+</code></pre></div>
+<p>Finally, create the databases needed by your app manually, because Rails won&#39;t do it for you. You can use the phpMyAdmin build into MAMP to do this, but I prefer <a href="http://www.sequelpro.com/">Sequel Pro</a>, which is free and awesome, and a native Mac App.</p>
+
+<p>Test out your new Rails app by <code>cd</code>ing to your app&#39;s root, then running</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">rails s
+</code></pre></div>
+<p>And (hopefully) all should be well. If it isn&#39;t, feel free to leave your problems in the comments and I&#39;ll see if I can help.</p>
+
+        <div id="disqus_thread"></div><!-- /#disqus_thread -->
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="/php-little-printer-framework" class="btn" title="PHP Little Printer Framework">Previous article</a>
+      
+      
+        <a href="/bookmarks-to-books" class="btn" title="Making Books from Pinboard or Markpond Bookmarks">Next article</a>
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2013 Alex Forey. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/">So Simple Theme</a>.</span>
+<div class="social-icons">
+	<a href="http://twitter.com/alexforey" title="Alex Forey on Twitter" target="_blank"><i class="icon-twitter icon-2x"></i></a>
+	
+	
+	
+	<a href="http://http://stackexchange.com/users/932591/alfo?tab=accounts" title="Alex Forey on StackExchange" target="_blank"><i class="icon-stackexchange icon-2x"></i></a>
+	<a href="http://instagram.com/alexforey" title="Alex Forey on Instagram" target="_blank"><i class="icon-instagram icon-2x"></i></a>
+	<a href="http://www.flickr.com/photos/alexforey" title="Alex Forey on Flickr" target="_blank"><i class="icon-flickr icon-2x"></i></a>
+	<a href="http://github.com/alfo" title="Alex Forey on Github" target="_blank"><i class="icon-github icon-2x"></i></a>
+	
+</div><!-- /.social-icons -->
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/main.min.js"></script>
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'newfangledme'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>	        
+
+</body>
+</html>

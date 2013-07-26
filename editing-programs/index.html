@@ -1,0 +1,193 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Editing Programs and the Arguments they Bring (and FCP X) &#8211; Newfangled Me</title>
+<meta name="description" content="The incoherent musings of Alex Forey">
+<meta name="keywords" content="">
+<!-- Twitter Card and Open Graph tags -->
+<meta name="twitter:title" content="Editing Programs and the Arguments they Bring (and FCP X) &#8211; Newfangled Me">
+<meta name="twitter:description" content="The incoherent musings of Alex Forey">
+<meta name="twitter:creator" content="@alexforey">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image:src" content="/images/site-logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Editing Programs and the Arguments they Bring (and FCP X) &#8211; Newfangled Me">
+<meta property="og:description" content="The incoherent musings of Alex Forey">
+<meta property="og:url" content="/editing-programs">
+<meta property="og:site_name" content="Newfangled Me">
+
+<!-- Webmaster Tools verfication -->
+
+
+
+
+<link rel="canonical" href="/editing-programs">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Newfangled Me Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<!-- Animations -->
+<link rel="stylesheet" href="/assets/css/animate.css">
+<!-- Webfonts -->
+<script src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body id="post" itemscope itemtype="http://schema.org/WebPage">
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<div class="navigation-wrapper">
+	<nav role="navigation" id="site-nav" class="animated fadeInDown" itemscope itemtype="http://schema.org/SiteNavigationElement">
+	    <ul>
+	        
+	        <li><a href="/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a>
+	    </ul>
+	</nav>
+</div><!-- /.navigation-wrapper -->
+
+<header class="masthead">
+	<div class="wrap">
+		<a href="" class="site-logo" rel="home" title="Newfangled Me"><img src="/images/site-logo.png" width="200" height="200" class="animated fadeInUp"></a>
+		<h1 class="site-title animated fadeIn"><a href="">Newfangled Me</a></h1>
+		<h2 class="site-description animated fadeIn">The incoherent musings of Alex Forey</h2>
+	</div>
+</header><!-- /.masthead -->
+
+<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+  <article class="hentry" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogpost">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags"></span>
+        <h1 class="entry-title" itemprop="headline">Editing Programs and the Arguments they Bring (and FCP X)</h1>
+      </header>
+      <footer class="entry-meta">
+        <img src="http://gravatar.com/avatar/c757293cea100034c52c39bf7603918a?s=150" alt="Alex Forey photo" class="author-photo">
+        <span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">By <span itemprop="name" class="fn"><a href="/about" title="About Alex Forey" itemprop="url">Alex Forey</a></span></span>
+        <span class="entry-date date published"><time datetime="2011-09-13T19:50:26+01:00" itemprop="datePublished"><i class="icon-calendar-empty"></i> September 13, 2011</time></span>
+        
+        <span class="entry-comments"><i class="icon-comment-alt"></i> <a href="#disqus_thread">Comment</a></span>
+        <span><a href="/editing-programs" rel="bookmark" title="Editing Programs and the Arguments they Bring (and FCP X)"><i class="icon-link"></i> Permalink</a></span>
+      </footer>
+      <div class="entry-content">
+        <p>Hello All,</p>
+
+<p>You may know that I make films. Hopefully you&#39;ve got the hint from the name of this blog. If not then maybe you shouldn&#39;t be here. Anyway, as you probably know there are three main stages to making a film - pre-production (scripting, casting and other planning etc..), production (shooting) and post-production (editing, VFX and distribution etc...).</p>
+
+<p>During the crucial stage, editing, the whole outcome of the film can be decided. Therefore, people have to make sure that they use reliable, stable programs that won&#39;t crash on them at the last minute. There are a great many programs that fit this bill, but which is the best? This argument is probably a.) the most long and b.) the most pointless argument in the history of filmmaking.</p>
+
+<p>Firstly, the three main competitors in this so-called &quot;fight&quot; are:</p>
+
+<ol>
+<li><p>Premiere Pro (by Adobe, latest version CS5.5)</p></li>
+<li><p>Final Cut Pro (by Apple, latest version 7 or X depending)</p></li>
+<li><p>Media Composer (by Avid, latest version 5.5)</p></li>
+</ol>
+
+<p>For one thing, all the companies begin with A. This has nothing to do with what I&#39;m actually talking about, but I thought it was interesting). Secondly, they all support roughly the same file formats and they all have roughly the same features.</p>
+
+<p>However, the main difference is that PrPro and Media Composer work on Mac and Windows, but FCP only runs on Macs. This is mainly because Apple make Macs and Apple makes FCP.</p>
+
+<p>Another notable difference is that PrPro can work with pretty much any raw files (files that come straight off a camera) natively (with out conversion) but the other two can&#39;t. This is a great advantage for people who use lots of different types of cameras (and especially DSLRs) and need a quick production workflow.</p>
+
+<p>But now, onto FCP X. For most users, it is a very good and useful piece of software. In fact, after getting to know it a bit more, you may find this better than FCP 7. But I&#39;m afraid to say that it&#39;s just not very stable. I wouldn&#39;t trust it with any commercial work for several reasons.</p>
+
+<ol>
+<li><p>There is no re-connect media.  This means that if (for instance) you realize you&#39;re running out of hard drive space and you move all your footage to a new location, FCP X will decide that you need to completely restart your project from scratch. Not good. I have also heard that occasionally it will just &#39;loose your footage&#39; itself, meaning that you have no way of continuing your project : you have to restart.</p></li>
+<li><p>It no longer supports multi-cam edits. During a (not so) recent project &#39;Ratz&#39;, I was using four cameras to film a play in the round. Luckily, due to PrPro&#39;s multi-cam thing, all I needed to do was sync my four cameras once at the beginning, then run the multi-cam window and just play through, clicking on the angle I wanted, much like a virtual gallery. It is also included in FCP 7 and AMC, But no, this tool was denied to us in FCP X. This means that I would have had to re-sync the cameras every time I wanted to change from one camera to another, which must have been about 100 times in 120 minutes.</p></li>
+</ol>
+
+<p>But there are also other grouches I have with FCP X. For one thing, it does look a lot like iMovie &#39;11. This in itself is not a bad thing, but considering you&#39;re paying over £300 for it, I would hope they coudl improve some of the graphics etc... although I do think that it&#39;s rolling shutter filter (again the same as iMovie) is the best in the world (although maybe not since the introduction of the Warp Stabilizer in After Effects CS5.5, I&#39;ll have to do some tests on that).</p>
+
+<p>I think the real problem is that FCP X behaves like a consumer program (iMovie) but is trying to fill the boots of a much more professional piece of kit, which it fails to do miserably. So, for me at least, I won&#39;t be using it for anything on which I&#39;m on a deadline or anything that I&#39;m doing for not myself. FCP X has been dubbed iMovie Pro and iMovie on steroids, which is perhaps not as unfair as it might seem.</p>
+
+<p>Alex, signing off.</p>
+
+        <div id="disqus_thread"></div><!-- /#disqus_thread -->
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="/lion" class="btn" title="OS X Lion">Previous article</a>
+      
+      
+        <a href="/muse" class="btn" title="Musings about Muse">Next article</a>
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2013 Alex Forey. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/">So Simple Theme</a>.</span>
+<div class="social-icons">
+	<a href="http://twitter.com/alexforey" title="Alex Forey on Twitter" target="_blank"><i class="icon-twitter icon-2x"></i></a>
+	
+	
+	
+	<a href="http://http://stackexchange.com/users/932591/alfo?tab=accounts" title="Alex Forey on StackExchange" target="_blank"><i class="icon-stackexchange icon-2x"></i></a>
+	<a href="http://instagram.com/alexforey" title="Alex Forey on Instagram" target="_blank"><i class="icon-instagram icon-2x"></i></a>
+	<a href="http://www.flickr.com/photos/alexforey" title="Alex Forey on Flickr" target="_blank"><i class="icon-flickr icon-2x"></i></a>
+	<a href="http://github.com/alfo" title="Alex Forey on Github" target="_blank"><i class="icon-github icon-2x"></i></a>
+	
+</div><!-- /.social-icons -->
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/main.min.js"></script>
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'newfangledme'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>	        
+
+</body>
+</html>
