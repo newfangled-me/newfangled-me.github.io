@@ -1,6 +1,7 @@
 name: Newfangled Me
 markdown: redcarpet
 pygments: true
+permalink: /:year/:month/:day/:title
 sass:
     syntax: scss        # scss|sass
     style:  compact  # nested|expanded|compact|compressed
