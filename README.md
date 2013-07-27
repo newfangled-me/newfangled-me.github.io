@@ -16,7 +16,7 @@ This is the bash function (put in my `.bash_profile`) that builds the blog.
         cd ~/sites/newfangled.raw;
         jekyll build;
         git add .;
-        git commit -am '"$MESSAGE"';
+        git commit -am "$MESSAGE";
         git push origin master;
         cp -r ~/sites/newfangled.raw/_site/* ~/sites/newfangled;
         cd ~/sites/newfangled;
