@@ -3,8 +3,8 @@
 	<channel>
 		<title>Newfangled Me</title>
 		<description>The incoherent musings of Alex Forey</description>
-		<link></link>
-		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://newfangled.me</link>
+		<atom:link href="http://newfangled.me/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>This Happened October 2012 Talks</title>
@@ -23,8 +23,8 @@
 &lt;p&gt;&lt;a href=&quot;http://vimeo.com/51906302&quot;&gt;Memo Akten - Quadrocopter Show&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/thlondon&quot;&gt;This Happened - London&lt;/a&gt; on &lt;a href=&quot;http://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 </description>
 				<pubDate>Tue, 04 Jun 2013 17:18:25 +0100</pubDate>
-				<link>/this-happened-october-12</link>
-				<guid isPermaLink="true">/this-happened-october-12</guid>
+				<link>http://newfangled.me/this-happened-october-12</link>
+				<guid isPermaLink="true">http://newfangled.me/this-happened-october-12</guid>
 			</item>
 		
 			<item>
@@ -34,8 +34,8 @@
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/KaOC9danxNo?color=white&amp;theme=light&quot; frameborder=&quot;0&quot;allowfullscreen&gt;&lt;/iframe&gt;
 </description>
 				<pubDate>Mon, 13 May 2013 17:07:44 +0100</pubDate>
-				<link>/space-music-video</link>
-				<guid isPermaLink="true">/space-music-video</guid>
+				<link>http://newfangled.me/space-music-video</link>
+				<guid isPermaLink="true">http://newfangled.me/space-music-video</guid>
 			</item>
 		
 			<item>
@@ -61,8 +61,8 @@
 &lt;p&gt;As so that, coupled with the project being a personal challenge, inspired me to create Markpond. I&amp;#39;m not looking for huge success - Markpond isn&amp;#39;t my full-time job - I&amp;#39;m still in school doing my GCSEs. But if there are similarly-minded people out there, I can&amp;#39;t see any harm in providing a service for them. So I have.&lt;/p&gt;
 </description>
 				<pubDate>Wed, 24 Apr 2013 22:16:46 +0100</pubDate>
-				<link>/markpond-why</link>
-				<guid isPermaLink="true">/markpond-why</guid>
+				<link>http://newfangled.me/markpond-why</link>
+				<guid isPermaLink="true">http://newfangled.me/markpond-why</guid>
 			</item>
 		
 			<item>
@@ -82,8 +82,8 @@
 &lt;p&gt;You can view the source of &lt;a href=&quot;https://github.com/alfo/little-commits&quot;&gt;little-commits&lt;/a&gt; on GitHub. It&amp;#39;s really simple, but I think it&amp;#39;s quite useful.&lt;/p&gt;
 </description>
 				<pubDate>Wed, 03 Apr 2013 23:02:37 +0100</pubDate>
-				<link>/little-commits</link>
-				<guid isPermaLink="true">/little-commits</guid>
+				<link>http://newfangled.me/little-commits</link>
+				<guid isPermaLink="true">http://newfangled.me/little-commits</guid>
 			</item>
 		
 			<item>
@@ -119,8 +119,8 @@
 &lt;p&gt;So it&amp;#39;s back to PayPal again. And for now, all the code I&amp;#39;m writing can&amp;#39;t be tested until I either put it in production and hope there aren&amp;#39;t any errors, or until I set up a second actual PayPal account, send some money over to it, and then try buying something back with it through the site. Great.&lt;/p&gt;
 </description>
 				<pubDate>Sun, 10 Mar 2013 15:50:59 +0000</pubDate>
-				<link>/paypal-isnt-doing-itself-any-favours-here</link>
-				<guid isPermaLink="true">/paypal-isnt-doing-itself-any-favours-here</guid>
+				<link>http://newfangled.me/paypal-isnt-doing-itself-any-favours-here</link>
+				<guid isPermaLink="true">http://newfangled.me/paypal-isnt-doing-itself-any-favours-here</guid>
 			</item>
 		
 			<item>
@@ -269,8 +269,8 @@
 &lt;p&gt;As I said before, it&amp;#39;s not perfect, far from it, but it was a great experience - I had a lot of fun, learnt a lot of things, and made some new good friends. Now, what&amp;#39;s next?&lt;/p&gt;
 </description>
 				<pubDate>Thu, 10 Jan 2013 20:18:35 +0000</pubDate>
-				<link>/perception</link>
-				<guid isPermaLink="true">/perception</guid>
+				<link>http://newfangled.me/perception</link>
+				<guid isPermaLink="true">http://newfangled.me/perception</guid>
 			</item>
 		
 			<item>
@@ -370,8 +370,8 @@
 &lt;p&gt;So there you go. Hopefully a guide that even the programming-illiterate can follow. As always, if you have any questions feel free to post them in the comments.&lt;/p&gt;
 </description>
 				<pubDate>Sun, 30 Dec 2012 01:08:09 +0000</pubDate>
-				<link>/bookmarks-to-books</link>
-				<guid isPermaLink="true">/bookmarks-to-books</guid>
+				<link>http://newfangled.me/bookmarks-to-books</link>
+				<guid isPermaLink="true">http://newfangled.me/bookmarks-to-books</guid>
 			</item>
 		
 			<item>
@@ -470,8 +470,8 @@
 &lt;p&gt;And (hopefully) all should be well. If it isn&amp;#39;t, feel free to leave your problems in the comments and I&amp;#39;ll see if I can help.&lt;/p&gt;
 </description>
 				<pubDate>Fri, 28 Dec 2012 11:40:05 +0000</pubDate>
-				<link>/installing-mamp-and-rails-on-a-mac</link>
-				<guid isPermaLink="true">/installing-mamp-and-rails-on-a-mac</guid>
+				<link>http://newfangled.me/installing-mamp-and-rails-on-a-mac</link>
+				<guid isPermaLink="true">http://newfangled.me/installing-mamp-and-rails-on-a-mac</guid>
 			</item>
 		
 			<item>
@@ -483,8 +483,8 @@
 &lt;p&gt;Get it on &lt;a href=&quot;https://github.com/alfo/PHP-LittlePrinter&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
 				<pubDate>Fri, 28 Dec 2012 00:56:36 +0000</pubDate>
-				<link>/php-little-printer-framework</link>
-				<guid isPermaLink="true">/php-little-printer-framework</guid>
+				<link>http://newfangled.me/php-little-printer-framework</link>
+				<guid isPermaLink="true">http://newfangled.me/php-little-printer-framework</guid>
 			</item>
 		
 			<item>
@@ -506,8 +506,8 @@
 &lt;p&gt;It&amp;#39;s a bit hacky, but it works, and it&amp;#39;s quite a neat system, until I can think of something better.&lt;/p&gt;
 </description>
 				<pubDate>Sun, 02 Dec 2012 22:32:55 +0000</pubDate>
-				<link>/gifs</link>
-				<guid isPermaLink="true">/gifs</guid>
+				<link>http://newfangled.me/gifs</link>
+				<guid isPermaLink="true">http://newfangled.me/gifs</guid>
 			</item>
 		
 	</channel>
