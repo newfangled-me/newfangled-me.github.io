@@ -7,6 +7,61 @@
 		<atom:link href="http://newfangled.me/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>A Word on Filtering</title>
+				<description>&lt;p&gt;I&amp;#39;ve read a lot about David Cameron&amp;#39;s proposed internet filtering system, and the flaws and pitfalls associated with it, and I was so frustrated by the obvious and fundamental lack of understanding about the internet within the government that I was moved to write a letter to my MP (Mary Macleod) explaining why this idea should be killed or at least seriously reconsidered before being put into place.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Dear Mary,&lt;/p&gt;
+
+&lt;p&gt;As a concerned citizen of Chiswick, I&amp;#39;m writing to you regarding David Cameron&amp;#39;s proposed filtering system, championed by Claire Perry.&lt;/p&gt;
+
+&lt;p&gt;As somebody that works as a web developer and systems administrator, there are a large number of things that concern me about this scheme that I really would like to highlight to you.&lt;/p&gt;
+
+&lt;p&gt;In brief these reasons are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;The filter simply will not and cannot achieve what it sets out to.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.economist.com/node/21559929&quot;&gt;Security concerns regarding Huawei&lt;/a&gt; who will be controlling it, and their alleged connections to the Chinese military and international espionage.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The obvious human rights issue regarding censorship.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I can tell you from experience as somebody who has a deep understanding of the technologies the internet is built on that filtering  systems are only ever partially effective. This is because it is difficult to decide whether or not to block a website. The main method I&amp;#39;ve experienced is to maintain a database of website addresses and to assign each website a category. No matter how that database is built it is always at least partially wrong. &lt;/p&gt;
+
+&lt;p&gt;But then there is the question of how websites that are not in the database should be handled. Should they always be blocked? If so you will block every website that has not been categorised regardless of whether it contains porn or other totally unrelated material. This could potentially be extremely harmful to the UK economy as many companies rely on their websites to function and to turn a profit. If you allow all uncategorised sites through the filter then you have effectively declared your web filter useless because it will never keep up with the new sites as they appear and change name.&lt;/p&gt;
+
+&lt;p&gt;You can already see this with the blocking of the Pirate Bay and other BitTorrent websites. In theory, the Pirate Bay should be blocked in the United Kingdom. This couldn&amp;#39;t be further for the truth. The original blocked URL is &lt;a href=&quot;http://thepiratebay.se&quot;&gt;thepiratebay.se&lt;/a&gt;. The same site is available at many other addresses that have not been blocked, such as &lt;a href=&quot;http://pirateproxy.se&quot;&gt;pirateproxy.se&lt;/a&gt;, &lt;a href=&quot;http://bich.in&quot;&gt;bich.in&lt;/a&gt;, &lt;a href=&quot;http://pirateshore.org&quot;&gt;pirateshore.org&lt;/a&gt; and &lt;a href=&quot;http://proxybay.info&quot;&gt;many more&lt;/a&gt;; and the filtering system will never be able to catch up to the new proxies as the appear.  &lt;/p&gt;
+
+&lt;p&gt;So if it is impossible to block one single website, how do you propose that this web filter will block all pornographic material? There are &lt;a href=&quot;http://en.wikipedia.org/wiki/Internet_censorship#Approaches&quot;&gt;many more methods&lt;/a&gt;, but they are equally inaccurate, time-consuming, and riddled with problems.&lt;/p&gt;
+
+&lt;p&gt;Regarding the problems with Huawei: Michael Hayden, who used to head the Central Intelligence Agency, the National Security Agency and is also a retired United States Air Force general, said in &lt;a href=&quot;http://www.afr.com/p/national/transcript_interview_with_former_KnS7JDIrw73GWlljxA7vdK&quot;&gt;an interview with Australian Financial Review&lt;/a&gt; that Huawei had shared “intimate and extensive knowledge” of the telecommunications infrastructure it is involved in with the Chinese government. AFR also reported that General Hayden has seen “hard evidence” of spying activity performed by Huawei, the world’s second largest telecom equipment manufacturer, on behalf of the Chinese government. In essence we will be pumping all of our internet traffic through a corporation known for spying. Just one of a huge number of by-products of this filtering system that David Cameron has neglected to take into consideration.&lt;/p&gt;
+
+&lt;p&gt;Why make a system that is untested and unproven opt-out instead of opt-in? It is up to the parents of any individual household to take responsibility for the safety of their children, not for the government to act as a nanny-state, the very thing that the &lt;a href=&quot;http://www.theguardian.com/politics/2004/nov/17/society.smoking&quot;&gt;Conservatives heavily criticised&lt;/a&gt; in the previous Labour government?&lt;/p&gt;
+
+&lt;p&gt;If this filtering system goes into place I will use one of the &lt;a href=&quot;https://ssd.eff.org&quot;&gt;many&lt;/a&gt; &lt;a href=&quot;http://weise7.org/tmp/cryptobook-v1.1.pdf&quot;&gt;many&lt;/a&gt; &lt;a href=&quot;https://gist.github.com/postmodern/5018337&quot;&gt;known methods&lt;/a&gt; to stop the government and Chinese spying on my internet traffic, and I know without a shadow of a doubt that I am not alone in this sentiment. This is not something the UK government wants to happen, and it certainly is not something they want to go to a human rights court over (which is what will happen when they decide what I&amp;#39;m doing is illegal). You shoulnd&amp;#39;t have to ask for your rights, they should be given by default.&lt;/p&gt;
+
+&lt;p&gt;As far as I can tell the whole point of this scheme is to &amp;quot;protect the children&amp;quot;. The irony of this is of course that children are the best placed to evade these blocks for themselves. Anything becomes far more desirable when it is forbidden, and as such children will not hesitate in finding methods to get around this filter.&lt;/p&gt;
+
+&lt;p&gt;One of the more dangerous aspects of this filter is that it lulls parents into a false sense of security. Many people believe that this filter will instantly make their children completely safe from harm online, which is blatantly not true. A far better idea is for the parents to properly educate their children (and themselves, if needed) about the Internet, its dangers, and how to avoid them. Never in my 10 years of using the Internet as a source of information and entertainment have I accidentally come across something I have not wanted to see, and judging from the reaction online, many people have had the same experience.&lt;/p&gt;
+
+&lt;p&gt;Unless stopped, this plan is likely to waste huge government and taxpayer funds, as it is doomed to fail from the start. Australia recently tried to implement a filtering system similar to the one described by David Csmeron. After recovering heavy criticism from large technology companies such as Google, Microsoft and Apple, the Australian government had to admit that their plan had failed like all before and all after it, as it had misclassified 97 million porn sites as safe, and 97 million innocent and safe sites as dangerous. It became a sinkhole for government funding and had to be shut down.&lt;/p&gt;
+
+&lt;p&gt;This, along with the fact that Claire Perry who is spear-heading this project has a fundamental lack of understanding as to how the Internet works, as demonstrated by &lt;a href=&quot;http://boingboing.net/2013/07/24/technologically-illiterate-mp.html&quot;&gt;her recent reaction&lt;/a&gt; to the hacking of her website, makes this project a monumental waste of time and money and will ultimately lead to huge embarrassment on the part of the government.&lt;/p&gt;
+
+&lt;p&gt;Cameron and his spin doctors have been cunning in the way he has presented this filter to the public to minimize backlash - how could anyone be in favour of child abuse? But these are two very different issues, and he has lumped something that is &lt;em&gt;already illegal&lt;/em&gt; and something entirely legal together in the name of &amp;quot;saving the children&amp;quot;. And this is just the beginning. According to ISPs, &lt;a href=&quot;http://torrentfreak.com/uk-porn-filter-will-censor-other-content-too-isps-reveal-130726/&quot;&gt;there is much more that will be filtered by default&lt;/a&gt; than just porn and child abuse (such as &lt;em&gt;social networking&lt;/em&gt;, &lt;em&gt;file sharing&lt;/em&gt; and &lt;em&gt;games&lt;/em&gt;) - stuff that is not harmful on the whole and not illegal. And if the parents feel this stuff is inappropriate and their children should not see it, there are &lt;em&gt;already&lt;/em&gt; measures in place that parents can use.&lt;/p&gt;
+
+&lt;p&gt;Thanks so much for your time in reading this, please do whatever you can to inform those who have the ability to stop this what a monumentally bad idea this filter is.&lt;/p&gt;
+
+&lt;p&gt;Yours sincerely,&lt;/p&gt;
+
+&lt;p&gt;Alex Forey&lt;/p&gt;
+</description>
+				<pubDate>Wed, 31 Jul 2013 10:08:55 +0100</pubDate>
+				<link>http://newfangled.me/filtering</link>
+				<guid isPermaLink="true">http://newfangled.me/filtering</guid>
+			</item>
+		
+			<item>
 				<title>This Happened October 2012 Talks</title>
 				<description>&lt;p&gt;Here are the talks that I filmed for &lt;a href=&quot;http://www.thishappened.org&quot;&gt;This Happened&lt;/a&gt; in &lt;a href=&quot;http://www.thishappened.org/events/london-13&quot;&gt;October&lt;/a&gt;. Posting late as they&amp;#39;ve only just been published. All of them are of course well worth a watch.&lt;/p&gt;
 
@@ -485,29 +540,6 @@
 				<pubDate>Fri, 28 Dec 2012 00:56:36 +0000</pubDate>
 				<link>http://newfangled.me/php-little-printer-framework</link>
 				<guid isPermaLink="true">http://newfangled.me/php-little-printer-framework</guid>
-			</item>
-		
-			<item>
-				<title>GIFs</title>
-				<description>&lt;p&gt;In a vague attempt to try to organise my growing GIF collection, I set up a large chain of actions to take a URL of a GIF and upload it to my new bukkit-style site, &lt;a href=&quot;http://gif.alexforey.com&quot;&gt;gif.alexforey.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I browse most of the GIFs in my life on Reddit, though Alienblue, and the easiest method of sharing the URL of the GIF is to email  it.&lt;/p&gt;
-
-&lt;p&gt;So whenever I want to save a GIF, I email myemail+gifs@alexforey.com.&lt;/p&gt;
-
-&lt;p&gt;The email&amp;#39;s subject is the description I want to give my GIF, and the body is the URL.&lt;/p&gt;
-
-&lt;p&gt;Then there&amp;#39;s a filter in Gmail that takes any email sent to myemail+gifs@alexforey.com and gives it the label of &amp;#39;gif&amp;#39;, and archives it (&amp;quot;skipping the inbox&amp;quot;).&lt;/p&gt;
-
-&lt;p&gt;I then have an IFTTT recipe to take new emails with the label &amp;#39;gif&amp;#39;, and save them to Dropbox, with the file name being the description.&lt;/p&gt;
-
-&lt;p&gt;Finally, I have Dropbox Automator upload any new files in that Dropbox folder via FTP to gif.alexforey.com.&lt;/p&gt;
-
-&lt;p&gt;It&amp;#39;s a bit hacky, but it works, and it&amp;#39;s quite a neat system, until I can think of something better.&lt;/p&gt;
-</description>
-				<pubDate>Sun, 02 Dec 2012 22:32:55 +0000</pubDate>
-				<link>http://newfangled.me/gifs</link>
-				<guid isPermaLink="true">http://newfangled.me/gifs</guid>
 			</item>
 		
 	</channel>
