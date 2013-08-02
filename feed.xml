@@ -7,6 +7,15 @@
 		<atom:link href="http://newfangled.me/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Little Firefly Publication</title>
+				<description>&lt;p&gt;I made another Little Printer publication. This time, it wasn&amp;#39;t a personal project as much, as I worked closely with Firefly Solutions using their APIs and hosting it on their Amazon EC2 instances. I wrote a guest post on their blog, which details what it does.&lt;/p&gt;
+</description>
+				<pubDate>Fri, 02 Aug 2013 13:48:55 +0100</pubDate>
+				<link>http://fireflysolutions.co.uk/blog/the-firefly-little-printer-publication</link>
+				<guid isPermaLink="true">http://newfangled.me/firefly-littleprinter</guid>
+			</item>
+		
+			<item>
 				<title>A Word on Filtering</title>
 				<description>&lt;p&gt;I&amp;#39;ve read a lot about David Cameron&amp;#39;s proposed internet filtering system, and the flaws and pitfalls associated with it, and I was so frustrated by the obvious and fundamental lack of understanding about the internet within the government that I was moved to write a letter to my MP (Mary Macleod) explaining why this idea should be killed or at least seriously reconsidered before being put into place.&lt;/p&gt;
 
@@ -527,19 +536,6 @@
 				<pubDate>Fri, 28 Dec 2012 11:40:05 +0000</pubDate>
 				<link>http://newfangled.me/installing-mamp-and-rails-on-a-mac</link>
 				<guid isPermaLink="true">http://newfangled.me/installing-mamp-and-rails-on-a-mac</guid>
-			</item>
-		
-			<item>
-				<title>PHP Little Printer Framework</title>
-				<description>&lt;p&gt;It&amp;#39;s what it says on the tin, really - a framework to make making Little Printer publications faster and easier in PHP.&lt;/p&gt;
-
-&lt;p&gt;It includes ETag support, as well as automatically generating the meta.json and validate_config endpoints based on the fields you define in config.php.&lt;/p&gt;
-
-&lt;p&gt;Get it on &lt;a href=&quot;https://github.com/alfo/PHP-LittlePrinter&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-</description>
-				<pubDate>Fri, 28 Dec 2012 00:56:36 +0000</pubDate>
-				<link>http://newfangled.me/php-little-printer-framework</link>
-				<guid isPermaLink="true">http://newfangled.me/php-little-printer-framework</guid>
 			</item>
 		
 	</channel>
