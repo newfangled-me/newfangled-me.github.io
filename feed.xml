@@ -7,6 +7,15 @@
 		<atom:link href="http://newfangled.me/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Twittertape</title>
+				<description>&lt;p&gt;I really really want one of these. It should be simple enough once the main mechanism has been figured out.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 01 Sep 2013 13:48:55 +0100</pubDate>
+				<link>http://www.twittertape.co.uk</link>
+				<guid isPermaLink="true">http://newfangled.me/twittertape</guid>
+			</item>
+		
+			<item>
 				<title>Super-low budget sound equipment</title>
 				<description>&lt;p&gt;I&amp;#39;ve got some really exciting projects coming up in the next few months in the small cracks in the blocks of time taken up by my GCSEs.&lt;/p&gt;
 
@@ -87,15 +96,6 @@ Alex&lt;/p&gt;
 				<pubDate>Sat, 17 Aug 2013 17:53:55 +0100</pubDate>
 				<link>http://newfangled.me/packing</link>
 				<guid isPermaLink="true">http://newfangled.me/packing</guid>
-			</item>
-		
-			<item>
-				<title>Twittertape</title>
-				<description>&lt;p&gt;I really really want one of these. It should be simple enough once the main mechanism has been figured out.&lt;/p&gt;
-</description>
-				<pubDate>Fri, 02 Aug 2013 13:48:55 +0100</pubDate>
-				<link>http://www.twittertape.co.uk</link>
-				<guid isPermaLink="true">http://newfangled.me/twittertape</guid>
 			</item>
 		
 			<item>
