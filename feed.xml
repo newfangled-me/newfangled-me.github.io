@@ -7,6 +7,71 @@
 		<atom:link href="http://newfangled.me/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Building My First 3D Printer</title>
+				<description>&lt;p&gt;For Christmas I was fortunate enough to recieve a &lt;a href=&quot;http://printrbot.com/shop/printrbot-simple/&quot;&gt;Printrbot Simple kit&lt;/a&gt;. We got it through an &lt;a href=&quot;http://www.ebay.co.uk/itm/Printrbot-3D-Printer-Simple-KIT-/131069073264?pt=UK_Computing_Other_Computing_Networking&amp;amp;hash=item1e84535770&quot;&gt;eBay seller&lt;/a&gt; based in the UK who had stock and fast shipping. At the time of writing, the kit cost £312.75, which is staggering - given how much 3D printers cost only 5 years ago.&lt;/p&gt;
+
+&lt;p&gt;I started building it on Christmas day afternoon and had it finished by the evening of the 27th, with a day off in the middle.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://25.media.tumblr.com/4cddc90e957873ec84906a3bbd507068/tumblr_myhoa8dCnc1r3akzno1_500.jpg&quot; alt=&quot;Assembled Printrbot Simple&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;You could buy the assembled Simple, but that&amp;#39;s no fun - and building one teaches you what each individual component does so it&amp;#39;s much easier to fix anything that breaks.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m not going to tell you how to build one, you can find out how to do that &lt;a href=&quot;http://help.printrbot.com/Guide/How+to+Printrbot+Simple/52&quot;&gt;here&lt;/a&gt;. That walks you through the nitty gritty of getting one formed from the kit as it comes in the box. However, I thought I&amp;#39;d point out a few things that I wished I&amp;#39;d known the first time around.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Don&amp;#39;t be an idiot and try to put the M3 bolts through the microswitches like I did. The M2 ones are the tiny thin bolts that are hard to spot in the bag of components unless you empty them out onto the desk. If you do what I did, you&amp;#39;ll deform and shatter the microswitches. Luckily, I found replacements &lt;a href=&quot;http://www.maplin.co.uk/p/miniature-microswitch-with-lever-n96aq&quot;&gt;at Maplin&lt;/a&gt;. At £2.09/each it&amp;#39;s a huge ripoff, but I could collect them at 9am on Boxing Day in person to continue my build as soon as possible.&lt;/li&gt;
+&lt;li&gt;It&amp;#39;s definitely worth having some spare zip ties around. I picked up 100 that are identical to the ones that came with the kit for &lt;a href=&quot;http://www.maplin.co.uk/p/self-locking-cable-tie-100mm-100-pack-fp16s&quot;&gt;£2.29&lt;/a&gt; on the same outing to Maplins. It&amp;#39;s useful if you mess up and need to cut and redo them.&lt;/li&gt;
+&lt;li&gt;There are two nylon spacers in the pack! The smaller one is meant for the filament to go through in the extruder assembly, the larger one is just used as a spacer. Don&amp;#39;t try and cram the larger one into that multi-layer plywood box - it won&amp;#39;t work!&lt;/li&gt;
+&lt;li&gt;If you panic at the end of the build because you appear to have lost the hot end power cable - don&amp;#39;t worry! You attached it to the circuit board earlier as instructed and have since forgotten about it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When you&amp;#39;ve got it assembled, I&amp;#39;d highly recommend reading &lt;a href=&quot;http://joshondesign.com/p/books/simpleguide/text.html&quot;&gt;this 4,000 word epic&lt;/a&gt; about getting your Printrbot communicating with a computer, calibrating it, and finally printing your first somthing.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;#39;s the &lt;a href=&quot;http://www.thingiverse.com/thing:24238&quot;&gt;first thing&lt;/a&gt; I printed:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://25.media.tumblr.com/51b76686b68a131097c797f00292c430/tumblr_myhpy7gQld1r3akzno1_500.jpg&quot; alt=&quot;25mm Calibration Cube&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see, it&amp;#39;s much larger in the x direction than it should be, and not as tall as it should be. Following the calibration steps outlined in the guide above meant that the next version was exactly 5mm on every step as it should be.&lt;/p&gt;
+
+&lt;h1&gt;Wireless Control&lt;/h1&gt;
+
+&lt;p&gt;The next thing I did, mainly because I could, was to make the printer run wirelessly over the internet from a Raspberry Pi using &lt;a href=&quot;http://octoprint.org&quot;&gt;OctoPrint&lt;/a&gt;. Usually, you&amp;#39;d have to have your laptop plugged into the Simple for the whole of the build duration - but with this you can upload an STL over WiFi to your Pi and set it going.&lt;/p&gt;
+
+&lt;p&gt;This is super-convenient as it means you can leave the house or do something else with your laptop without distrupting your printing.&lt;/p&gt;
+
+&lt;p&gt;Additionally, if you have a webcam that&amp;#39;s compatible with the Pi, you can monitor your prints remotely and even save timelapses of them. They won&amp;#39;t be of the highest quality obviously (there&amp;#39;s a reason I own a DSLR with Magic Lantern installed), but they&amp;#39;re quick and fun.&lt;/p&gt;
+
+&lt;h1&gt;Modifications&lt;/h1&gt;
+
+&lt;p&gt;There are hundreds of modifications out there that people have done on their Printrbot Simples. For instance, Reddit user /u/snickerpleez who &lt;a href=&quot;http://www.reddit.com/r/PrintrBot/comments/1pkwqa/i_doubled_the_size_of_my_simples_print_bed_for/&quot;&gt;doubled the size of his print bed&lt;/a&gt; for $35 or Elkniwt on Thingiverse&amp;#39;s &lt;a href=&quot;http://www.thingiverse.com/thing:121820&quot;&gt;arbitrarily long print bed&lt;/a&gt;, or even this &lt;a href=&quot;http://www.thingiverse.com/thing:97847&quot;&gt;spool holder made from Bic pens&lt;/a&gt;. In fact, here&amp;#39;s a &lt;a href=&quot;http://www.thingiverse.com/JasperJ/collections/printrbot-simple-mods/&quot;&gt;huge list&lt;/a&gt; compiled by JasperJ of all the things other people have done with their Simples.&lt;/p&gt;
+
+&lt;p&gt;One of the most popular seems to be placing a glass or aluminium sheet over the plywood to act as a print bed. This makes sure it&amp;#39;s perfectly flat and exempt from the problems of warping. This is the one I plan to try soonest, and apparently a good source of glass is a cheap 6x4&amp;quot; photo frame, of which I have a few lying around unused.&lt;/p&gt;
+
+&lt;p&gt;That, and adding LEDs. Because they look awesome. I spotted a &lt;a href=&quot;http://www.printrbottalk.com/forum/viewtopic.php?f=106&amp;amp;t=4066&quot;&gt;good idea&lt;/a&gt;over on the Printrbot Talk forum that I&amp;#39;ll have to try out some time.&lt;/p&gt;
+
+&lt;h1&gt;Who&amp;#39;s this for?&lt;/h1&gt;
+
+&lt;p&gt;If you have to ask this question, I&amp;#39;d highly recommend you read &lt;a href=&quot;http://arstechnica.com/gadgets/2013/08/home-3d-printers-take-us-on-a-maddening-journey-into-another-dimension/&quot;&gt;this great review&lt;/a&gt; of the Simple over on Ars Technica. The kit will take you at least 3 hours of continuous work if you vaguely know what you&amp;#39;re doing, much more if not (some people have taken up to 8). This printer is for hackers and casual 3D-makers. It is &lt;em&gt;not&lt;/em&gt; an &lt;a href=&quot;http://www.hp3dprinting.co.uk/uprint-se.htm&quot;&gt;HP uPrint SE&lt;/a&gt; that makes perfect prints every time. You will have to spend hours obsessing over calibration and hot end temperatures.&lt;/p&gt;
+
+&lt;p&gt;If that doesn&amp;#39;t sound good to you, then don&amp;#39;t buy this. But also don&amp;#39;t buy a Makerbot Replicator 2 for $2200. That won&amp;#39;t solve your problems. Instead, wait 5 years - and find another hobby in the mean time. This printer is for early adopters and not for the faint of heart. Look at the difference between 5 years ago and now, and think about where we&amp;#39;ll be in 5 year&amp;#39;s time. It&amp;#39;s exciting - I can&amp;#39;t wait to see what happens.&lt;/p&gt;
+</description>
+				<pubDate>Sat, 28 Dec 2013 18:53:55 +0000</pubDate>
+				<link>http://newfangled.me/printrbot-simple</link>
+				<guid isPermaLink="true">http://newfangled.me/printrbot-simple</guid>
+			</item>
+		
+			<item>
+				<title>Behind the Scenes of Gravity</title>
+				<description>&lt;p&gt;I was hoping for something a little more in-depth, and that&amp;#39;s probably coming, but for now this 5 minute video gives us a peek into how Gravity was made.&lt;/p&gt;
+
+&lt;p&gt;A lot of super-awesome motion control rigs and lighting simulation. They make lifting heavy cameras and actors look effortless, which - considering how powerful they are - is hardly surprising, and a little bit terrifying.&lt;/p&gt;
+</description>
+				<pubDate>Sat, 28 Dec 2013 16:53:55 +0000</pubDate>
+				<link>http://nofilmschool.com/2013/12/alfonso-cuaron-takes-us-on-a-journey-through-each-stage-of-production-in-gravity/</link>
+				<guid isPermaLink="true">http://newfangled.me/gravity</guid>
+			</item>
+		
+			<item>
 				<title>Twittertape</title>
 				<description>&lt;p&gt;I really really want one of these. It should be simple enough once the main mechanism has been figured out.&lt;/p&gt;
 </description>
@@ -219,64 +284,6 @@ Alex&lt;/p&gt;
 				<pubDate>Wed, 24 Apr 2013 22:16:46 +0100</pubDate>
 				<link>http://newfangled.me/markpond-why</link>
 				<guid isPermaLink="true">http://newfangled.me/markpond-why</guid>
-			</item>
-		
-			<item>
-				<title>little-commits</title>
-				<description>&lt;p&gt;While rewriting Markpond, I thought it would be pretty cool if there was some way to track my progress through my roadmap of post-it notes. And so I took inspiration from one of the projects at the &lt;a href=&quot;http://bergcloud.com/2013/03/05/berg-cloud-hack-day-number-two/&quot;&gt;Little Printer Hack Day 2&lt;/a&gt;, &lt;a href=&quot;http://www.flickr.com/photos/alicebartlett/8528501770/in/pool-littleprinter&quot;&gt;GitHub Yesterday&lt;/a&gt; by &lt;a href=&quot;https://github.com/mloughran&quot;&gt;Martyn Loughran&lt;/a&gt; and I looked into how I could make something using the Little Printer&amp;#39;s direct print API.&lt;/p&gt;
-
-&lt;p&gt;And I found out that GitHub has a thing called &lt;a href=&quot;https://help.github.com/articles/post-receive-hooks&quot;&gt;WebHook URLs&lt;/a&gt;, which posts a dump of data every time someone pushes to a repository. So I made a little Sinatra app, reusing a bunch of code from &lt;a href=&quot;https://github.com/alfo/littledropper&quot;&gt;something I did&lt;/a&gt; on the hack day.&lt;/p&gt;
-
-&lt;p&gt;In short, it receives a bunch of info from GitHub, formats it nicely, and then sends off another post request to BERGCloud to get it printed.&lt;/p&gt;
-
-&lt;p&gt;Once I had got this working locally, I pushed it up to Heroku and set it up as a service so that anybody can use it. You can find instructions &lt;a href=&quot;http://little-commits.herokuapp.com&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;And so, every time I finish a little bit of the new Markpond, I get a printout and put it up on my roadmap.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/little-commits.jpg &quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;You can view the source of &lt;a href=&quot;https://github.com/alfo/little-commits&quot;&gt;little-commits&lt;/a&gt; on GitHub. It&amp;#39;s really simple, but I think it&amp;#39;s quite useful.&lt;/p&gt;
-</description>
-				<pubDate>Wed, 03 Apr 2013 23:02:37 +0100</pubDate>
-				<link>http://newfangled.me/little-commits</link>
-				<guid isPermaLink="true">http://newfangled.me/little-commits</guid>
-			</item>
-		
-			<item>
-				<title>PayPal isn't doing itself any favours here</title>
-				<description>&lt;p&gt;Right. Let&amp;#39;s start out by going to their homepage.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/paypal-1.png &quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;Looking nice enough. Finally, maybe they&amp;#39;ve fixed the awful site design from 2003 they had before. Oh wait. Let&amp;#39;s try logging in.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/paypal-2.png &quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;Nope, I was wrong. It may look nice on the outside, but on the inside it&amp;#39;s exactly the same as before.&lt;/p&gt;
-
-&lt;p&gt;How about the developer site?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/paypal-3.png &quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;Ooh look. Isn&amp;#39;t that shiny. It says beta on it so it must be better. Let&amp;#39;s try signing in.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/paypal-4.png &quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;Well that worked well enough. I even managed to create some Sandbox accounts after several bad request 401 failed attempts. Let&amp;#39;s click on the Sandbox site link.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/paypal-5.png &quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;NOPE! It&amp;#39;s gone. Completely. The UK one sometimes redirects to https://www.sandbox.paypal.co.uk, a domain that doesn&amp;#39;t exist on any DNS tables. Other times, it&amp;#39;s just 404ing. I even tried using a US proxy, and trying again to see if the US one was broken as well. Guess what? It was broken as well.&lt;/p&gt;
-
-&lt;p&gt;I&amp;#39;m at the point of redesigning Markpond where I&amp;#39;m choosing a payment platform. If I possibly could, I would be running in the opposite direction right now. PayPal, a huge multinational company, has broken its developer site completely. And it looks like it&amp;#39;s been like that for the past few days. No service announcement, no public apology, just silently broken.&lt;/p&gt;
-
-&lt;p&gt;If I could, I would use &lt;a href=&quot;https://stripe.com&quot;&gt;Stripe&lt;/a&gt;, which looks amazing. But, it&amp;#39;s US and Canada only for the foreseeable future. There&amp;#39;s also &lt;a href=&quot;https://braintreepayments.com&quot;&gt;Braintree&lt;/a&gt;, which has a nice functioning sandbox, but as far as I can tell requires a social security number to get your payment processing online, which of course I don&amp;#39;t have because I&amp;#39;m not a US citizen.&lt;/p&gt;
-
-&lt;p&gt;So it&amp;#39;s back to PayPal again. And for now, all the code I&amp;#39;m writing can&amp;#39;t be tested until I either put it in production and hope there aren&amp;#39;t any errors, or until I set up a second actual PayPal account, send some money over to it, and then try buying something back with it through the site. Great.&lt;/p&gt;
-</description>
-				<pubDate>Sun, 10 Mar 2013 15:50:59 +0000</pubDate>
-				<link>http://newfangled.me/paypal-isnt-doing-itself-any-favours-here</link>
-				<guid isPermaLink="true">http://newfangled.me/paypal-isnt-doing-itself-any-favours-here</guid>
 			</item>
 		
 	</channel>

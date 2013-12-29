@@ -5,19 +5,19 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Twittertape &#8211; Newfangled Me</title>
+<title>Building My First 3D Printer &#8211; Newfangled Me</title>
 <meta name="description" content="The incoherent musings of Alex Forey">
-<meta name="keywords" content="diy, iot">
+<meta name="keywords" content="3dprinting, hacking">
 <!-- Twitter Card and Open Graph tags -->
-<meta name="twitter:title" content="Twittertape &#8211; Newfangled Me">
+<meta name="twitter:title" content="Building My First 3D Printer &#8211; Newfangled Me">
 <meta name="twitter:description" content="The incoherent musings of Alex Forey">
 <meta name="twitter:creator" content="@alexforey">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image:src" content="http://newfangled.me/images/site-logo.png">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Twittertape &#8211; Newfangled Me">
+<meta property="og:title" content="Building My First 3D Printer &#8211; Newfangled Me">
 <meta property="og:description" content="The incoherent musings of Alex Forey">
-<meta property="og:url" content="http://newfangled.me/twittertape">
+<meta property="og:url" content="http://newfangled.me/printrbot-simple">
 <meta property="og:site_name" content="Newfangled Me">
 
 <!-- Webmaster Tools verfication -->
@@ -25,7 +25,7 @@
 
 
 
-<link rel="canonical" href="http://newfangled.me/twittertape">
+<link rel="canonical" href="http://newfangled.me/printrbot-simple">
 <link href="http://newfangled.me/feed.xml" type="application/atom+xml" rel="alternate" title="Newfangled Me Feed">
 
 
@@ -87,31 +87,74 @@
     
     <div class="entry-wrapper">
       <header class="entry-header">
-        <span class="entry-tags"><a href="http://newfangled.me/tags.html#diy" title="Pages tagged diy" rel="tag">diy</a>&nbsp;&bull;&nbsp;<a href="http://newfangled.me/tags.html#iot" title="Pages tagged iot" rel="tag">iot</a></span>
+        <span class="entry-tags"><a href="http://newfangled.me/tags.html#3dprinting" title="Pages tagged 3dprinting" rel="tag">3dprinting</a>&nbsp;&bull;&nbsp;<a href="http://newfangled.me/tags.html#hacking" title="Pages tagged hacking" rel="tag">hacking</a></span>
         
-          <h1 class="entry-title" itemprop="headline"><a href="http://www.twittertape.co.uk">Twittertape <span class="link-arrow">&rarr;</span></a></h1>
+          <h1 class="entry-title" itemprop="headline">Building My First 3D Printer</h1>
         
       </header>
       <footer class="entry-meta">
         <img src="http://gravatar.com/avatar/c757293cea100034c52c39bf7603918a?s=150" alt="Alex Forey photo" class="author-photo">
         <span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">By <span itemprop="name" class="fn"><a href="http://newfangled.me/about" title="About Alex Forey" itemprop="url">Alex Forey</a></span></span>
-        <span class="entry-date date published"><time datetime="2013-09-01T13:48:55+01:00" itemprop="datePublished"><i class="icon-calendar-empty"></i> September 01, 2013</time></span>
+        <span class="entry-date date published"><time datetime="2013-12-28T18:53:55+00:00" itemprop="datePublished"><i class="icon-calendar-empty"></i> December 28, 2013</time></span>
         
         <span class="entry-comments"><i class="icon-comment-alt"></i> <a href="#disqus_thread">Comment</a></span>
-        <span><a href="http://newfangled.me/twittertape" rel="bookmark" title="Twittertape"><i class="icon-link"></i> Permalink</a></span>
+        <span><a href="http://newfangled.me/printrbot-simple" rel="bookmark" title="Building My First 3D Printer"><i class="icon-link"></i> Permalink</a></span>
       </footer>
       <div class="entry-content">
-        <p>I really really want one of these. It should be simple enough once the main mechanism has been figured out.</p>
+        <p>For Christmas I was fortunate enough to recieve a <a href="http://printrbot.com/shop/printrbot-simple/">Printrbot Simple kit</a>. We got it through an <a href="http://www.ebay.co.uk/itm/Printrbot-3D-Printer-Simple-KIT-/131069073264?pt=UK_Computing_Other_Computing_Networking&amp;hash=item1e84535770">eBay seller</a> based in the UK who had stock and fast shipping. At the time of writing, the kit cost £312.75, which is staggering - given how much 3D printers cost only 5 years ago.</p>
+
+<p>I started building it on Christmas day afternoon and had it finished by the evening of the 27th, with a day off in the middle.</p>
+
+<p><img src="http://25.media.tumblr.com/4cddc90e957873ec84906a3bbd507068/tumblr_myhoa8dCnc1r3akzno1_500.jpg" alt="Assembled Printrbot Simple"></p>
+
+<p>You could buy the assembled Simple, but that&#39;s no fun - and building one teaches you what each individual component does so it&#39;s much easier to fix anything that breaks.</p>
+
+<p>I&#39;m not going to tell you how to build one, you can find out how to do that <a href="http://help.printrbot.com/Guide/How+to+Printrbot+Simple/52">here</a>. That walks you through the nitty gritty of getting one formed from the kit as it comes in the box. However, I thought I&#39;d point out a few things that I wished I&#39;d known the first time around.</p>
+
+<ul>
+<li>Don&#39;t be an idiot and try to put the M3 bolts through the microswitches like I did. The M2 ones are the tiny thin bolts that are hard to spot in the bag of components unless you empty them out onto the desk. If you do what I did, you&#39;ll deform and shatter the microswitches. Luckily, I found replacements <a href="http://www.maplin.co.uk/p/miniature-microswitch-with-lever-n96aq">at Maplin</a>. At £2.09/each it&#39;s a huge ripoff, but I could collect them at 9am on Boxing Day in person to continue my build as soon as possible.</li>
+<li>It&#39;s definitely worth having some spare zip ties around. I picked up 100 that are identical to the ones that came with the kit for <a href="http://www.maplin.co.uk/p/self-locking-cable-tie-100mm-100-pack-fp16s">£2.29</a> on the same outing to Maplins. It&#39;s useful if you mess up and need to cut and redo them.</li>
+<li>There are two nylon spacers in the pack! The smaller one is meant for the filament to go through in the extruder assembly, the larger one is just used as a spacer. Don&#39;t try and cram the larger one into that multi-layer plywood box - it won&#39;t work!</li>
+<li>If you panic at the end of the build because you appear to have lost the hot end power cable - don&#39;t worry! You attached it to the circuit board earlier as instructed and have since forgotten about it.</li>
+</ul>
+
+<p>When you&#39;ve got it assembled, I&#39;d highly recommend reading <a href="http://joshondesign.com/p/books/simpleguide/text.html">this 4,000 word epic</a> about getting your Printrbot communicating with a computer, calibrating it, and finally printing your first somthing.</p>
+
+<p>Here&#39;s the <a href="http://www.thingiverse.com/thing:24238">first thing</a> I printed:</p>
+
+<p><img src="http://25.media.tumblr.com/51b76686b68a131097c797f00292c430/tumblr_myhpy7gQld1r3akzno1_500.jpg" alt="25mm Calibration Cube"></p>
+
+<p>As you can see, it&#39;s much larger in the x direction than it should be, and not as tall as it should be. Following the calibration steps outlined in the guide above meant that the next version was exactly 5mm on every step as it should be.</p>
+
+<h1>Wireless Control</h1>
+
+<p>The next thing I did, mainly because I could, was to make the printer run wirelessly over the internet from a Raspberry Pi using <a href="http://octoprint.org">OctoPrint</a>. Usually, you&#39;d have to have your laptop plugged into the Simple for the whole of the build duration - but with this you can upload an STL over WiFi to your Pi and set it going.</p>
+
+<p>This is super-convenient as it means you can leave the house or do something else with your laptop without distrupting your printing.</p>
+
+<p>Additionally, if you have a webcam that&#39;s compatible with the Pi, you can monitor your prints remotely and even save timelapses of them. They won&#39;t be of the highest quality obviously (there&#39;s a reason I own a DSLR with Magic Lantern installed), but they&#39;re quick and fun.</p>
+
+<h1>Modifications</h1>
+
+<p>There are hundreds of modifications out there that people have done on their Printrbot Simples. For instance, Reddit user /u/snickerpleez who <a href="http://www.reddit.com/r/PrintrBot/comments/1pkwqa/i_doubled_the_size_of_my_simples_print_bed_for/">doubled the size of his print bed</a> for $35 or Elkniwt on Thingiverse&#39;s <a href="http://www.thingiverse.com/thing:121820">arbitrarily long print bed</a>, or even this <a href="http://www.thingiverse.com/thing:97847">spool holder made from Bic pens</a>. In fact, here&#39;s a <a href="http://www.thingiverse.com/JasperJ/collections/printrbot-simple-mods/">huge list</a> compiled by JasperJ of all the things other people have done with their Simples.</p>
+
+<p>One of the most popular seems to be placing a glass or aluminium sheet over the plywood to act as a print bed. This makes sure it&#39;s perfectly flat and exempt from the problems of warping. This is the one I plan to try soonest, and apparently a good source of glass is a cheap 6x4&quot; photo frame, of which I have a few lying around unused.</p>
+
+<p>That, and adding LEDs. Because they look awesome. I spotted a <a href="http://www.printrbottalk.com/forum/viewtopic.php?f=106&amp;t=4066">good idea</a>over on the Printrbot Talk forum that I&#39;ll have to try out some time.</p>
+
+<h1>Who&#39;s this for?</h1>
+
+<p>If you have to ask this question, I&#39;d highly recommend you read <a href="http://arstechnica.com/gadgets/2013/08/home-3d-printers-take-us-on-a-maddening-journey-into-another-dimension/">this great review</a> of the Simple over on Ars Technica. The kit will take you at least 3 hours of continuous work if you vaguely know what you&#39;re doing, much more if not (some people have taken up to 8). This printer is for hackers and casual 3D-makers. It is <em>not</em> an <a href="http://www.hp3dprinting.co.uk/uprint-se.htm">HP uPrint SE</a> that makes perfect prints every time. You will have to spend hours obsessing over calibration and hot end temperatures.</p>
+
+<p>If that doesn&#39;t sound good to you, then don&#39;t buy this. But also don&#39;t buy a Makerbot Replicator 2 for $2200. That won&#39;t solve your problems. Instead, wait 5 years - and find another hobby in the mean time. This printer is for early adopters and not for the faint of heart. Look at the difference between 5 years ago and now, and think about where we&#39;ll be in 5 year&#39;s time. It&#39;s exciting - I can&#39;t wait to see what happens.</p>
 
         <div id="disqus_thread"></div><!-- /#disqus_thread -->
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
     <nav class="pagination" role="navigation">
       
-        <a href="http://newfangled.me/sound-gear" class="btn" title="Super-low budget sound equipment">Previous article</a>
+        <a href="http://newfangled.me/gravity" class="btn" title="Behind the Scenes of Gravity">Previous article</a>
       
-      
-        <a href="http://newfangled.me/gravity" class="btn" title="Behind the Scenes of Gravity">Next article</a>
       
     </nav><!-- /.pagination -->
   </article>
