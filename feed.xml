@@ -7,6 +7,55 @@
 		<atom:link href="http://newfangled.me/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>The Cheapest Android Tablet</title>
+				<description>&lt;p&gt;I recently came upon &lt;a href=&quot;http://www.dslrfilmnoob.com/2013/12/11/tp-link-tl-mr3040-wireless-field-monitor-dslr-controller/&quot;&gt;this post&lt;/a&gt; on a filmmaking website about how you can turn your Android tablet into a wireless DSLR monitor through the purchase of a $30 battery-powered wireless router.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;d been looking for a way to wirelessly control/monitor my camera for a while - partly for events when I want to put a camera somewhere else for a different angle without a second operator, and partly for when I have my camera on a Steadicam (or a cable cam -- more details to follow) and need to monitor my camera without using cables.&lt;/p&gt;
+
+&lt;p&gt;The only problem was that I didn&amp;#39;t have an Android tablet. At first I thought I&amp;#39;d look at the price of a used Nexus 7, but it was around £80 and I didn&amp;#39;t want to shell out that sort of cash for something like this. iPads can&amp;#39;t do this because of the way Apple locks down developers&amp;#39; access to the Lightning connector, apparently.&lt;/p&gt;
+
+&lt;p&gt;And so I conducted an experiment. I looked for the cheapest Android tablet I could find on eBay to see whether it would be up to my needs. I settled on &lt;a href=&quot;http://www.ebay.co.uk/itm/NEW-7-DUAL-CAMERA-DUAL-CORE-MULTI-TOUCH-SCREEN-TABLET-PC-ANDROID-4-2-2-br-/301069194415&quot;&gt;this one&lt;/a&gt; for a whopping £35 with free shipping.&lt;/p&gt;
+
+&lt;p&gt;My basic test criteria were: it should be able to run the DSLRController app as it should, as well as being able to provide some light entertainment through Plex, iPlayer/ITV Player/4oD.&lt;/p&gt;
+
+&lt;p&gt;Today, it arrived. The box looked mostly presentable, and reminded me of the box of one of &lt;a href=&quot;http://www.amazon.co.uk/Yahui-Player-Media-Music-Audio-Blue/dp/B00GW995TK&quot;&gt;these&lt;/a&gt;, from when I had one before I got an iPod Nano.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/tablet-box.jpg &quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;I perused the back for information was puzzled to see that this tablet usually retails for £99.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/tablet-back.jpg &quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;The specs of the tablet weren&amp;#39;t so surprising any more, given the price it had been intended to be sold at.&lt;/p&gt;
+
+&lt;p&gt;Upon opening, I was greeted with a vague attempt at Apple-style packaging.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/tablet-open.jpg &quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Underneath this layer, accessories had been haphazardly thrown together:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/tablet-bits.jpg &quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;However, I was pleasently surprised by the tablet itself. It didn&amp;#39;t seem too flimsy, and other than a few stupid design issues like having the power cable come out of the top, it seemed on the whole decent.&lt;/p&gt;
+
+&lt;p&gt;I booted it up, and after proudly declaring that it was a &amp;quot;Nebula 1701&amp;quot;, it launched straight into Android 4.2.2.&lt;/p&gt;
+
+&lt;p&gt;I won&amp;#39;t go into detail about Android itself, because I&amp;#39;m biased and would never use it willingly in everyday life for anything other than content consumption - but the user experience is as good as I could have hoped for on something this cheap.&lt;/p&gt;
+
+&lt;p&gt;To my delight, it passed both my tests of functionality: I was able to successfully wirelessly control my 5D Mark III:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/tablet-dslr.jpg &quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;And watch HD films from Plex once I&amp;#39;d updated my server to the most recent version.&lt;/p&gt;
+
+&lt;p&gt;All in all, I&amp;#39;d say if you don&amp;#39;t want a tablet for anything other than to fulfill a set of basic tasks, this is well worth the £35. Frankly, at that price, you could even just buy one to play around with. If you want to do anything more, however, I&amp;#39;d still recommend an iPad.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 26 Jan 2014 13:00:55 +0000</pubDate>
+				<link>http://newfangled.me/cheapest-android</link>
+				<guid isPermaLink="true">http://newfangled.me/cheapest-android</guid>
+			</item>
+		
+			<item>
 				<title>Building My First 3D Printer</title>
 				<description>&lt;p&gt;For Christmas I was fortunate enough to recieve a &lt;a href=&quot;http://printrbot.com/shop/printrbot-simple/&quot;&gt;Printrbot Simple kit&lt;/a&gt;. We got it through an &lt;a href=&quot;http://www.ebay.co.uk/itm/Printrbot-3D-Printer-Simple-KIT-/131069073264?pt=UK_Computing_Other_Computing_Networking&amp;amp;hash=item1e84535770&quot;&gt;eBay seller&lt;/a&gt; based in the UK who had stock and fast shipping. At the time of writing, the kit cost £312.75, which is staggering - given how much 3D printers cost only 5 years ago.&lt;/p&gt;
 
@@ -257,33 +306,6 @@ Alex&lt;/p&gt;
 				<pubDate>Mon, 13 May 2013 17:07:44 +0100</pubDate>
 				<link>http://newfangled.me/space-music-video</link>
 				<guid isPermaLink="true">http://newfangled.me/space-music-video</guid>
-			</item>
-		
-			<item>
-				<title>Markpond: Why</title>
-				<description>&lt;p&gt;As some of you may know, I made &lt;a href=&quot;https://markpond.com&quot;&gt;Markpond&lt;/a&gt;, a bookmarking website. I&amp;#39;m not going to lie, it&amp;#39;s similar to Pinboard. But I made Markpond as a challenge for myself.&lt;/p&gt;
-
-&lt;p&gt;I&amp;#39;m 15. I&amp;#39;ve &amp;quot;got my whole life ahead of me&amp;quot;. So I figured why not make something that I use on a daily basis. That way, if something irritates me, I&amp;#39;ll be motivated to fix it. And if it fails, it doesn&amp;#39;t matter.&lt;/p&gt;
-
-&lt;p&gt;Markpond is not a startup. I&amp;#39;m not intending to make &lt;em&gt;that much &lt;/em&gt;money from it. I made it in the spirit of hacking - because I was motivated to make something that worked, and be able to point to it and say &amp;quot;I made that&amp;quot;.&lt;/p&gt;
-
-&lt;p&gt;It&amp;#39;s not a free service because I spent &lt;em&gt;a lot of &lt;/em&gt;time on it. The basic account if £5/year, and the archival account is £10/year. That&amp;#39;s not &lt;em&gt;that much&lt;/em&gt;. It&amp;#39;s actually quite cheap. And best of all - you get a three-day free trial (in that you&amp;#39;re only charged on the third day of use), and so if you want to cancel your account before then, you can do so without incurring any loss.&lt;/p&gt;
-
-&lt;p&gt;Well, you&amp;#39;re probably going to ask what Markpond does differently from all the services out there at the moment. Well, the answer is - not &lt;em&gt;that &lt;/em&gt;much. But it might do in the future. Right now, the only major difference is the &lt;a href=&quot;http://remote.bergcloud.com/publications/11&quot;&gt;Little Printer publication&lt;/a&gt;, which is quite cool.&lt;/p&gt;
-
-&lt;p&gt;Despite being a hacker, and a geek, I do like looking at pretty things. And if I&amp;#39;m going to use a site every single day, I&amp;#39;d like it to look nice. And I think I&amp;#39;ve done that without having an impact of the speed and overall responsiveness of the site. The front page of Markpond gets 89% from Google PageSpeed, compared to 84% for Pinboard and 70% for Kippt.&lt;/p&gt;
-
-&lt;p&gt;I&amp;#39;m not saying that PageSpeed is the only measure of how fast a site is, but Markpond&amp;#39;s good score is also a direct result of gzip compression coupled with Rails&amp;#39;s asset pipeline and using SVGs instead of normal images.&lt;/p&gt;
-
-&lt;p&gt;The speed of Markpond isn&amp;#39;t just limited to the front-end though. The average server response time for a full profile page is around about 100ms, which is pretty damn good considering Markpond is run from a single Mac Mini.&lt;/p&gt;
-
-&lt;p&gt;So - what am I saying here? Well, mostly that I don&amp;#39;t see why you can&amp;#39;t have a site that looks good while simultaneously being on average only 30ms slower than the current status quo. Some people will like the fact that Pinboard has a geeky interface with no images and the default font. But personally, I don&amp;#39;t - not for a site that I visit every day.&lt;/p&gt;
-
-&lt;p&gt;As so that, coupled with the project being a personal challenge, inspired me to create Markpond. I&amp;#39;m not looking for huge success - Markpond isn&amp;#39;t my full-time job - I&amp;#39;m still in school doing my GCSEs. But if there are similarly-minded people out there, I can&amp;#39;t see any harm in providing a service for them. So I have.&lt;/p&gt;
-</description>
-				<pubDate>Wed, 24 Apr 2013 22:16:46 +0100</pubDate>
-				<link>http://newfangled.me/markpond-why</link>
-				<guid isPermaLink="true">http://newfangled.me/markpond-why</guid>
 			</item>
 		
 	</channel>
