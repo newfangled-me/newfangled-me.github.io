@@ -7,6 +7,19 @@
 		<atom:link href="http://newfangled.me/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Cloudwash by BERG</title>
+				<description>&lt;p&gt;Since BERG finished their transition into being &amp;quot;Cloud services for hardware innovators&amp;quot; (at least for the moment), I&amp;#39;ve been eagerly awaiting their new prototypes that they&amp;#39;ve been hinting at for a while.&lt;/p&gt;
+
+&lt;p&gt;This, after &lt;a href=&quot;http://bergcloud.com/case-studies/flock/&quot;&gt;FLOCK&lt;/a&gt;, is their next fully fledged internet connected device prototype.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s obvious that a lot of thought has gone into this, and BERG as a company are exploring how the internet will become part of our everyday lives in a unique way. I&amp;#39;m excited to see what they come up with in the future (and what I&amp;#39;ll come up with using my Devshield - I&amp;#39;ve already got some ideas which I&amp;#39;ll post when they&amp;#39;re ready for the world).&lt;/p&gt;
+</description>
+				<pubDate>Tue, 25 Feb 2014 17:28:55 +0000</pubDate>
+				<link>http://blog.bergcloud.com/2014/02/25/cloudwash/</link>
+				<guid isPermaLink="true">http://newfangled.me/cloudwash</guid>
+			</item>
+		
+			<item>
 				<title>The Cheapest Android Tablet</title>
 				<description>&lt;p&gt;I recently came upon &lt;a href=&quot;http://www.dslrfilmnoob.com/2013/12/11/tp-link-tl-mr3040-wireless-field-monitor-dslr-controller/&quot;&gt;this post&lt;/a&gt; on a filmmaking website about how you can turn your Android tablet into a wireless DSLR monitor through the purchase of a $30 battery-powered wireless router.&lt;/p&gt;
 
@@ -295,17 +308,6 @@ Alex&lt;/p&gt;
 				<pubDate>Tue, 04 Jun 2013 17:18:25 +0100</pubDate>
 				<link>http://newfangled.me/this-happened-october-12</link>
 				<guid isPermaLink="true">http://newfangled.me/this-happened-october-12</guid>
-			</item>
-		
-			<item>
-				<title>The First Music Video from Space</title>
-				<description>&lt;p&gt;If I were David Bowie, I&amp;#39;d be pretty amazed.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/KaOC9danxNo?color=white&amp;theme=light&quot; frameborder=&quot;0&quot;allowfullscreen&gt;&lt;/iframe&gt;
-</description>
-				<pubDate>Mon, 13 May 2013 17:07:44 +0100</pubDate>
-				<link>http://newfangled.me/space-music-video</link>
-				<guid isPermaLink="true">http://newfangled.me/space-music-video</guid>
 			</item>
 		
 	</channel>
