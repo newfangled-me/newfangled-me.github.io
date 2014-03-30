@@ -7,6 +7,19 @@
 		<atom:link href="http://newfangled.me/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>CreativeBloq Interview</title>
+				<description>&lt;p&gt;Following my nomination for a Net Award in the Emerging Talent category, CreativeBloq reached out to me for a short interview over email. They published it on Thursday, along with interviews from some of the other nominations.&lt;/p&gt;
+
+&lt;p&gt;In my own head this interview makes me sound fairly sure of myself -- I&amp;#39;m really not -- but I wanted to answer their questions as best I could. There are a few weird things that they left in, like the half sentences at the end of each Little Printer publication description; I was expecting them to edit those into full sentences.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m not really expecting to win the award - all the other candidates seem to have worked with more discrete clients than me - but I&amp;#39;m happy to have even made it this far. I know that&amp;#39;s something people say on the X Factor when they&amp;#39;re expecting to lose, but it is nice to have my work put in front of some of the most important leaders in the web design industry.&lt;/p&gt;
+</description>
+				<pubDate>Tue, 25 Feb 2014 17:28:55 +0000</pubDate>
+				<link>http://www.creativebloq.com/netmag/alex-forey-working-networked-devices-31411102</link>
+				<guid isPermaLink="true">http://newfangled.me/creative-bloq</guid>
+			</item>
+		
+			<item>
 				<title>Cloudwash by BERG</title>
 				<description>&lt;p&gt;Since BERG finished their transition into being &amp;quot;Cloud services for hardware innovators&amp;quot; (at least for the moment), I&amp;#39;ve been eagerly awaiting their new prototypes that they&amp;#39;ve been hinting at for a while.&lt;/p&gt;
 
@@ -287,27 +300,6 @@ Alex&lt;/p&gt;
 				<pubDate>Wed, 31 Jul 2013 10:08:55 +0100</pubDate>
 				<link>http://newfangled.me/filtering</link>
 				<guid isPermaLink="true">http://newfangled.me/filtering</guid>
-			</item>
-		
-			<item>
-				<title>This Happened October 2012 Talks</title>
-				<description>&lt;p&gt;Here are the talks that I filmed for &lt;a href=&quot;http://www.thishappened.org&quot;&gt;This Happened&lt;/a&gt; in &lt;a href=&quot;http://www.thishappened.org/events/london-13&quot;&gt;October&lt;/a&gt;. Posting late as they&amp;#39;ve only just been published. All of them are of course well worth a watch.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://player.vimeo.com/video/51904714 &quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://vimeo.com/51904714&quot;&gt;James Weiner - Ferment&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/thlondon&quot;&gt;This Happened - London&lt;/a&gt; on &lt;a href=&quot;http://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://player.vimeo.com/video/51905612 &quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://vimeo.com/51905612&quot;&gt;Rachel Coldicutt - Happenstance&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/thlondon&quot;&gt;This Happened - London&lt;/a&gt; on &lt;a href=&quot;http://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://player.vimeo.com/video/51906302 &quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://vimeo.com/51906302&quot;&gt;Memo Akten - Quadrocopter Show&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/thlondon&quot;&gt;This Happened - London&lt;/a&gt; on &lt;a href=&quot;http://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-</description>
-				<pubDate>Tue, 04 Jun 2013 17:18:25 +0100</pubDate>
-				<link>http://newfangled.me/this-happened-october-12</link>
-				<guid isPermaLink="true">http://newfangled.me/this-happened-october-12</guid>
 			</item>
 		
 	</channel>
