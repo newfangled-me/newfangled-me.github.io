@@ -7,6 +7,41 @@
 		<atom:link href="http://newfangled.me/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Making of Russian Ark</title>
+				<description>&lt;p&gt;I stumbled across &lt;em&gt;In One Breath&lt;/em&gt; recently, a film about the making of &lt;em&gt;Russian Ark&lt;/em&gt;, a one-shot 96-minute masterpiece covering several centuries of Russian history set in the Winter Pallace in St. Petersberg. It&amp;#39;s an amazing feat of cinema with appearances from over 2,000 actors all in period costume and 3 orchestras only a single night of filming.&lt;/p&gt;
+
+&lt;p&gt;The full film, shot on video to keep the load down on the Steadicam and to increase recording time, is available on YouTube for your viewing pleasure (although probably not for much longer...):&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/sE2jRxToAjQ?color=white&amp;theme=light&quot; frameborder=&quot;0&quot;allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;The behind the scenes film, in 5 parts, and well worth a watch too, and it covers various aspects of the difficulties of shooting a feature film in 36 hours, which was the amount of time they had before they were kicked out of the museum.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/H0Z4bUfUYdw?color=white&amp;theme=light&quot; frameborder=&quot;0&quot;allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;hr&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/R2Hi31yW7AA?color=white&amp;theme=light&quot; frameborder=&quot;0&quot;allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;hr&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/dMKvZFw1ULk?color=white&amp;theme=light&quot; frameborder=&quot;0&quot;allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;hr&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/NKIITTNfgCc?color=white&amp;theme=light&quot; frameborder=&quot;0&quot;allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;hr&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/O2-hO9Qoolo?color=white&amp;theme=light&quot; frameborder=&quot;0&quot;allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+				<pubDate>Wed, 23 Apr 2014 17:53:55 +0100</pubDate>
+				<link>http://newfangled.me/russian-ark</link>
+				<guid isPermaLink="true">http://newfangled.me/russian-ark</guid>
+			</item>
+		
+			<item>
 				<title>The Art of Typography and its Relevance in the Modern World</title>
 				<description>&lt;p&gt;I wrote this piece last summer as part of my English Language iGCSE coursework. After many months of stress and feverish revisions, I submitted it along with a Literature essay and various other small bits and pieces to the exam board, AQA, last Monday. Having done that, I&amp;#39;m free to publish it - and as a few of you have expressed interest, I thought I might as well do so. You better appreciate the styling, becuase I had to write out all the &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt; elements you can see in the source by hand to get it looking like my Pages document.&lt;/p&gt;
 
@@ -281,15 +316,6 @@ Alex&lt;/p&gt;
 				<pubDate>Sat, 17 Aug 2013 17:53:55 +0100</pubDate>
 				<link>http://newfangled.me/packing</link>
 				<guid isPermaLink="true">http://newfangled.me/packing</guid>
-			</item>
-		
-			<item>
-				<title>Little Firefly Publication</title>
-				<description>&lt;p&gt;I made another Little Printer publication. This time, it wasn&amp;#39;t a personal project as much, as I worked closely with Firefly Solutions using their APIs and hosting it on their Amazon EC2 instances. I wrote a guest post on their blog, which details what it does.&lt;/p&gt;
-</description>
-				<pubDate>Fri, 02 Aug 2013 13:48:55 +0100</pubDate>
-				<link>http://fireflysolutions.co.uk/blog/the-firefly-little-printer-publication</link>
-				<guid isPermaLink="true">http://newfangled.me/firefly-littleprinter</guid>
 			</item>
 		
 	</channel>
