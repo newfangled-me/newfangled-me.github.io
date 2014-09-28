@@ -7,6 +7,29 @@
 		<atom:link href="http://newfangled.me/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Google Calendar Door Sign</title>
+				<description>&lt;p&gt;So I bought a couple of &lt;a href=&quot;https://spark.io&quot;&gt;Spark Cores&lt;/a&gt; recently, and they are (from my geeky perspective) the best things ever. Anyone who&amp;#39;s been using Arduinos for a while knows that they are a) big and b) expensive. Adding WiFi to that makes it even worse (like &lt;a href=&quot;https://www.sparkfun.com/products/11287&quot;&gt;£52 worse&lt;/a&gt;). Also using the WiFi shield is annoying because most of the time you have to write code that manually sends HTTP headers and stuff like that, which is a waste of time and gets in the way of making cool things.&lt;/p&gt;
+
+&lt;p&gt;The Spark changes everything: it&amp;#39;s tiny (35mm x 20mm), it&amp;#39;s £25 all included, and it&amp;#39;s really easy to talk to servers without dealing with low-level irritations. Also it comes with a free breadboard and USB cable which is an unexpected nice touch.&lt;/p&gt;
+
+&lt;p&gt;So when my Sparks arrived, I made something that I&amp;#39;d been meaning to make for a long time: a little LCD sign to go on my bedroom door that displays what my Google Calendar thinks I&amp;#39;m currently doing (and yes my bedroom door is covered in XKCD comics).&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s what I think is generally known as a digital toy: it serves no great purpose other than to be interesting and kinda cool. It&amp;#39;s mostly so when someone walks past my door they can see what I&amp;#39;m up to (and why I&amp;#39;m not there).&lt;/p&gt;
+
+&lt;p&gt;Essentially, it&amp;#39;s an LCD display with an i2c backpack plugged into a Spark with a voltage regulator making sure 5V is always coming in. The &lt;a href=&quot;https://github.com/alfo/door-sign/blob/master/firmware/door-sign.ino&quot;&gt;code on the Spark&lt;/a&gt; sits there and waits for messages to be pushed to it from the cloud, and the code on Heroku runs every ten minutes, parses my calendar, and spits out some strings to send to the display. Also, the backlight turns itself off at night, because otherwise it&amp;#39;s really annoying.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/f729d519f184c443f51961d57fca264df4087a80/687474703a2f2f692e696d6775722e636f6d2f474b4d4d736b612e706e67&quot; alt=&quot;Circuit Diagram&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;In the circuit diagram I have it powered off a 9V battery, but in reality I&amp;#39;m using an old busted Arduino as a power supply connected to a wall adapter: the Vin pin of the Arduino goes to the red line in of the breadboard and the ground goes to the ground, through a long piece of dual-core wire that goes through the keyhole in my door.&lt;/p&gt;
+
+&lt;p&gt;There&amp;#39;s some underlying philosophy of technology that lives only in the now going on here: it does not store a history (being on Heroku it can&amp;#39;t) and it&amp;#39;s only useful when people walk past it (which doesn&amp;#39;t happen all that often), but I haven&amp;#39;t really thought about that too much - I just wanted to see if I could make it work.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 28 Sep 2014 21:00:55 +0100</pubDate>
+				<link>http://newfangled.me/door-sign</link>
+				<guid isPermaLink="true">http://newfangled.me/door-sign</guid>
+			</item>
+		
+			<item>
 				<title>Glass Envelope - Short Film</title>
 				<description>&lt;iframe src=&quot;//player.vimeo.com/video/104504079?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=ffffff&quot; width=&quot;500&quot; height=&quot;213&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
     
