@@ -23,6 +23,8 @@
 &lt;p&gt;In the circuit diagram I have it powered off a 9V battery, but in reality I&amp;#39;m using an old busted Arduino as a power supply connected to a wall adapter: the Vin pin of the Arduino goes to the red line in of the breadboard and the ground goes to the ground, through a long piece of dual-core wire that goes through the keyhole in my door.&lt;/p&gt;
 
 &lt;p&gt;There&amp;#39;s some underlying philosophy of technology that lives only in the now going on here: it does not store a history (being on Heroku it can&amp;#39;t) and it&amp;#39;s only useful when people walk past it (which doesn&amp;#39;t happen all that often), but I haven&amp;#39;t really thought about that too much - I just wanted to see if I could make it work.&lt;/p&gt;
+
+&lt;p&gt;You can check out the source code and list of materials at the &lt;a href=&quot;https://github.com/alfo/door-sign&quot;&gt;Github Repo&lt;/a&gt;.&lt;/p&gt;
 </description>
 				<pubDate>Sun, 28 Sep 2014 21:00:55 +0100</pubDate>
 				<link>http://newfangled.me/door-sign</link>
